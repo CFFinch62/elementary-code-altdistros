@@ -1,4 +1,4 @@
-# Elementary Code for Linux
+# Elementary Code for Linux Mint
 [![Translation status](https://l10n.elementary.io/widgets/code/-/svg-badge.svg)](https://l10n.elementary.io/projects/code/?utm_source=widget)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](COPYING)
 
