@@ -1,0 +1,79 @@
+/*
+* Copyright (c) 2018 elementary LLC. (https://elementary.io)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU Lesser General Public
+* License version 3, as published by the Free Software Foundation.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*/
+
+textview.scrubber {
+    border: 0;
+}
+
+.fuzzy-popover {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.fuzzy-popover entry {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.fuzzy-popover scrolledwindow {
+    margin-top: 1rem;
+}
+
+.fuzzy-list {
+    background-color: transparent;
+}
+
+.fuzzy-item {
+    padding: 0.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.fuzzy-item.preselect-fuzzy,
+.fuzzy-item:hover {
+    border-radius: 0.5rem;
+}
+
+.fuzzy-item:hover {
+    background-color: @theme_unfocused_selected_bg_color;
+}
+
+.fuzzy-item.preselect-fuzzy {
+    background-color: @selected_bg_color;
+}
+
+.fuzzy-item .fuzzy-file-icon {
+    margin-right: 0.5rem;
+}
+
+.fuzzy-item label:nth-child(1) {
+    font-weight: 700;
+}
+
+.fuzzy-item.preselect-fuzzy label {
+    opacity: 0.7;
+}
+
+.symbol-outline > box.horizontal {
+    margin: 1em;
+}
+
+.symbol-outline .sidebar {
+    background: inherit;
+}

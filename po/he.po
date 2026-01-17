@@ -1,0 +1,1697 @@
+# Hebrew translation for scratch
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2025-10-29 18:21+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://l10n.elementaryos.org/projects/code/code/he/"
+">\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.11.4\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:02+0000\n"
+
+#: src/Application.vala:41 src/Widgets/DocumentView.vala:99
+msgid "New Tab"
+msgstr "לשונית חדשה"
+
+#: src/Application.vala:42 src/FolderManager/FileItem.vala:87
+msgid "New Window"
+msgstr "חלון חדש"
+
+#: src/Application.vala:43
+msgid "Print version info and exit"
+msgstr "הדפסת מידע גרסה ויציאה"
+
+#: src/Application.vala:44
+msgid "Open file at specified selection range"
+msgstr "פתיחת קובץ בטווח בחירה שצוין"
+
+#: src/Application.vala:44
+msgid "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+msgstr "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+
+#: src/Application.vala:45
+msgid "[FILE…]"
+msgstr "[FILE…]"
+
+#: src/MainWindow.vala:263
+#, c-format
+msgid "Code (%s)"
+msgstr "קוד (%s)"
+
+#: src/MainWindow.vala:265
+msgid "Code"
+msgstr "קוד"
+
+#: src/MainWindow.vala:399
+msgid "Hide search bar"
+msgstr "הסתרת סרגל החיפוש"
+
+#: src/MainWindow.vala:404 src/Widgets/HeaderBar.vala:122
+msgid "Find on Page…"
+msgstr "איתור בעמוד…"
+
+#: src/MainWindow.vala:415
+msgid "Hide Projects Sidebar"
+msgstr "הסתרת סרגל המיזמים"
+
+#: src/MainWindow.vala:420
+msgid "Show Projects Sidebar"
+msgstr "הצגת סרגל המיזמים"
+
+#: src/MainWindow.vala:429
+msgid "Hide Symbol Outline"
+msgstr "הסתרת קווי מתאר של סמלים"
+
+#: src/MainWindow.vala:434
+msgid "Show Symbol Outline"
+msgstr "הצגת קווי מתאר של סמלים"
+
+#: src/MainWindow.vala:443
+msgid "Hide Terminal"
+msgstr "הסתרת המסוף"
+
+#: src/MainWindow.vala:448 src/Widgets/HeaderBar.vala:196
+msgid "Show Terminal"
+msgstr "הצגת המסוף"
+
+#. Update MainWindow title
+#. / TRANSLATORS: First placeholder is document name, second placeholder is app name
+#: src/MainWindow.vala:618
+#, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: src/MainWindow.vala:977 src/Services/Document.vala:668
+msgid "All files"
+msgstr "כל הקבצים"
+
+#: src/MainWindow.vala:981 src/Services/Document.vala:672
+msgid "Text files"
+msgstr "קבצי טקסט"
+
+#: src/MainWindow.vala:985
+msgid "Open some files"
+msgstr "פתיחת מספר קבצים"
+
+#: src/MainWindow.vala:988
+msgid "Open"
+msgstr "פתיחה"
+
+#: src/MainWindow.vala:989 src/Dialogs/CloneRepositoryDialog.vala:58
+#: src/Dialogs/CloneRepositoryDialog.vala:97
+#: src/Dialogs/GlobalSearchDialog.vala:86 src/Dialogs/NewBranchDialog.vala:42
+#: src/Services/Document.vala:510 src/Services/Document.vala:680
+#: plugins/pastebin/pastebin_dialog.vala:327
+#: plugins/pastebin/pastebin_dialog.vala:378
+msgid "Cancel"
+msgstr "ביטול"
+
+#: src/MainWindow.vala:1032
+msgid "_Open"
+msgstr "_פתיחה"
+
+#: src/MainWindow.vala:1033
+msgid "_Cancel"
+msgstr "_ביטול"
+
+#: src/MainWindow.vala:1088
+msgid "Cloning completed"
+msgstr "השכפול הושלם"
+
+#: src/MainWindow.vala:1089
+#, c-format
+msgid "Clone successfully created in %s"
+msgstr "השכפול נוצר בהצלחה תחת %s"
+
+#: src/MainWindow.vala:1095
+#, c-format
+msgid "Unable to clone %s"
+msgstr "לא ניתן לשכפל את %s"
+
+#: src/MainWindow.vala:1102
+msgid "Retry"
+msgstr "לנסות שוב"
+
+#. /TRANSLATORS '%s' represents the quoted basename of a uri to be opened with the default app
+#: src/Utils.vala:212
+#, c-format
+msgid "Show '%s' with default app"
+msgstr "הצגת ‚%s’ עם יישום ברירת המחדל"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/CloneRepositoryDialog.vala:55
+msgid "Create a local clone of a Git repository"
+msgstr "יצירת עותק מקומי של מאגר Git"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:56
+msgid ""
+"The source repository and local folder must exist and have the required read "
+"and write permissions"
+msgstr ""
+"המאגר המקומי והתיקייה המקומית חייבים להיות קיימים ועם הרשאות הקריאה והכתיבה "
+"הנכונות"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:59
+msgid "Clone Repository"
+msgstr "שכפול מאגר"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:69
+msgid "https://example.com/username/projectname.git"
+msgstr "https://example.com/username/projectname.git"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:93
+msgid "Select folder where the cloned repository will be created"
+msgstr "נא לבחור תיקייה בה ייווצר המאגר המשוכפל"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:96
+msgid "Select"
+msgstr "בחירה"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:118
+msgid "Repository URL"
+msgstr "כתובת מאגר"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:119
+msgid "Location"
+msgstr "מקום"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:120
+msgid "Name of Clone"
+msgstr "שם העותק"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:122
+msgid "Cloning in progress"
+msgstr "מתבצע שכפול"
+
+#: src/Dialogs/GlobalSearchDialog.vala:62
+msgid "The search term will be treated as a regex expression"
+msgstr "הביטוי לחיפוש ייחשב כביטוי רגולרי"
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case sensitive"
+msgstr "החיפוש יהיה תלוי רישיות (אותיות גדולות/קטנות)"
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case insensitive"
+msgstr "החיפוש לא יהיה תלוי רישיות"
+
+#: src/Dialogs/GlobalSearchDialog.vala:65
+msgid "Search will match only whole words"
+msgstr "החיפוש ילכוד מילים שלמות בלבד"
+
+#: src/Dialogs/GlobalSearchDialog.vala:68
+#, c-format
+msgid "Search for text in “%s”"
+msgstr "חיפוש טקסט בתוך „%s”"
+
+#: src/Dialogs/GlobalSearchDialog.vala:69
+msgid "The search term must be at least 3 characters long."
+msgstr "על ביטוי החיפוש להיות באורך 3 תווים לפחות."
+
+#: src/Dialogs/GlobalSearchDialog.vala:88
+msgid "Search"
+msgstr "חיפוש"
+
+#: src/Dialogs/NewBranchDialog.vala:43
+#, c-format
+msgid "Create a new branch of “%s/%s”"
+msgstr "יצירת ענף חדש של „%s/%s”"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/NewBranchDialog.vala:48
+msgid "The branch name must be unique and follow Git naming rules."
+msgstr "שם הענף חייב להיות ייחודי ולהיצמד לכללי מתן השמות של Git."
+
+#: src/Dialogs/NewBranchDialog.vala:56
+msgid "Create Branch"
+msgstr "יצירת ענף"
+
+#: src/Dialogs/PreferencesDialog.vala:15 src/Widgets/HeaderBar.vala:218
+msgid "Preferences"
+msgstr "העדפות"
+
+#: src/Dialogs/PreferencesDialog.vala:23
+msgid "General"
+msgstr "כללי"
+
+#: src/Dialogs/PreferencesDialog.vala:24
+msgid "Save files when changed"
+msgstr "שמירת קבצים בעת שינוי"
+
+#: src/Dialogs/PreferencesDialog.vala:25
+msgid "Strip trailing whitespace on save"
+msgstr "הסרה של הרווחים בסוף השורה עם השמירה"
+
+#: src/Dialogs/PreferencesDialog.vala:27
+msgid "Smart cut/copy lines"
+msgstr "גזירה/העתקה חכמה של שורות"
+
+#: src/Dialogs/PreferencesDialog.vala:29
+msgid ""
+"Cutting or copying without an active selection will cut or copy the entire "
+"current line"
+msgstr ""
+"גזירה או העתקה ללא בחירה פעילה תובלנה לגזירה או להעתקה של כל השורה הנוכחית"
+
+#: src/Dialogs/PreferencesDialog.vala:35
+msgid "Indentation width"
+msgstr "רוחב הזחה"
+
+#: src/Dialogs/PreferencesDialog.vala:46
+msgid "Indentation"
+msgstr "הזחה"
+
+#: src/Dialogs/PreferencesDialog.vala:47
+msgid "Automatic indentation"
+msgstr "הזחה אוטומטית"
+
+#: src/Dialogs/PreferencesDialog.vala:48
+msgid "Insert spaces instead of tabs"
+msgstr "הוספת רווחים במקום טאבים"
+
+#: src/Dialogs/PreferencesDialog.vala:57
+msgid "Default build directory"
+msgstr "תיקיית בנייה כברירת מחדל"
+
+#: src/Dialogs/PreferencesDialog.vala:67
+msgid "Projects"
+msgstr "מיזמים"
+
+#: src/Dialogs/PreferencesDialog.vala:78
+msgid "None"
+msgstr "בלי"
+
+#: src/Dialogs/PreferencesDialog.vala:79
+msgid "Current Line"
+msgstr "שורה נוכחית"
+
+#: src/Dialogs/PreferencesDialog.vala:80
+msgid "All"
+msgstr "הכול"
+
+#: src/Dialogs/PreferencesDialog.vala:96
+msgid "Whitespace visible when not selected"
+msgstr "רווח גלוי כשלא נבחר"
+
+#: src/Dialogs/PreferencesDialog.vala:111
+msgid "Editor"
+msgstr "עורך"
+
+#: src/Dialogs/PreferencesDialog.vala:112
+msgid "Highlight matching brackets"
+msgstr "הדגשת הסוגר התואם"
+
+#: src/Dialogs/PreferencesDialog.vala:114
+msgid "Mini Map"
+msgstr "מפת סקירה"
+
+#: src/Dialogs/PreferencesDialog.vala:115
+msgid "Wrap lines"
+msgstr "גלישת שורות"
+
+#: src/Dialogs/PreferencesDialog.vala:116
+msgid "Line width guide"
+msgstr "הנחיית רוחב שורה"
+
+#: src/Dialogs/PreferencesDialog.vala:124
+msgid "Font"
+msgstr "גופן"
+
+#: src/Dialogs/PreferencesDialog.vala:125
+msgid "Use system font"
+msgstr "להשתמש בגופן המערכת"
+
+#: src/Dialogs/PreferencesDialog.vala:136
+msgid "Behavior"
+msgstr "התנהגות"
+
+#: src/Dialogs/PreferencesDialog.vala:137 src/SymbolPane/SymbolOutline.vala:51
+msgid "Interface"
+msgstr "ממשק"
+
+#: src/Dialogs/PreferencesDialog.vala:153 src/Services/PluginManager.vala:130
+msgid "Extensions"
+msgstr "הרחבות"
+
+#: src/Dialogs/PreferencesDialog.vala:159
+#: plugins/pastebin/pastebin_dialog.vala:434
+msgid "Close"
+msgstr "סגירה"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:31
+msgid "Are You Sure You Want to Restore This File?"
+msgstr "לשחזר את הקובץ הזה?"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:32
+msgid "Restoring a file will undo all changes made since opening it"
+msgstr "שחזור קובץ יבטל את כל השינויים שנערכו בו מאז פתיחתו"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:34
+msgid "Don't Restore"
+msgstr "לא לשחזר"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:36
+msgid "Restore Anyway"
+msgstr "לשחזר בכל זאת"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:40
+msgid "This folder is the parent of an open project"
+msgid_plural "This folder is the parent of open projects"
+msgstr[0] "התיקייה הזאת היא תיקיית העל של מיזם פתוח"
+msgstr[1] "התיקייה הזאת היא תיקיית העל של מיזמים פתוחים"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:46
+msgid "Opening this folder will close the child project"
+msgid_plural "Opening this folder will close all child projects"
+msgstr[0] "פתיחת התיקייה הזאת תסגור את מיזם הצאצא"
+msgstr[1] "פתיחת התיקייה הזאת תסגור את כל המיזמים הצאצאיים"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:52
+msgid "Close Child Project"
+msgid_plural "Close Child Projects"
+msgstr[0] "סגירת מיזם צאצא"
+msgstr[1] "סגירת מיזמים צאצאיים"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:57
+msgid "This folder is a child of an open project"
+msgstr "התיקייה הזאת היא צאצא של מיזם פתוח"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:58
+msgid "Opening this folder will close the parent project"
+msgstr "פתיחת התיקייה הזאת תסגור את מיזם ההורה"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:59
+msgid "Close Parent Project"
+msgstr "סגירת מיזם הורה"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:62
+msgid "Don't Open"
+msgstr "לא לפתוח"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:40
+msgid "There are uncommitted changes in the current branch"
+msgstr "יש שינויים שלא קובעו בענף הנוכחי"
+
+#. /TRANSLATORS '%s' is a placeholder for the name of the branch to be checked out
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:42
+#, c-format
+msgid ""
+"Uncommitted changes will be permanently lost if <b>'%s'</b> is checked out "
+"now.\n"
+"\n"
+"<i>It is recommended that uncommitted changes are stashed, committed, or "
+"reverted before proceeding.</i>"
+msgstr ""
+"שינויים שלא קובעו יאבדו לחלוטין אם <b>‚%s’</b> הוא מה שנשלף כרגע.\n"
+"\n"
+"<i>מומלץ ששינויים שלא קובעו יוטמנו, יקובעו או ישוחזרו בטרם המשך הפעילות.</i>"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:44
+msgid "Do not Checkout"
+msgstr "לא לשלוף"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:45
+msgid "Checkout and Overwrite"
+msgstr "לשלוף ולדרוס"
+
+#: src/FolderManager/FileItem.vala:49 src/FolderManager/FolderItem.vala:166
+msgid "Other Actions"
+msgstr "פעולות אחרות"
+
+#: src/FolderManager/FileItem.vala:55 src/FolderManager/FolderItem.vala:140
+msgid "Rename"
+msgstr "שינוי שם"
+
+#: src/FolderManager/FileItem.vala:65 src/FolderManager/FolderItem.vala:148
+msgid "Move to Trash"
+msgstr "העברה לאשפה"
+
+#: src/FolderManager/FileItem.vala:100 src/FolderManager/FolderItem.vala:198
+msgid "Other Application…"
+msgstr "יישום אחר…"
+
+#: src/FolderManager/FileItem.vala:115 src/FolderManager/FolderItem.vala:218
+msgid "Open In"
+msgstr "פתיחה עם"
+
+#: src/FolderManager/FileView.vala:74
+msgid "Folders"
+msgstr "תיקיות"
+
+#: src/FolderManager/FolderItem.vala:156
+msgid "Find in Folder…"
+msgstr "איתור בתיקייה…"
+
+#: src/FolderManager/FolderItem.vala:189
+msgid "Terminal Pane"
+msgstr "סרגל מסוף"
+
+#: src/FolderManager/FolderItem.vala:224
+msgid "Folder"
+msgstr "תיקייה"
+
+#: src/FolderManager/FolderItem.vala:232
+msgid "Empty File"
+msgstr "קובץ ריק"
+
+#. scan all children
+#. No need to show status when children shown
+#: src/FolderManager/FolderItem.vala:243
+#: src/FolderManager/ProjectFolderItem.vala:427
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "New"
+msgstr "חדש"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "untitled folder"
+msgstr "תיקייה ללא שם"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "new file"
+msgstr "קובץ חדש"
+
+#: src/FolderManager/ProjectFolderItem.vala:147
+msgid "Set as Active Project"
+msgstr "הגדרה בתור המיזם הפעיל"
+
+#: src/FolderManager/ProjectFolderItem.vala:155
+msgid "Open in Terminal Pane"
+msgstr "פתיחה בסרגל במסוף"
+
+#: src/FolderManager/ProjectFolderItem.vala:186
+msgid "Close Folder"
+msgstr "סגירת תיקייה"
+
+#: src/FolderManager/ProjectFolderItem.vala:194
+msgid "Close Other Folders"
+msgstr "לסגור את התיקיות האחרות"
+
+#: src/FolderManager/ProjectFolderItem.vala:211
+#, c-format
+msgid "Close %u Open Document"
+msgid_plural "Close %u Open Documents"
+msgstr[0] "סגירת מסמך אחד פתוח"
+msgstr[1] "סגירת %u מסמכים פתוחים"
+
+#: src/FolderManager/ProjectFolderItem.vala:223
+#, c-format
+msgid "Hide %u Open Document"
+msgid_plural "Hide %u Open Documents"
+msgstr[0] "הסתרת מסמך פתוח"
+msgstr[1] "הסתרת %u מסמכים פתוחים"
+
+#: src/FolderManager/ProjectFolderItem.vala:246
+#, c-format
+msgid "Restore %u Hidden Document"
+msgid_plural "Restore %u Hidden Documents"
+msgstr[0] "שחזור מסמך נסתר"
+msgstr[1] "שחזור %u מסמכים נסתרים"
+
+#: src/FolderManager/ProjectFolderItem.vala:279 src/Widgets/HeaderBar.vala:131
+msgid "Find in Project…"
+msgstr "איתור במיזם…"
+
+#: src/FolderManager/ProjectFolderItem.vala:320
+msgid "Local"
+msgstr "מקומי"
+
+#: src/FolderManager/ProjectFolderItem.vala:337
+msgid "Remote"
+msgstr "מרוחק"
+
+#: src/FolderManager/ProjectFolderItem.vala:352
+msgid "New Branch…"
+msgstr "ענף חדש…"
+
+#: src/FolderManager/ProjectFolderItem.vala:377
+msgid "Branch"
+msgstr "ענף"
+
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "Modified"
+msgstr "נערכה"
+
+#: src/FolderManager/ProjectFolderItem.vala:471
+#, c-format
+msgid "Error while creating new branch: “%s”"
+msgstr "שגיאה ביצירת ענף חדש: „%s”"
+
+#. Empty files are valid text files
+#: src/Services/Document.vala:384
+#, c-format
+msgid "%s Is Not a Text File"
+msgstr "%s אינו קובץ טקסט"
+
+#: src/Services/Document.vala:385
+msgid "Code will not load this type of file."
+msgstr "קוד לא ידע לטעון סוג כזה של קובץ."
+
+#: src/Services/Document.vala:387
+msgid "Load Anyway"
+msgstr "לטעון בכל זאת"
+
+#: src/Services/Document.vala:408
+#, c-format
+msgid "Loading File “%s” Is Taking a Long Time"
+msgstr "טעינת הקובץ „%s” אורכת זמן רב"
+
+#: src/Services/Document.vala:409
+msgid "Please wait while Code is loading the file."
+msgstr "נא להמתין בזמן שקוד טוען את הקובץ."
+
+#: src/Services/Document.vala:411
+msgid "Cancel Loading"
+msgstr "ביטול הטעינה"
+
+#: src/Services/Document.vala:500
+#, c-format
+msgid "Save changes to “%s” before closing?"
+msgstr "לשמור את השינויים אל „%s” לפני הסגירה?"
+
+#: src/Services/Document.vala:501
+msgid "If you don't save, changes will be permanently lost."
+msgstr "בחירה שלא לשמור תוביל לאבדן השינויים לעד."
+
+#: src/Services/Document.vala:507
+msgid "Close Without Saving"
+msgstr "סגירה ללא שמירה"
+
+#: src/Services/Document.vala:511 src/Services/Document.vala:679
+msgid "Save"
+msgstr "שמירה"
+
+#: src/Services/Document.vala:638
+#, c-format
+msgid "Saving to “%s” failed."
+msgstr "השמירה אל „%s” נכשלה."
+
+#: src/Services/Document.vala:676
+msgid "Save File"
+msgstr "שמירת קובץ"
+
+#: src/Services/Document.vala:763 src/Services/Document.vala:781
+msgid "New Document"
+msgstr "מסמך חדש"
+
+#. No path for a new document
+#: src/Services/Document.vala:783
+#, c-format
+msgid "Cannot save this document to %s"
+msgstr "לא ניתן לשמור את המסמך הזה אל %s"
+
+#. Show an error view which says "Hey, I cannot read that file!"
+#: src/Services/Document.vala:870
+#, c-format
+msgid "Cannot read text in file “%s”"
+msgstr "לא ניתן לקרוא טקסט בקובץ „%s”"
+
+#: src/Services/Document.vala:873
+msgid "You may not have permission to read the file."
+msgstr "כנראה שאין לך הרשאות לקרוא את הקובץ."
+
+#: src/Services/Document.vala:875
+msgid "The file may be corrupt or may not be a text file"
+msgstr "כנראה שהקובץ פגום או שאינו קובץ טקסט"
+
+#. Lack of read permission results in empty content string. Do not give option to open
+#. in new document in that case.
+#: src/Services/Document.vala:881
+msgid "Show Anyway"
+msgstr "להציג בכל זאת"
+
+#: src/Services/Document.vala:912
+#, c-format
+msgid ""
+"The location containing the file “%s” was unmounted and there are unsaved "
+"changes."
+msgstr "בוטלה העגינה של המקום המכיל את הקובץ „%s” והיו שינויים שלא נשמרו."
+
+#: src/Services/Document.vala:914
+#, c-format
+msgid "File “%s” was deleted, renamed or moved and there are unsaved changes."
+msgstr "הקובץ „%s” נמחק, שמו השתנה או שהוא הועבר ויש שינויים שלא נשמרו."
+
+#. Check external changes after loading
+#. The file has become unwritable while changes are pending
+#: src/Services/Document.vala:928
+#, c-format
+msgid "File “%s” does not have write permission."
+msgstr "לקובץ „%s” אין הרשאות כתיבה."
+
+#: src/Services/Document.vala:974
+#, c-format
+msgid "File “%s” was modified by an external application"
+msgstr "הקובץ „%s” נערך ביישום חיצוני"
+
+#: src/Services/Document.vala:979
+msgid ""
+"There are also unsaved changes. Reloading the document will overwrite the "
+"unsaved changes."
+msgstr "יש גם שינויים שלא נשמרו. טעינת המסמך מחדש ישכתב את השינויים שלא נשמרו."
+
+#: src/Services/Document.vala:983
+msgid "The document changed externally since you last saved it."
+msgstr "המסמך נערך חיצונית מאז ששמרת אותו לאחרונה."
+
+#: src/Services/Document.vala:999
+#, c-format
+msgid "“%s” can't be saved here. Save a duplicate somewhere else?"
+msgstr "אי אפשר לשמור לכאן את „%s”. לשמור שכפול במקום אחר?"
+
+#: src/Services/Document.vala:1008
+msgid "Ignore"
+msgstr "התעלמות"
+
+#: src/Services/Document.vala:1010
+msgid "Save Duplicate…"
+msgstr "שמירת שכפול…"
+
+#: src/Services/Document.vala:1059
+msgid "Continue"
+msgstr "המשך"
+
+#: src/Services/Document.vala:1061
+msgid "Reload"
+msgstr "רענון"
+
+#: src/Services/Document.vala:1064
+msgid "Overwrite"
+msgstr "לשכתב"
+
+#: src/Services/Document.vala:1067
+msgid "Save Document elsewhere"
+msgstr "לשמור את המסמך במקום אחר"
+
+#: src/Services/MonitoredRepository.vala:246
+#, c-format
+msgid "Remote Branch '%s' not found"
+msgstr "הענף המרוחק ‚%s’ לא נמצא"
+
+#: src/Services/MonitoredRepository.vala:247
+msgid ""
+"The requested branch was not found in any remote linked to this repository"
+msgstr "הענף המרוחק לא נמצא באף צד מרוחק שמקושר למאגר הזה"
+
+#: src/Services/MonitoredRepository.vala:284
+msgid "An error occurred while checking out the requested branch"
+msgstr "אירעה שגיאה בשליפת הענף המבוקש"
+
+#. /TRANSLATORS "%.8s" is a placeholder for the first 8 characters of a commit reference
+#: src/Services/MonitoredRepository.vala:332
+#, c-format
+msgid "%.8s (detached)"
+msgstr "%.8s (מנותק)"
+
+#: src/Services/TemplateManager.vala:198
+msgid "Templates"
+msgstr "תבניות"
+
+#. Remove fake fields created by the vala parser.
+#: src/SymbolPane/C/CtagsSymbolOutline.vala:79
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:193
+#: src/SymbolPane/SymbolOutline.vala:127
+msgid "Symbols"
+msgstr "סמלים"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:122
+msgid "Too Many Symbols"
+msgstr "יותר מדי סמלים"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:123
+#, c-format
+msgid ""
+"%s contains too many Vala symbols.\n"
+"Parsing and showing them took too long."
+msgstr ""
+"%s מכיל יותר מדי סמלים של Vala.\n"
+"פענוחם והצגתם ארכו זמן רב מדי."
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:194
+#, c-format
+msgid "Vala symbols found in %s"
+msgstr "סמלים של Vala נמצאו ב־%s"
+
+#: src/SymbolPane/SymbolOutline.vala:35
+msgid "Class"
+msgstr "מחלקה"
+
+#: src/SymbolPane/SymbolOutline.vala:37
+msgid "Property"
+msgstr "מאפיין"
+
+#: src/SymbolPane/SymbolOutline.vala:39
+msgid "Signal"
+msgstr "אות"
+
+#: src/SymbolPane/SymbolOutline.vala:41
+msgid "Method"
+msgstr "מתודה"
+
+#: src/SymbolPane/SymbolOutline.vala:43
+msgid "Struct"
+msgstr "תבנית"
+
+#: src/SymbolPane/SymbolOutline.vala:45
+msgid "Enum"
+msgstr "מונה"
+
+#: src/SymbolPane/SymbolOutline.vala:47
+msgid "Constant"
+msgstr "קבוע"
+
+#: src/SymbolPane/SymbolOutline.vala:49
+msgid "Constructor"
+msgstr "בנאי"
+
+#: src/SymbolPane/SymbolOutline.vala:53
+msgid "Namespace"
+msgstr "מרחב שם"
+
+#: src/SymbolPane/SymbolOutline.vala:55
+msgid "Other"
+msgstr "אחר"
+
+#: src/SymbolPane/SymbolOutline.vala:131
+msgid "Find Symbol"
+msgstr "איתור סמל"
+
+#: src/SymbolPane/SymbolOutline.vala:140
+msgid "Filter symbol type"
+msgstr "סינון לפי סוג סמל"
+
+#: src/SymbolPane/SymbolOutline.vala:160
+msgid "Select All"
+msgstr "בחירה בהכול"
+
+#: src/SymbolPane/SymbolOutline.vala:166
+msgid "Deselect All"
+msgstr "ביטול בחירה בהכול"
+
+#: src/Widgets/ChooseProjectButton.vala:22
+msgid "No Project Selected"
+msgstr "לא נבחר מיזם"
+
+#: src/Widgets/ChooseProjectButton.vala:23
+#, c-format
+msgid "Active Git Project: %s"
+msgstr "מיזם Git פעיל: %s"
+
+#: src/Widgets/ChooseProjectButton.vala:61
+msgid "Filter projects"
+msgstr "סינון מיזמים"
+
+#: src/Widgets/ChooseProjectButton.vala:84
+msgid "Open Folder…"
+msgstr "פתיחת תיקייה…"
+
+#: src/Widgets/ChooseProjectButton.vala:89
+msgid "Clone Git Repository…"
+msgstr "שכפול מאגר Git…"
+
+#: src/Widgets/DocumentView.vala:109
+msgid "Closed Tabs"
+msgstr "לשוניות סגורות"
+
+#: src/Widgets/DocumentView.vala:449
+#, c-format
+msgid "Text file from %s:%d"
+msgstr "קובץ טקסט מ־%s:‏%d"
+
+#: src/Widgets/DocumentView.vala:625
+msgid "Close Tabs to the Right"
+msgstr "סגירת הלשוניות מימין"
+
+#: src/Widgets/DocumentView.vala:626
+msgid "Close Other Tabs"
+msgstr "שגירת שאר הלשוניות"
+
+#: src/Widgets/DocumentView.vala:627
+msgid "Close Tab"
+msgstr "סגירת לשונית"
+
+#: src/Widgets/DocumentView.vala:630
+msgid "Open in New Window"
+msgstr "פתיחה בחלון חדש"
+
+#: src/Widgets/DocumentView.vala:631
+msgid "Duplicate Tab"
+msgstr "שכפול לשונית"
+
+#: src/Widgets/FormatBar.vala:50
+msgid "Syntax Highlighting"
+msgstr "הדגשת תחביר"
+
+#: src/Widgets/FormatBar.vala:60
+msgid "Line number"
+msgstr "שורה מספר"
+
+#: src/Widgets/FormatBar.vala:87
+msgid "Filter languages"
+msgstr "סינון שפות"
+
+#: src/Widgets/FormatBar.vala:111
+msgid "Plain Text"
+msgstr "טקסט פשוט"
+
+#: src/Widgets/FormatBar.vala:149
+msgid "Some settings set by EditorConfig file"
+msgstr "חלק מההגדרות הוגדרו על ידי קובץ הגדרות עורך (EditorConfig)"
+
+#: src/Widgets/FormatBar.vala:152
+msgid "Automatic Indentation"
+msgstr "הזחה אוטומטית"
+
+#: src/Widgets/FormatBar.vala:154
+msgid "Insert Spaces Instead Of Tabs"
+msgstr "הוספת רווחים במקום טאבים"
+
+#: src/Widgets/FormatBar.vala:156
+msgid "Tab width"
+msgstr "רוחב טאב"
+
+#: src/Widgets/FormatBar.vala:236
+msgid "Go To Line:"
+msgstr "מעבר לשורה:"
+
+#: src/Widgets/FormatBar.vala:287
+#, c-format
+msgid "%d Space"
+msgid_plural "%d Spaces"
+msgstr[0] "רווח אחד"
+msgstr[1] "%d רווחים"
+
+#: src/Widgets/FormatBar.vala:289
+#, c-format
+msgid "%d Tab"
+msgid_plural "%d Tabs"
+msgstr[0] "טאב אחד"
+msgstr[1] "%d טאבים"
+
+#: src/Widgets/HeaderBar.vala:38
+msgid "Open a file"
+msgstr "פתיחת קובץ"
+
+#: src/Widgets/HeaderBar.vala:44
+msgid "Project templates"
+msgstr "תבניות מיזם"
+
+#: src/Widgets/HeaderBar.vala:51
+msgid "Save this file"
+msgstr "שמירת קובץ זה"
+
+#: src/Widgets/HeaderBar.vala:59
+msgid "Save this file with a different name"
+msgstr "שמירת קובץ זה בשם שונה"
+
+#: src/Widgets/HeaderBar.vala:67
+msgid "Restore this file"
+msgstr "שחזור קובץ זה לקדמותו"
+
+#: src/Widgets/HeaderBar.vala:76
+msgid "Share"
+msgstr "שיתוף"
+
+#: src/Widgets/HeaderBar.vala:84
+msgid "Zoom Out"
+msgstr "התרחקות"
+
+#: src/Widgets/HeaderBar.vala:92
+msgid "Zoom 1:1"
+msgstr "תקריב 1:1"
+
+#: src/Widgets/HeaderBar.vala:100
+msgid "Zoom In"
+msgstr "התקרבות"
+
+#: src/Widgets/HeaderBar.vala:145
+msgid "Follow System Style"
+msgstr "כמו ערכת העיצוב של המערכת"
+
+#: src/Widgets/HeaderBar.vala:240
+msgid "Menu"
+msgstr "תפריט"
+
+#: src/Widgets/Sidebar.vala:52
+msgid "Cloning complete"
+msgstr "שכפול הושלם"
+
+#: src/Widgets/Sidebar.vala:80
+msgid "Collapse All"
+msgstr "לצמצם הכול"
+
+#: src/Widgets/Sidebar.vala:83
+msgid "Alphabetize"
+msgstr "סידור אלפביתי"
+
+#: src/Widgets/Sidebar.vala:91
+msgid "Manage project folders…"
+msgstr "ניהול תיקיות המיזם…"
+
+#: src/Widgets/SearchBar.vala:101
+msgid "Find"
+msgstr "איתור"
+
+#: src/Widgets/SearchBar.vala:104
+msgid "No Results"
+msgstr "אין תוצאות"
+
+#: src/Widgets/SearchBar.vala:116
+msgid "Search next"
+msgstr "חיפוש הבא"
+
+#: src/Widgets/SearchBar.vala:126
+msgid "Search previous"
+msgstr "חיפוש הקודם"
+
+#: src/Widgets/SearchBar.vala:129
+msgid "Cyclic Search"
+msgstr "חיפוש מעגלי"
+
+#: src/Widgets/SearchBar.vala:132 plugins/pastebin/pastebin_dialog.vala:467
+msgid "Never"
+msgstr "לעולם לא"
+
+#: src/Widgets/SearchBar.vala:133
+msgid "Mixed Case"
+msgstr "גדולות וקטנות"
+
+#: src/Widgets/SearchBar.vala:134
+msgid "Always"
+msgstr "תמיד"
+
+#: src/Widgets/SearchBar.vala:137
+msgid "Case Sensitive"
+msgstr "תלוי רישיות"
+
+#: src/Widgets/SearchBar.vala:144
+msgid "Use Regular Expressions"
+msgstr "שימוש בביטויים רגולריים"
+
+#: src/Widgets/SearchBar.vala:145
+msgid "Match Whole Words"
+msgstr "לכידת מילים שלמות"
+
+#: src/Widgets/SearchBar.vala:166
+msgid "Search Options"
+msgstr "אפשרויות חיפוש"
+
+#: src/Widgets/SearchBar.vala:203
+msgid "Replace With"
+msgstr "החלפה ב־"
+
+#: src/Widgets/SearchBar.vala:206
+msgid "Replace"
+msgstr "החלפה"
+
+#: src/Widgets/SearchBar.vala:209
+msgid "Replace all"
+msgstr "החלפת הכול"
+
+#: src/Widgets/SearchBar.vala:614
+#, c-format
+msgid "%d of %d"
+msgstr "%d מתוך %d"
+
+#: src/Widgets/SearchBar.vala:619
+msgid "no results"
+msgstr "אין תוצאות"
+
+#: src/Widgets/SourceView.vala:583
+msgid "Sort Selected Lines"
+msgstr "סידור השורות הנבחרות"
+
+#: src/Widgets/SourceView.vala:594
+msgid "Mark Current Line"
+msgstr "סימון השורה הנוכחית"
+
+#: src/Widgets/SourceView.vala:605
+msgid "Goto Previous Edit Mark"
+msgstr "קפיצה לסמן העריכה הקודם"
+
+#: src/Widgets/SourceView.vala:616
+msgid "Goto Next Edit Mark"
+msgstr "קפיצה לסמן העריכה הבא"
+
+#: src/Widgets/SourceView.vala:635
+msgid "Toggle Comment"
+msgstr "החלפת מצב הערה"
+
+#: src/Widgets/Terminal.vala:140
+msgid "Copy"
+msgstr "העתקה"
+
+#: src/Widgets/Terminal.vala:141
+msgid "Paste"
+msgstr "הדבקה"
+
+#: src/Widgets/WelcomeView.vala:26
+msgid "No Files Open"
+msgstr "אין קבצים פתוחים"
+
+#: src/Widgets/WelcomeView.vala:27
+msgid "Open a file to begin editing."
+msgstr "יש לפתוח קובץ כדי להתחיל לערוך."
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "New File"
+msgstr "קובץ חדש"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "Create a new empty file."
+msgstr "יצירת קובץ ריק חדש."
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open File"
+msgstr "פתיחת קובץ"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open a saved file."
+msgstr "פתיחת קובץ שמור."
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Open Folder"
+msgstr "פתיחת תיקייה"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Add a project folder to the sidebar."
+msgstr "הוספת תיקיית מיזם לסרגל הצד."
+
+#: plugins/pastebin/pastebin_dialog.vala:248
+#: plugins/pastebin/pastebin_dialog.vala:328 plugins/pastebin/pastebin.vala:124
+msgid "Upload to Pastebin"
+msgstr "העלאה ל־Pastebin"
+
+#: plugins/pastebin/pastebin_dialog.vala:257
+msgid "Name:"
+msgstr "שם:"
+
+#: plugins/pastebin/pastebin_dialog.vala:261
+msgid "Format:"
+msgstr "תסדיר:"
+
+#: plugins/pastebin/pastebin_dialog.vala:268
+msgid "Choose different format"
+msgstr "בחירת תצורה אחרת"
+
+#: plugins/pastebin/pastebin_dialog.vala:290
+msgid "Expiration:"
+msgstr "תפוגה:"
+
+#: plugins/pastebin/pastebin_dialog.vala:297
+msgid "Keep this paste private"
+msgstr "השארת גזיר זה כפרטי"
+
+#: plugins/pastebin/pastebin_dialog.vala:354
+msgid "Available Formats"
+msgstr "תצורות זמינות"
+
+#: plugins/pastebin/pastebin_dialog.vala:380
+msgid "Select Format"
+msgstr "בחירת תצורה"
+
+#: plugins/pastebin/pastebin_dialog.vala:468
+msgid "Ten minutes"
+msgstr "עשר דקות"
+
+#: plugins/pastebin/pastebin_dialog.vala:469
+msgid "One hour"
+msgstr "שעה אחת"
+
+#: plugins/pastebin/pastebin_dialog.vala:470
+msgid "One day"
+msgstr "יום אחד"
+
+#: plugins/pastebin/pastebin_dialog.vala:471
+msgid "One month"
+msgstr "חודש אחד"
+
+#: plugins/spell/spell.vala:73
+msgid "No Suitable Dictionaries Were Found"
+msgstr "לא נמצאו מילונים מתאימים"
+
+#: plugins/spell/spell.vala:74
+msgid "Please install at least one [aspell] dictionary."
+msgstr "נא להתקין לפחות מילון [aspell] אחד."
+
+#: plugins/word-completion/plugin.vala:165
+#: plugins/word-completion/completion-provider.vala:55
+#, c-format
+msgid "%s - Word Completion"
+msgstr "%s - השלמת מילים"
+
+#~ msgid "Case sensitive:"
+#~ msgstr "תלות ברישיות:"
+
+#~ msgid "Use regular expressions:"
+#~ msgstr "שימוש בביטויים רגולריים:"
+
+#, c-format
+#~ msgid "Repository %s successfully cloned"
+#~ msgstr "המאגר %s שוכפל בהצלחה"
+
+#, c-format
+#~ msgid "Local repository working directory is %s"
+#~ msgstr "תיקיית העבודה של המאגר המקומי היא %s"
+
+#, c-format
+#~ msgid "This folder is the parent of %u open projects"
+#~ msgstr "התיקייה הזאת היא תיקיית העל של %u מיזמים פתוחים"
+
+#~ msgid "Opening this folder will close all child projects"
+#~ msgstr "פתיחת התיקייה הזאת תסגור את כל המיזמים הצאצאים"
+
+#~ msgid "Close Child Projects"
+#~ msgstr "סגירת מיזמים צאצאים"
+
+#~ msgid "Tabs"
+#~ msgstr "טאבים"
+
+#~ msgid "Tab width:"
+#~ msgstr "רוחב טאב:"
+
+#~ msgid "Line wrap:"
+#~ msgstr "גלישת שורות:"
+
+#~ msgid "Custom font:"
+#~ msgstr "גופן מותאם אישית:"
+
+#~ msgid "Visible whitespace:"
+#~ msgstr "רווח גלוי:"
+
+#, c-format
+#~ msgid "File “%s” was deleted."
+#~ msgstr "הקובץ „%s” נמחק."
+
+#~ msgid "Set of plugins"
+#~ msgstr "ערכת תוספים"
+
+#~ msgid "plugin"
+#~ msgstr "תוסף"
+
+#~ msgid "Save As…"
+#~ msgstr "שמירה בשם…"
+
+#~ msgid "Load"
+#~ msgstr "טעינה"
+
+#, c-format
+#~ msgid ""
+#~ "You cannot save the document to “%s”. Do you want to save the file "
+#~ "somewhere else?"
+#~ msgstr "לא ניתן לשמור את המסמך אל „%s”. לשמור את הקובץ במקום אחר?"
+
+#, c-format
+#~ msgid ""
+#~ "You cannot save changes to the file “%s”. Do you want to save the changes "
+#~ "somewhere else?"
+#~ msgstr "לא ניתן לשמור שינויים לקובץ „%s”. לשמור את השינויים לקובץ אחר?"
+
+#, c-format
+#~ msgid "File \"%s\" Cannot Be Read"
+#~ msgstr "לא ניתן לקרוא את הקובץ „%s”"
+
+#~ msgid "Case Insensitive"
+#~ msgstr "ללא תלות ברישיות"
+
+#~ msgid "Save changes elsewhere"
+#~ msgstr "שמירת השינויים במקום אחר"
+
+#~ msgid "Open Project Folder…"
+#~ msgstr "לפתוח תיקיית מיזם…"
+
+#~ msgid "Terminal"
+#~ msgstr "מסוף"
+
+#~ msgid "Toggle Sidebar"
+#~ msgstr "הצגה/הסתרה של לוח צד"
+
+#~ msgid "Find…"
+#~ msgstr "חיפוש…"
+
+#~ msgid "Draw Spaces:"
+#~ msgstr "ציור רווחים:"
+
+#~ msgid "For selected text"
+#~ msgstr "עבור הטקסט הנבחר"
+
+#~ msgid "High Contrast"
+#~ msgstr "ניגודיות גבוהה"
+
+#~ msgid "Solarized Light"
+#~ msgstr "Solarized בהיר"
+
+#~ msgid "Solarized Dark"
+#~ msgstr "Solarized כהה"
+
+#~ msgid "You must have an active Git project before creating a new branch."
+#~ msgstr "חייב להיות לך מיזם Git פעיל בטרם יצירת ענף חדש."
+
+#~ msgid "Open a Git project folder in the sidebar."
+#~ msgstr "פתיחת תיקיית מיזם Git בסרגל הצד."
+
+#~ msgid ""
+#~ "Open a document in a Git project folder in the sidebar or use a project "
+#~ "context menu."
+#~ msgstr ""
+#~ "לפתוח מסמך בתיקיית מיזם Git בסרגל הצד או להשתמש בתפריט ההקשר של המיזם."
+
+#~ msgid ""
+#~ "The branch name must comply with Git rules and must not already exist."
+#~ msgstr "שם הענף חייב לעמוד בכללים של Git ואסור שכבר יהיה קיים."
+
+#~ msgid ""
+#~ "The branch name must be lower-case, start with a letter, and be at least "
+#~ "3 characters"
+#~ msgstr ""
+#~ "שם הענף חייב להיות באותיות קטנות באנגלית, להתחלי באות ושאורכו יהיה 3 "
+#~ "תווים לפחות"
+
+#~ msgid "Search for:"
+#~ msgstr "חיפוש אחר:"
+
+#~ msgid "Zeitgeist Datasource for Code"
+#~ msgstr "מקור נתונים צייטגייסט עבור קוד"
+
+#~ msgid "%s, New"
+#~ msgstr "%s, חדשה"
+
+#~ msgid "File \"%s\" Cannot Be Created"
+#~ msgstr "לא ניתן ליצור את הקובץ „%s”"
+
+#~ msgid "Maybe you do not have the necessary permissions."
+#~ msgstr "יתכן שלא נתקבלו ההרשאות הנדרשות."
+
+#~ msgid "Maybe the file path provided is not valid."
+#~ msgstr "יתכן שנתיב הקובץ אינו תקף."
+
+#~ msgid "The location is read-only."
+#~ msgstr "המקום לקריאה בלבד."
+
+#~ msgid "The parent directory doesn't exist."
+#~ msgstr "תיקיית האב אינה קיימת."
+
+#~ msgid "It is a mountable location."
+#~ msgstr "מיקום זה ניתן לעגינה."
+
+#~ msgid ""
+#~ "It is a \"special\" file such as a socket,\n"
+#~ " FIFO, block device, or character device."
+#~ msgstr ""
+#~ "זה קובץ „מיוחד” כגון שקע,\n"
+#~ "‎.FIFO, התקן בלוקים או התקן תווים."
+
+#~ msgid "It is an \"unknown\" file type."
+#~ msgstr "זהו סוג קובץ „לא ידוע”."
+
+#~ msgid "File \"%s\" Cannot Be Opened"
+#~ msgstr "לא ניתן לפתוח את הקובץ „%s”"
+
+#~ msgid "Web Preview"
+#~ msgstr "תצוגה מקדימה ברשת"
+
+#~ msgid "Hide Preview"
+#~ msgstr "הסתרת תצוגה מקדימה"
+
+#~ msgid "Share via Pastebin"
+#~ msgstr "שיתוף עם PasteBin"
+
+#~ msgid "Other formats"
+#~ msgstr "תסדירים אחרים"
+
+#~ msgid "Add New View"
+#~ msgstr "הוספת תצוגה חדשה"
+
+#~ msgid "untitled folder %d"
+#~ msgstr "תיקייה ללא שם %d"
+
+#~ msgid "new file %d"
+#~ msgstr "קובץ חדש %d"
+
+#~ msgid "Could not load icon theme: %s\n"
+#~ msgstr "לא ניתן לטעון ערכת נושא לסמלים: %s\n"
+
+#, fuzzy
+#~ msgid "directory"
+#~ msgstr "זו תיקייה."
+
+#~ msgid ""
+#~ "File \"%s\" cannot be created.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "לא ניתן ליצור את הקובץ „%s”.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "File \"%s\" cannot be opened.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "לא ניתן לפתוח את הקובץ „%s”.\n"
+#~ "%s"
+
+#~ msgid "Highlight current line:"
+#~ msgstr "הדגשת השורה הנוכחית:"
+
+#~ msgid "New file"
+#~ msgstr "קובץ חדש"
+
+#~ msgid "New file from clipboard"
+#~ msgstr "קובץ חדש מלוח הגזירים"
+
+#~ msgid "Create a new file from the contents of your clipboard."
+#~ msgstr "יצירת קובץ חדש מתוכן לוח הגזירים."
+
+#~ msgid "Open With…"
+#~ msgstr "פתיחה באמצעות…"
+
+#~ msgid "Terminal on Right"
+#~ msgstr "מסוף מימין"
+
+#~ msgid "Terminal on Bottom"
+#~ msgstr "מסוף בתחתית"
+
+#~ msgid "Font and Color Scheme"
+#~ msgstr "גופן וערכת צבעים"
+
+#~ msgid "Color scheme:"
+#~ msgstr "תכנית הצבעים:"
+
+#~ msgid "Edit text files"
+#~ msgstr "עריכת קובצי טקסט"
+
+#~ msgid "About Scratch"
+#~ msgstr "על אודות רישום"
+
+#~ msgid "Trash"
+#~ msgstr "אשפה"
+
+#~ msgid "Go to line…"
+#~ msgstr "מעבר לשורה…"
+
+#~ msgid "Quit"
+#~ msgstr "יציאה"
+
+#~ msgid "Reopen closed document"
+#~ msgstr "פתיחה מחדש של מסמך שנסגר"
+
+#~ msgid "Open last closed document in a new tab"
+#~ msgstr "פתיחת המסמך האחרון שנסגר בלשונית חדשה"
+
+#~ msgid "Add New Tab"
+#~ msgstr "הוספת לשונית חדשה"
+
+#~ msgid "Add a new tab"
+#~ msgstr "הוספת לשונית חדשה"
+
+#~ msgid "Add a new view"
+#~ msgstr "הוספת תצוגה חדשה"
+
+#~ msgid "Remove this view"
+#~ msgstr "הסרת תצוגה זו"
+
+#~ msgid "Undo"
+#~ msgstr "ביטול"
+
+#~ msgid "Undo the last action"
+#~ msgstr "ביטול הפעולה האחרונה"
+
+#~ msgid "Redo"
+#~ msgstr "ביצוע שוב"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "ביצוע הפעולה האחרונה שבוטלה שוב"
+
+#~ msgid "Revert"
+#~ msgstr "חזרה למצב התחלתי"
+
+#~ msgid "Duplicate selected strings"
+#~ msgstr "שכפול המחרוזות הנבחרות"
+
+#~ msgid "Clipboard"
+#~ msgstr "לוח גזירים"
+
+#~ msgid "New file from Clipboard"
+#~ msgstr "קובץ חדש מלוח הגזירים"
+
+#~ msgid "Next Tab"
+#~ msgstr "לשונית הבאה"
+
+#~ msgid "Previous Tab"
+#~ msgstr "לשונית קודמת"
+
+#~ msgid "Fullscreen"
+#~ msgstr "מסך מלא"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Danny Damsky https://launchpad.net/~dannydamsky99\n"
+#~ "  Dor https://launchpad.net/~dor-gallego\n"
+#~ "  GenghisKhan https://launchpad.net/~genghiskhan\n"
+#~ "  Jason https://launchpad.net/~jasonf20\n"
+#~ "  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+#~ "  Niv Baehr https://launchpad.net/~rzil\n"
+#~ "  Yaron https://launchpad.net/~sh-yaron\n"
+#~ "  דוביקס https://launchpad.net/~dovix2003-gmail"
+
+#~ msgid "Wait while restoring last session..."
+#~ msgstr "יש להמתין בעת שחזור ההפעלה האחרונה..."
+
+#~ msgid "Normal Text"
+#~ msgstr "טקסט רגיל"
+
+#~ msgid "When Scratch starts:"
+#~ msgstr "בפתיחת רישום:"
+
+#~ msgid "Show welcome screen"
+#~ msgstr "הצגת מסך הפתיחה"
+
+#~ msgid "Show last open tabs"
+#~ msgstr "הצגת הלשוניות הפתוחות האחרונות"
+
+#~ msgid "A terminal in your text editor"
+#~ msgstr "מסוף בעורך הטקסט"
+
+#~ msgid "Highlight Selected Words"
+#~ msgstr "הדגשת מילים נבחרות"
+
+#~ msgid "Highlights all occurrences of words that are selected"
+#~ msgstr "הדגשת כל המופעים של מילים שנבחרו"
+
+#~ msgid "Brackets Completion"
+#~ msgstr "השלמת סוגריים"
+
+#~ msgid "Complete brackets while typing"
+#~ msgstr "השלמת הסוגריים במהלך ההקלדה"
+
+#~ msgid "Source Tree"
+#~ msgstr "עץ מקור"
+
+#~ msgid "Have a look at your sources organized in a nice tree"
+#~ msgstr "מבט במקורות מאורגנים בעץ נחמד"
+
+#~ msgid "Loading..."
+#~ msgstr "טוען..."
+
+#~ msgid "Bookmark"
+#~ msgstr "סימניה"
+
+#~ msgid "Files"
+#~ msgstr "קבצים"
+
+#~ msgid "Bookmarks"
+#~ msgstr "סימניות"
+
+#~ msgid "Vim Emulation"
+#~ msgstr "חיקוי Vim"
+
+#~ msgid "Use Vim commands in Scratch"
+#~ msgstr "שימוש בפקודות Vim ברישום"
+
+#~ msgid "Clipboard History"
+#~ msgstr "היסטורית לוח הגזירים"
+
+#~ msgid "Clipboard to view history"
+#~ msgstr "הצגת היסטורית לוח הגזירים"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Delete"
+#~ msgstr "מחיקה"
+
+#~ msgid "Outline"
+#~ msgstr "מתאר"
+
+#~ msgid "Outline symbols in your current file in vala"
+#~ msgstr "תיאור סמלי vala בקובץ הנוכחי"
+
+#~ msgid "Folder Manager"
+#~ msgstr "מנהל תיקיות"
+
+#~ msgid "Basic folder manager with file browsing"
+#~ msgstr "מנהל תקייה בסיסי עם דיפדוף קבצים"
+
+#~ msgid "Go to parent"
+#~ msgstr "עלייה לתיקיית האב"
+
+#~ msgid "Add file"
+#~ msgstr "הוספת קובץ"
+
+#~ msgid "Remove file"
+#~ msgstr "הסרת קובץ"
+
+#~ msgid "File Manager"
+#~ msgstr "מנהל קבצים"
+
+#~ msgid "Spell Checker"
+#~ msgstr "בודק איות"
+
+#~ msgid "Checks the spelling of your documents"
+#~ msgstr "בודק את האיות במסמכים"
+
+#~ msgid "Browser Preview"
+#~ msgstr "תצוגת דפדפן מקדימה"
+
+#~ msgid "Get a preview your work in a web page"
+#~ msgstr "השגת תצוגה מקדימה של דף אינטרנט"
+
+#~ msgid "Words Completion"
+#~ msgstr "השלמת מילים"
+
+#~ msgid "Show a completion dialog with most used words from your files"
+#~ msgstr "הצגת תיבת דו־שיח להשלמה עם המילים הנפוצות ביותר מהקבצים שלך"
+
+#~ msgid "Pastebin"
+#~ msgstr "Pastebin"
+
+#~ msgid "Share files with pastebin service"
+#~ msgstr "שיתוף קבצים עם שירות Pastebin"
+
+#~ msgid "Share your files with Contractor"
+#~ msgstr "שיתוף הקבצים עם קבלן"
+
+#~ msgid "Preserve Indent"
+#~ msgstr "שימור הזחות"
+
+#~ msgid "Maintains indent level of pasted text when auto-indent is active"
+#~ msgstr "תמיכה ברמת ההזחה של טקסט מודבק כאשר הזחה אוטומטית פעילה"
+
+#~ msgid "Open With"
+#~ msgstr "פתיחה באמצעות"
+
+#~ msgid "Open files you are editing with another application"
+#~ msgstr "פתיחת הקבצים הנערכים באמצעות יישום אחר"
+
+#~ msgid "Detect Indent"
+#~ msgstr "זיהוי הזחה"
+
+#~ msgid "Heuristically detect tab or space settings"
+#~ msgstr "זיהוי היוריסטי של הגדרות רווחים או טאבים"
+
+#~ msgid "No files are open."
+#~ msgstr "אין קבצים פתוחים."
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "השינויים לקובץ זה לא נשמרו."
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "האם ברצונך לשמור את השינויים לפני סגירת הקובץ?"
+
+#~ msgid "New document"
+#~ msgstr "מסמך חדש"
+
+#~ msgid "Normal text"
+#~ msgstr "טקסט רגיל"
+
+#~ msgid "Editor:"
+#~ msgstr "עורך:"
+
+#~ msgid "General:"
+#~ msgstr "כללי:"
+
+#~ msgid "Tabs:"
+#~ msgstr "לשוניות:"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "הצגת שול לימין:"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "האם לשמור את השינויים שלא נשמרו בטרם הסגירה?"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "האם ברצונך לטעון מחדש?"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "יצירת מסמך חדש בלשונית חדשה"
+
+#~ msgid "Previous Search"
+#~ msgstr "חיפוש הקודם"
+
+#~ msgid "Next Search"
+#~ msgstr "חיפוש הבא"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "יצירת מסמך חדש מתבנית"
+
+#~ msgid "Status Bar"
+#~ msgstr "שורת המצב"
+
+#~ msgid "Context View"
+#~ msgstr "תצוגת הקשר"
+
+#~ msgid ""
+#~ "Do you want to save the changes to this file in a different location?"
+#~ msgstr "האם ברצונך לשמור את השינויים לקובץ זה במיקום שונה?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "האם ברצונך ליצור אותו שוב?"
+
+#~ msgid "Go to line..."
+#~ msgstr "עבור לשורה..."
+
+#~ msgid "Find..."
+#~ msgstr "חפש..."
+
+#~ msgid "Save as"
+#~ msgstr "שמור בשם"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "שומר את הקובץ הנוכחי בשם אחר"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "טענה עבור ערכה של תוספים"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "פאנל תחתון"
+
+#~ msgid "The file %s was modified."
+#~ msgstr "הקובץ %s התחדש."
+
+#~ msgid "Choose the new location"
+#~ msgstr "בחר מיקום חדש"
+
+#~ msgid "Draw spaces:"
+#~ msgstr "צייר רווחים:"
+
+#~ msgid "Font and Color Scheme:"
+#~ msgstr "טכסיס  גופן וצבע:"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "לא ניתן לשמור את השינויים ל:"
+
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "האם לשמור שינויים שלא נשמרו לתוך קובץ %s לפני סגירה?"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "יש שינויים שלא נשמרו!"

@@ -1,0 +1,1757 @@
+# Norwegian Bokmal translation for scratch
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2024-06-16 12:29+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/code/"
+"code/nb/>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5.5\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:03+0000\n"
+
+#: src/Application.vala:41 src/Widgets/DocumentView.vala:99
+msgid "New Tab"
+msgstr "Ny fane"
+
+#: src/Application.vala:42 src/FolderManager/FileItem.vala:87
+msgid "New Window"
+msgstr "Nytt vindu"
+
+#: src/Application.vala:43
+msgid "Print version info and exit"
+msgstr "Skriv versjoninformasjon og avslutt"
+
+#: src/Application.vala:44
+#, fuzzy
+msgid "Open file at specified selection range"
+msgstr "Åpne fil i angitt utvalgsområde"
+
+#: src/Application.vala:44
+msgid "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+msgstr "<STARTLINJE[.STARTKOLONNE][-SLUTTLINJE[.SLUTTKOLONNE]]>"
+
+#: src/Application.vala:45
+msgid "[FILE…]"
+msgstr "[FIL…]"
+
+#: src/MainWindow.vala:263
+#, c-format
+msgid "Code (%s)"
+msgstr "Kode (%s)"
+
+#: src/MainWindow.vala:265
+msgid "Code"
+msgstr "Kode"
+
+#: src/MainWindow.vala:399
+msgid "Hide search bar"
+msgstr "Skjul søkefeltet"
+
+#: src/MainWindow.vala:404 src/Widgets/HeaderBar.vala:122
+msgid "Find on Page…"
+msgstr "Finn på side …"
+
+#: src/MainWindow.vala:415
+#, fuzzy
+#| msgid "Hide search bar"
+msgid "Hide Projects Sidebar"
+msgstr "Skjul prosjekt-sidefelt"
+
+#: src/MainWindow.vala:420
+#, fuzzy
+#| msgid "Show Preview"
+msgid "Show Projects Sidebar"
+msgstr "Vis prosjekt-sidefelt"
+
+#: src/MainWindow.vala:429
+msgid "Hide Symbol Outline"
+msgstr "Skjul symbolomriss"
+
+#: src/MainWindow.vala:434
+msgid "Show Symbol Outline"
+msgstr "Vis symbolomriss"
+
+#: src/MainWindow.vala:443
+msgid "Hide Terminal"
+msgstr "Skjul terminal"
+
+#: src/MainWindow.vala:448 src/Widgets/HeaderBar.vala:196
+msgid "Show Terminal"
+msgstr "Vis terminal"
+
+#. Update MainWindow title
+#. / TRANSLATORS: First placeholder is document name, second placeholder is app name
+#: src/MainWindow.vala:618
+#, fuzzy, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: src/MainWindow.vala:977 src/Services/Document.vala:668
+msgid "All files"
+msgstr "Alle filer"
+
+#: src/MainWindow.vala:981 src/Services/Document.vala:672
+msgid "Text files"
+msgstr "Tekstfiler"
+
+#: src/MainWindow.vala:985
+msgid "Open some files"
+msgstr "Åpne noen filer"
+
+#: src/MainWindow.vala:988
+msgid "Open"
+msgstr "Åpne"
+
+#: src/MainWindow.vala:989 src/Dialogs/CloneRepositoryDialog.vala:58
+#: src/Dialogs/CloneRepositoryDialog.vala:97
+#: src/Dialogs/GlobalSearchDialog.vala:86 src/Dialogs/NewBranchDialog.vala:42
+#: src/Services/Document.vala:510 src/Services/Document.vala:680
+#: plugins/pastebin/pastebin_dialog.vala:327
+#: plugins/pastebin/pastebin_dialog.vala:378
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/MainWindow.vala:1032
+msgid "_Open"
+msgstr "_Åpne"
+
+#: src/MainWindow.vala:1033
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: src/MainWindow.vala:1088
+msgid "Cloning completed"
+msgstr ""
+
+#: src/MainWindow.vala:1089
+#, c-format
+msgid "Clone successfully created in %s"
+msgstr ""
+
+#: src/MainWindow.vala:1095
+#, c-format
+msgid "Unable to clone %s"
+msgstr ""
+
+#: src/MainWindow.vala:1102
+msgid "Retry"
+msgstr ""
+
+#. /TRANSLATORS '%s' represents the quoted basename of a uri to be opened with the default app
+#: src/Utils.vala:212
+#, c-format
+msgid "Show '%s' with default app"
+msgstr ""
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/CloneRepositoryDialog.vala:55
+msgid "Create a local clone of a Git repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:56
+msgid ""
+"The source repository and local folder must exist and have the required read "
+"and write permissions"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:59
+msgid "Clone Repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:69
+msgid "https://example.com/username/projectname.git"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:93
+msgid "Select folder where the cloned repository will be created"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:96
+#, fuzzy
+#| msgid "Select Format"
+msgid "Select"
+msgstr "Velg format"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:118
+msgid "Repository URL"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:119
+msgid "Location"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:120
+msgid "Name of Clone"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:122
+msgid "Cloning in progress"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:62
+#, fuzzy
+#| msgid "The search term must be at least 3 characters long."
+msgid "The search term will be treated as a regex expression"
+msgstr "Søket må inneholde minst tre tegn."
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case sensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case insensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:65
+msgid "Search will match only whole words"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:68
+#, c-format
+msgid "Search for text in “%s”"
+msgstr "Søk etter tekst i «%s»"
+
+#: src/Dialogs/GlobalSearchDialog.vala:69
+msgid "The search term must be at least 3 characters long."
+msgstr "Søket må inneholde minst tre tegn."
+
+#: src/Dialogs/GlobalSearchDialog.vala:88
+msgid "Search"
+msgstr "Søk"
+
+#: src/Dialogs/NewBranchDialog.vala:43
+#, c-format
+msgid "Create a new branch of “%s/%s”"
+msgstr "Opprett ny forgrening av «%s/%s»"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/NewBranchDialog.vala:48
+msgid "The branch name must be unique and follow Git naming rules."
+msgstr ""
+"Forgreningsnavnet må være unikt og være i samsvar med Git-navnereglene."
+
+#: src/Dialogs/NewBranchDialog.vala:56
+msgid "Create Branch"
+msgstr "Opprett forgrening"
+
+#: src/Dialogs/PreferencesDialog.vala:15 src/Widgets/HeaderBar.vala:218
+msgid "Preferences"
+msgstr "Innstillinger"
+
+#: src/Dialogs/PreferencesDialog.vala:23
+msgid "General"
+msgstr "Generelt"
+
+#: src/Dialogs/PreferencesDialog.vala:24
+#, fuzzy
+#| msgid "Save files when changed:"
+msgid "Save files when changed"
+msgstr "Lagre filer når de er endret:"
+
+#: src/Dialogs/PreferencesDialog.vala:25
+#, fuzzy
+#| msgid "Strip trailing whitespace:"
+msgid "Strip trailing whitespace on save"
+msgstr "Fjern påfølgende blanktegn:"
+
+#: src/Dialogs/PreferencesDialog.vala:27
+#, fuzzy
+#| msgid "Smart cut/copy lines:"
+msgid "Smart cut/copy lines"
+msgstr "Smart utklipp/kopi av linjer:"
+
+#: src/Dialogs/PreferencesDialog.vala:29
+msgid ""
+"Cutting or copying without an active selection will cut or copy the entire "
+"current line"
+msgstr ""
+"Utklipping og kopiering uten et aktivt utvalg vil klippe ut eller kopiere "
+"hele nåværende linje"
+
+#: src/Dialogs/PreferencesDialog.vala:35
+#, fuzzy
+#| msgid "Margin width:"
+msgid "Indentation width"
+msgstr "Marg bredde:"
+
+#: src/Dialogs/PreferencesDialog.vala:46
+#, fuzzy
+#| msgid "Automatic Indentation"
+msgid "Indentation"
+msgstr "Automatisk innrykk"
+
+#: src/Dialogs/PreferencesDialog.vala:47
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic indentation"
+msgstr "Automatisk innrykk:"
+
+#: src/Dialogs/PreferencesDialog.vala:48
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert spaces instead of tabs"
+msgstr "Sett inn mellomrom i stedet for tabulator:"
+
+#: src/Dialogs/PreferencesDialog.vala:57
+msgid "Default build directory"
+msgstr "Forvalgt byggmappe"
+
+#: src/Dialogs/PreferencesDialog.vala:67
+#, fuzzy
+#| msgid "Project"
+msgid "Projects"
+msgstr "Prosjekt"
+
+#: src/Dialogs/PreferencesDialog.vala:78
+#, fuzzy
+msgid "None"
+msgstr "Ingen"
+
+#: src/Dialogs/PreferencesDialog.vala:79
+msgid "Current Line"
+msgstr "Nåværende linje"
+
+#: src/Dialogs/PreferencesDialog.vala:80
+#, fuzzy
+msgid "All"
+msgstr "Alle"
+
+#: src/Dialogs/PreferencesDialog.vala:96
+#, fuzzy
+#| msgid "White space visible when not selected:"
+msgid "Whitespace visible when not selected"
+msgstr "Blanktegn synlig uten å være valgt:"
+
+#: src/Dialogs/PreferencesDialog.vala:111
+msgid "Editor"
+msgstr "Tekstbehandler"
+
+#: src/Dialogs/PreferencesDialog.vala:112
+#, fuzzy
+#| msgid "Highlight matching brackets:"
+msgid "Highlight matching brackets"
+msgstr "Uthev klammer som hører sammen:"
+
+#: src/Dialogs/PreferencesDialog.vala:114
+#, fuzzy
+#| msgid "Show Mini Map:"
+msgid "Mini Map"
+msgstr "Vis minikart:"
+
+#: src/Dialogs/PreferencesDialog.vala:115
+msgid "Wrap lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:116
+#, fuzzy
+#| msgid "Line width guide:"
+msgid "Line width guide"
+msgstr "Linjebreddehentydning:"
+
+#: src/Dialogs/PreferencesDialog.vala:124
+msgid "Font"
+msgstr "Skrift"
+
+#: src/Dialogs/PreferencesDialog.vala:125
+msgid "Use system font"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:136
+msgid "Behavior"
+msgstr "Oppførsel"
+
+#: src/Dialogs/PreferencesDialog.vala:137 src/SymbolPane/SymbolOutline.vala:51
+msgid "Interface"
+msgstr "Brukergrensesnitt"
+
+#: src/Dialogs/PreferencesDialog.vala:153 src/Services/PluginManager.vala:130
+msgid "Extensions"
+msgstr "Utvidelser"
+
+#: src/Dialogs/PreferencesDialog.vala:159
+#: plugins/pastebin/pastebin_dialog.vala:434
+msgid "Close"
+msgstr "Lukk"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:31
+msgid "Are You Sure You Want to Restore This File?"
+msgstr "Er du sikker på at du vil gjenopprette denne filen?"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:32
+msgid "Restoring a file will undo all changes made since opening it"
+msgstr ""
+"Å gjenopprette filen vil fjerne alle endringene som er gjort siden den ble "
+"åpnet"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:34
+msgid "Don't Restore"
+msgstr "Ikke gjenopprett"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:36
+msgid "Restore Anyway"
+msgstr "Last inn uansett"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:40
+msgid "This folder is the parent of an open project"
+msgid_plural "This folder is the parent of open projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:46
+msgid "Opening this folder will close the child project"
+msgid_plural "Opening this folder will close all child projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:52
+msgid "Close Child Project"
+msgid_plural "Close Child Projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:57
+msgid "This folder is a child of an open project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:58
+msgid "Opening this folder will close the parent project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:59
+msgid "Close Parent Project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:62
+#, fuzzy
+#| msgid "Don't Restore"
+msgid "Don't Open"
+msgstr "Ikke gjenopprett"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:40
+#, fuzzy
+#| msgid "There are unsaved changes in Scratch!"
+msgid "There are uncommitted changes in the current branch"
+msgstr "Det er ulagrede endringer i Scratch!"
+
+#. /TRANSLATORS '%s' is a placeholder for the name of the branch to be checked out
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:42
+#, c-format
+msgid ""
+"Uncommitted changes will be permanently lost if <b>'%s'</b> is checked out "
+"now.\n"
+"\n"
+"<i>It is recommended that uncommitted changes are stashed, committed, or "
+"reverted before proceeding.</i>"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:44
+msgid "Do not Checkout"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:45
+msgid "Checkout and Overwrite"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:49 src/FolderManager/FolderItem.vala:166
+msgid "Other Actions"
+msgstr "Andre handlinger"
+
+#: src/FolderManager/FileItem.vala:55 src/FolderManager/FolderItem.vala:140
+msgid "Rename"
+msgstr "Gi nytt navn"
+
+#: src/FolderManager/FileItem.vala:65 src/FolderManager/FolderItem.vala:148
+msgid "Move to Trash"
+msgstr "Flytt til papirkurv"
+
+#: src/FolderManager/FileItem.vala:100 src/FolderManager/FolderItem.vala:198
+msgid "Other Application…"
+msgstr "Annet program…"
+
+#: src/FolderManager/FileItem.vala:115 src/FolderManager/FolderItem.vala:218
+msgid "Open In"
+msgstr "Åpne i"
+
+#: src/FolderManager/FileView.vala:74
+msgid "Folders"
+msgstr "Mapper"
+
+#: src/FolderManager/FolderItem.vala:156
+msgid "Find in Folder…"
+msgstr "Finn i denne mappen …"
+
+#: src/FolderManager/FolderItem.vala:189
+#, fuzzy
+msgid "Terminal Pane"
+msgstr "Åpne i terminalfelt"
+
+#: src/FolderManager/FolderItem.vala:224
+msgid "Folder"
+msgstr "Mappe"
+
+#: src/FolderManager/FolderItem.vala:232
+msgid "Empty File"
+msgstr "Tom fil"
+
+#. scan all children
+#. No need to show status when children shown
+#: src/FolderManager/FolderItem.vala:243
+#: src/FolderManager/ProjectFolderItem.vala:427
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "New"
+msgstr "Ny"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "untitled folder"
+msgstr "mappe uten navn"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "new file"
+msgstr "ny fil"
+
+#: src/FolderManager/ProjectFolderItem.vala:147
+#, fuzzy
+#| msgid "Active Git project: %s"
+msgid "Set as Active Project"
+msgstr "Aktivt Git-prosjekt: %s"
+
+#: src/FolderManager/ProjectFolderItem.vala:155
+#, fuzzy
+msgid "Open in Terminal Pane"
+msgstr "Åpne i terminalfelt"
+
+#: src/FolderManager/ProjectFolderItem.vala:186
+msgid "Close Folder"
+msgstr "Lukk mappe"
+
+#: src/FolderManager/ProjectFolderItem.vala:194
+msgid "Close Other Folders"
+msgstr "Lukk andre mapper"
+
+#: src/FolderManager/ProjectFolderItem.vala:211
+#, c-format
+msgid "Close %u Open Document"
+msgid_plural "Close %u Open Documents"
+msgstr[0] "Lukk %u åpent dokument"
+msgstr[1] "Lukk %u åpne dokumenter"
+
+#: src/FolderManager/ProjectFolderItem.vala:223
+#, c-format
+msgid "Hide %u Open Document"
+msgid_plural "Hide %u Open Documents"
+msgstr[0] "Skjul %u åpent dokument"
+msgstr[1] "Skjul %u åpne dokumenter"
+
+#: src/FolderManager/ProjectFolderItem.vala:246
+#, c-format
+msgid "Restore %u Hidden Document"
+msgid_plural "Restore %u Hidden Documents"
+msgstr[0] "Gjenopprett %u skjult dokument"
+msgstr[1] "Gjenopprett %u skjulte dokumenter"
+
+#: src/FolderManager/ProjectFolderItem.vala:279 src/Widgets/HeaderBar.vala:131
+msgid "Find in Project…"
+msgstr "Finn i prosjekt …"
+
+#: src/FolderManager/ProjectFolderItem.vala:320
+msgid "Local"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:337
+msgid "Remote"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:352
+msgid "New Branch…"
+msgstr "Ny forgrening …"
+
+#: src/FolderManager/ProjectFolderItem.vala:377
+msgid "Branch"
+msgstr "Gren"
+
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "Modified"
+msgstr "Endret"
+
+#: src/FolderManager/ProjectFolderItem.vala:471
+#, c-format
+msgid "Error while creating new branch: “%s”"
+msgstr "Kunne ikke opprette ny forgrening: «%s»"
+
+#. Empty files are valid text files
+#: src/Services/Document.vala:384
+#, c-format
+msgid "%s Is Not a Text File"
+msgstr "%s er ikke ei tekstfil"
+
+#: src/Services/Document.vala:385
+msgid "Code will not load this type of file."
+msgstr "Kode vil ikke laste inn denne typen fil."
+
+#: src/Services/Document.vala:387
+msgid "Load Anyway"
+msgstr "Last inn uansett"
+
+#: src/Services/Document.vala:408
+#, fuzzy, c-format
+#| msgid "Loading File \"%s\" Is Taking a Long Time"
+msgid "Loading File “%s” Is Taking a Long Time"
+msgstr "Innlasting av «%s» tar lang tid"
+
+#: src/Services/Document.vala:409
+msgid "Please wait while Code is loading the file."
+msgstr "Vent mens Kode laster inn filen."
+
+#: src/Services/Document.vala:411
+msgid "Cancel Loading"
+msgstr "Avbryt innlasting"
+
+#: src/Services/Document.vala:500
+#, c-format
+msgid "Save changes to “%s” before closing?"
+msgstr "Lagre endringer i «%s» før lukking?"
+
+#: src/Services/Document.vala:501
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Hvis du ikke lagrer vil du miste endringene for godt."
+
+#: src/Services/Document.vala:507
+msgid "Close Without Saving"
+msgstr "Lukk uten å lagre"
+
+#: src/Services/Document.vala:511 src/Services/Document.vala:679
+msgid "Save"
+msgstr "Lagre"
+
+#: src/Services/Document.vala:638
+#, fuzzy, c-format
+#| msgid "Save changes to \"%s\" before closing?"
+msgid "Saving to “%s” failed."
+msgstr "Kunne ikke lagre i «%s«."
+
+#: src/Services/Document.vala:676
+msgid "Save File"
+msgstr "Lagre Fil"
+
+#: src/Services/Document.vala:763 src/Services/Document.vala:781
+msgid "New Document"
+msgstr "Nytt dokument"
+
+#. No path for a new document
+#: src/Services/Document.vala:783
+#, fuzzy, c-format
+msgid "Cannot save this document to %s"
+msgstr "Kan ikke lagre dette dokumentet i %s"
+
+#. Show an error view which says "Hey, I cannot read that file!"
+#: src/Services/Document.vala:870
+#, c-format
+msgid "Cannot read text in file “%s”"
+msgstr "Kan ikke lese tekst i «%s»-filen."
+
+#: src/Services/Document.vala:873
+#, fuzzy
+#| msgid "It may be corrupt or you don't have permission to read it."
+msgid "You may not have permission to read the file."
+msgstr "Kanskje du mangler rettigheter til å lese den?"
+
+#: src/Services/Document.vala:875
+msgid "The file may be corrupt or may not be a text file"
+msgstr "Tekstfilen kan være skadet eller være en annen type fil"
+
+#. Lack of read permission results in empty content string. Do not give option to open
+#. in new document in that case.
+#: src/Services/Document.vala:881
+msgid "Show Anyway"
+msgstr "Vis uansett"
+
+#: src/Services/Document.vala:912
+#, c-format
+msgid ""
+"The location containing the file “%s” was unmounted and there are unsaved "
+"changes."
+msgstr ""
+"Plasseringen som inneholder filen «%s» ble avmontert og det er ulagrede "
+"endringer."
+
+#: src/Services/Document.vala:914
+#, fuzzy, c-format
+#| msgid "File “%s” was deleted and there are unsaved changes."
+msgid "File “%s” was deleted, renamed or moved and there are unsaved changes."
+msgstr "Filen «%s» ble slettet og det er ulagrede endringer."
+
+#. Check external changes after loading
+#. The file has become unwritable while changes are pending
+#: src/Services/Document.vala:928
+#, fuzzy, c-format
+#| msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgid "File “%s” does not have write permission."
+msgstr "Du mangler skrivetilgang til «%s»-filen."
+
+#: src/Services/Document.vala:974
+#, c-format
+msgid "File “%s” was modified by an external application"
+msgstr "«%s»-filen ble endret av et eksternt program."
+
+#: src/Services/Document.vala:979
+#, fuzzy
+msgid ""
+"There are also unsaved changes. Reloading the document will overwrite the "
+"unsaved changes."
+msgstr ""
+"Det er også ulagrede endringer. Å gjeninnlaste dokumentet vil overskrive dem."
+
+#: src/Services/Document.vala:983
+msgid "The document changed externally since you last saved it."
+msgstr "Dokumentet endret seg eksternt siden sist gang du lagret det."
+
+#: src/Services/Document.vala:999
+#, c-format
+msgid "“%s” can't be saved here. Save a duplicate somewhere else?"
+msgstr "«%s» kan ikke lagres her. Lagre en kopi et annet sted?"
+
+#: src/Services/Document.vala:1008
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: src/Services/Document.vala:1010
+msgid "Save Duplicate…"
+msgstr "Lagre duplikat …"
+
+#: src/Services/Document.vala:1059
+msgid "Continue"
+msgstr "Fortsett"
+
+#: src/Services/Document.vala:1061
+msgid "Reload"
+msgstr "Last inn igjen"
+
+#: src/Services/Document.vala:1064
+msgid "Overwrite"
+msgstr "Overskriv"
+
+#: src/Services/Document.vala:1067
+#, fuzzy
+#| msgid "Save the document elsewhere"
+msgid "Save Document elsewhere"
+msgstr "Lagre dokumentet et annet sted"
+
+#: src/Services/MonitoredRepository.vala:246
+#, c-format
+msgid "Remote Branch '%s' not found"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:247
+msgid ""
+"The requested branch was not found in any remote linked to this repository"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:284
+msgid "An error occurred while checking out the requested branch"
+msgstr ""
+
+#. /TRANSLATORS "%.8s" is a placeholder for the first 8 characters of a commit reference
+#: src/Services/MonitoredRepository.vala:332
+#, c-format
+msgid "%.8s (detached)"
+msgstr ""
+
+#: src/Services/TemplateManager.vala:198
+msgid "Templates"
+msgstr "Skisser"
+
+#. Remove fake fields created by the vala parser.
+#: src/SymbolPane/C/CtagsSymbolOutline.vala:79
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:193
+#: src/SymbolPane/SymbolOutline.vala:127
+msgid "Symbols"
+msgstr "Symboler"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:122
+#, fuzzy
+#| msgid "Symbols"
+msgid "Too Many Symbols"
+msgstr "Symboler"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:123
+#, c-format
+msgid ""
+"%s contains too many Vala symbols.\n"
+"Parsing and showing them took too long."
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:194
+#, fuzzy, c-format
+#| msgid "No Symbols Found"
+msgid "Vala symbols found in %s"
+msgstr "Fant ingen symboler"
+
+#: src/SymbolPane/SymbolOutline.vala:35
+msgid "Class"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:37
+msgid "Property"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:39
+msgid "Signal"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:41
+msgid "Method"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:43
+msgid "Struct"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:45
+msgid "Enum"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:47
+msgid "Constant"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:49
+msgid "Constructor"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:53
+msgid "Namespace"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:55
+#, fuzzy
+#| msgid "Others…"
+msgid "Other"
+msgstr "Andre …"
+
+#: src/SymbolPane/SymbolOutline.vala:131
+#, fuzzy
+#| msgid "Symbols"
+msgid "Find Symbol"
+msgstr "Symboler"
+
+#: src/SymbolPane/SymbolOutline.vala:140
+msgid "Filter symbol type"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:160
+#, fuzzy
+#| msgid "Select Format"
+msgid "Select All"
+msgstr "Velg format"
+
+#: src/SymbolPane/SymbolOutline.vala:166
+msgid "Deselect All"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:22
+msgid "No Project Selected"
+msgstr "Prosjekt ikke valgt"
+
+#: src/Widgets/ChooseProjectButton.vala:23
+#, fuzzy, c-format
+#| msgid "Active Git project: %s"
+msgid "Active Git Project: %s"
+msgstr "Aktivt Git-prosjekt: %s"
+
+#: src/Widgets/ChooseProjectButton.vala:61
+msgid "Filter projects"
+msgstr "Filtrer prosjekter"
+
+#: src/Widgets/ChooseProjectButton.vala:84
+msgid "Open Folder…"
+msgstr "Åpne mappe …"
+
+#: src/Widgets/ChooseProjectButton.vala:89
+msgid "Clone Git Repository…"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:109
+msgid "Closed Tabs"
+msgstr "Lukkede faner"
+
+#: src/Widgets/DocumentView.vala:449
+#, c-format
+msgid "Text file from %s:%d"
+msgstr "Tekstfil fra %s:%d"
+
+#: src/Widgets/DocumentView.vala:625
+msgid "Close Tabs to the Right"
+msgstr "Lukk faner til →"
+
+#: src/Widgets/DocumentView.vala:626
+msgid "Close Other Tabs"
+msgstr "Lukk andre faner"
+
+#: src/Widgets/DocumentView.vala:627
+msgid "Close Tab"
+msgstr "Lukk fane"
+
+#: src/Widgets/DocumentView.vala:630
+msgid "Open in New Window"
+msgstr "Nytt i nytt vindu"
+
+#: src/Widgets/DocumentView.vala:631
+msgid "Duplicate Tab"
+msgstr "Dupliser fane"
+
+#: src/Widgets/FormatBar.vala:50
+msgid "Syntax Highlighting"
+msgstr "Syntaksfremheving"
+
+#: src/Widgets/FormatBar.vala:60
+msgid "Line number"
+msgstr "Linjenummer"
+
+#: src/Widgets/FormatBar.vala:87
+msgid "Filter languages"
+msgstr "Filtrer språk"
+
+#: src/Widgets/FormatBar.vala:111
+msgid "Plain Text"
+msgstr "Klartekst"
+
+#: src/Widgets/FormatBar.vala:149
+msgid "Some settings set by EditorConfig file"
+msgstr "Noen innstillinger satt av EditorConfig-filen"
+
+#: src/Widgets/FormatBar.vala:152
+msgid "Automatic Indentation"
+msgstr "Automatisk innrykk"
+
+#: src/Widgets/FormatBar.vala:154
+msgid "Insert Spaces Instead Of Tabs"
+msgstr "Sett inn mellomrom i stedet for tabulator"
+
+#: src/Widgets/FormatBar.vala:156
+msgid "Tab width"
+msgstr "Tabulatorbredde"
+
+#: src/Widgets/FormatBar.vala:236
+msgid "Go To Line:"
+msgstr "Gå til linje:"
+
+#: src/Widgets/FormatBar.vala:287
+#, c-format
+msgid "%d Space"
+msgid_plural "%d Spaces"
+msgstr[0] "%d mellomrom"
+msgstr[1] "%d mellomrom"
+
+#: src/Widgets/FormatBar.vala:289
+#, c-format
+msgid "%d Tab"
+msgid_plural "%d Tabs"
+msgstr[0] "%d fane"
+msgstr[1] "%d faner"
+
+#: src/Widgets/HeaderBar.vala:38
+msgid "Open a file"
+msgstr "Åpne en fil"
+
+#: src/Widgets/HeaderBar.vala:44
+msgid "Project templates"
+msgstr "Prosjektmaler"
+
+#: src/Widgets/HeaderBar.vala:51
+msgid "Save this file"
+msgstr "Lagre denne filen"
+
+#: src/Widgets/HeaderBar.vala:59
+msgid "Save this file with a different name"
+msgstr "Lagre denne filen med et annet navn"
+
+#: src/Widgets/HeaderBar.vala:67
+msgid "Restore this file"
+msgstr "Gjenoprett denne fila"
+
+#: src/Widgets/HeaderBar.vala:76
+msgid "Share"
+msgstr "Del"
+
+#: src/Widgets/HeaderBar.vala:84
+msgid "Zoom Out"
+msgstr "Forminsk"
+
+#: src/Widgets/HeaderBar.vala:92
+msgid "Zoom 1:1"
+msgstr "Forstørr 1:1"
+
+#: src/Widgets/HeaderBar.vala:100
+msgid "Zoom In"
+msgstr "Forstørr"
+
+#: src/Widgets/HeaderBar.vala:145
+msgid "Follow System Style"
+msgstr "Følg systemets stil"
+
+#: src/Widgets/HeaderBar.vala:240
+msgid "Menu"
+msgstr "Meny"
+
+#: src/Widgets/Sidebar.vala:52
+msgid "Cloning complete"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:80
+msgid "Collapse All"
+msgstr "Fold sammen alle"
+
+#: src/Widgets/Sidebar.vala:83
+msgid "Alphabetize"
+msgstr "Alfabetiser"
+
+#: src/Widgets/Sidebar.vala:91
+#, fuzzy
+#| msgid "Manage project folders"
+msgid "Manage project folders…"
+msgstr "Håndter prosjektmapper"
+
+#: src/Widgets/SearchBar.vala:101
+msgid "Find"
+msgstr "Søk"
+
+#: src/Widgets/SearchBar.vala:104
+msgid "No Results"
+msgstr "Resultatløst"
+
+#: src/Widgets/SearchBar.vala:116
+msgid "Search next"
+msgstr "Søk neste"
+
+#: src/Widgets/SearchBar.vala:126
+msgid "Search previous"
+msgstr "Søk forrige"
+
+#: src/Widgets/SearchBar.vala:129
+msgid "Cyclic Search"
+msgstr "Syklisk søk"
+
+#: src/Widgets/SearchBar.vala:132 plugins/pastebin/pastebin_dialog.vala:467
+msgid "Never"
+msgstr "Aldri"
+
+#: src/Widgets/SearchBar.vala:133
+msgid "Mixed Case"
+msgstr "Små og store bokstaver"
+
+#: src/Widgets/SearchBar.vala:134
+msgid "Always"
+msgstr "Alltid"
+
+#: src/Widgets/SearchBar.vala:137
+msgid "Case Sensitive"
+msgstr "Forskjell på store og små bokstaver"
+
+#: src/Widgets/SearchBar.vala:144
+#, fuzzy
+#| msgid "Use regular expressions"
+msgid "Use Regular Expressions"
+msgstr "Bruk regulære uttrykk"
+
+#: src/Widgets/SearchBar.vala:145
+msgid "Match Whole Words"
+msgstr "Jamfør hele ord"
+
+#: src/Widgets/SearchBar.vala:166
+msgid "Search Options"
+msgstr "Søkealternativer"
+
+#: src/Widgets/SearchBar.vala:203
+msgid "Replace With"
+msgstr "Erstatt med"
+
+#: src/Widgets/SearchBar.vala:206
+msgid "Replace"
+msgstr "Erstatt"
+
+#: src/Widgets/SearchBar.vala:209
+msgid "Replace all"
+msgstr "Erstatt alle"
+
+#: src/Widgets/SearchBar.vala:614
+#, c-format
+msgid "%d of %d"
+msgstr "%d av %d"
+
+#: src/Widgets/SearchBar.vala:619
+msgid "no results"
+msgstr "resultatløst"
+
+#: src/Widgets/SourceView.vala:583
+msgid "Sort Selected Lines"
+msgstr "Sorter valgte linjer"
+
+#: src/Widgets/SourceView.vala:594
+#, fuzzy
+#| msgid "Current Line"
+msgid "Mark Current Line"
+msgstr "Nåværende linje"
+
+#: src/Widgets/SourceView.vala:605
+msgid "Goto Previous Edit Mark"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:616
+#, fuzzy
+#| msgid "Text Editor"
+msgid "Goto Next Edit Mark"
+msgstr "Tekstredigerer"
+
+#: src/Widgets/SourceView.vala:635
+msgid "Toggle Comment"
+msgstr "Veksle kommentar"
+
+#: src/Widgets/Terminal.vala:140
+msgid "Copy"
+msgstr "Kopier"
+
+#: src/Widgets/Terminal.vala:141
+msgid "Paste"
+msgstr "Lim inn"
+
+#: src/Widgets/WelcomeView.vala:26
+msgid "No Files Open"
+msgstr "Ingen åpne filer"
+
+#: src/Widgets/WelcomeView.vala:27
+msgid "Open a file to begin editing."
+msgstr "Åpne en fil for å komme i gang med redigeringa."
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "New File"
+msgstr "Ny fil"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "Create a new empty file."
+msgstr "Lag en ny, tom fil."
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open File"
+msgstr "Åpne fil"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open a saved file."
+msgstr "Åpne en lagret fil."
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Open Folder"
+msgstr "Åpne mappe"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Add a project folder to the sidebar."
+msgstr "Legg til en prosjektmappe i sidestolpen."
+
+#: plugins/pastebin/pastebin_dialog.vala:248
+#: plugins/pastebin/pastebin_dialog.vala:328 plugins/pastebin/pastebin.vala:124
+msgid "Upload to Pastebin"
+msgstr "Last opp til Pastebin"
+
+#: plugins/pastebin/pastebin_dialog.vala:257
+msgid "Name:"
+msgstr "Navn:"
+
+#: plugins/pastebin/pastebin_dialog.vala:261
+msgid "Format:"
+msgstr "Format:"
+
+#: plugins/pastebin/pastebin_dialog.vala:268
+msgid "Choose different format"
+msgstr "Velg annet format"
+
+#: plugins/pastebin/pastebin_dialog.vala:290
+msgid "Expiration:"
+msgstr "Utløp:"
+
+#: plugins/pastebin/pastebin_dialog.vala:297
+msgid "Keep this paste private"
+msgstr "Hold denne insettingen privat"
+
+#: plugins/pastebin/pastebin_dialog.vala:354
+msgid "Available Formats"
+msgstr "Tilgjengelige formater"
+
+#: plugins/pastebin/pastebin_dialog.vala:380
+msgid "Select Format"
+msgstr "Velg format"
+
+#: plugins/pastebin/pastebin_dialog.vala:468
+msgid "Ten minutes"
+msgstr "Ti minutter"
+
+#: plugins/pastebin/pastebin_dialog.vala:469
+msgid "One hour"
+msgstr "En time"
+
+#: plugins/pastebin/pastebin_dialog.vala:470
+msgid "One day"
+msgstr "En dag"
+
+#: plugins/pastebin/pastebin_dialog.vala:471
+msgid "One month"
+msgstr "En måned"
+
+#: plugins/spell/spell.vala:73
+msgid "No Suitable Dictionaries Were Found"
+msgstr "Ingen dugelige ordbøker ble funnet"
+
+#: plugins/spell/spell.vala:74
+msgid "Please install at least one [aspell] dictionary."
+msgstr "Installer minst én [aspel]-ordbok."
+
+#: plugins/word-completion/plugin.vala:165
+#: plugins/word-completion/completion-provider.vala:55
+#, c-format
+msgid "%s - Word Completion"
+msgstr "%s - Ordfullføring"
+
+#~ msgid "Case sensitive:"
+#~ msgstr "Forskjell på store og små bokstaver:"
+
+#~ msgid "Use regular expressions:"
+#~ msgstr "Bruk regulære uttrykk:"
+
+#, fuzzy, c-format
+#~| msgid "Current working directory"
+#~ msgid "Local repository working directory is %s"
+#~ msgstr "Gjeldende arbeidsmappe"
+
+#~ msgid "Tabs"
+#~ msgstr "Faner"
+
+#~ msgid "Tab width:"
+#~ msgstr "Tabulatorbredde:"
+
+#~ msgid "Line wrap:"
+#~ msgstr "Linjebryting:"
+
+#~ msgid "Custom font:"
+#~ msgstr "Egendefinert skrifttype:"
+
+#~ msgid "Visible whitespace:"
+#~ msgstr "Synlige blanktegn:"
+
+#, fuzzy, c-format
+#~| msgid "The file %s was deleted."
+#~ msgid "File “%s” was deleted."
+#~ msgstr "Filen%s ble slettet."
+
+#~ msgid "Set of plugins"
+#~ msgstr "Utvidelser"
+
+#~ msgid "plugin"
+#~ msgstr "utvidelse"
+
+#~ msgid "Save As…"
+#~ msgstr "Lagre som …"
+
+#~ msgid "Load"
+#~ msgstr "Last inn"
+
+#, fuzzy, c-format
+#~| msgid ""
+#~| "You cannot save the document to \"%s\". Do you want to save the file "
+#~| "somewhere else?"
+#~ msgid ""
+#~ "You cannot save the document to “%s”. Do you want to save the file "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Du kan ikke lagre dokumentet i «%s». Ønsker du å lagre filen et annet "
+#~ "sted?"
+
+#, fuzzy, c-format
+#~| msgid ""
+#~| "You cannot save changes to the file \"%s\". Do you want to save the "
+#~| "changes somewhere else?"
+#~ msgid ""
+#~ "You cannot save changes to the file “%s”. Do you want to save the changes "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Du kan ikke lagre endringer i filen \"%s\". Ønsker du å lagre endringene "
+#~ "et annet sted?"
+
+#, c-format
+#~ msgid "File \"%s\" Cannot Be Read"
+#~ msgstr "Filen \"%s\" kan ikke leses"
+
+#~ msgid "Case Insensitive"
+#~ msgstr "Ingen forskjell på store og små bokstaver"
+
+#~ msgid "Save changes elsewhere"
+#~ msgstr "Lagre endringer annensteds hen"
+
+#~ msgid "Open Project Folder…"
+#~ msgstr "Åpne prosjektmappe …"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "Toggle Sidebar"
+#~ msgstr "Veksle sidepanel"
+
+#~ msgid "Find…"
+#~ msgstr "Finn…"
+
+#~ msgid "Draw Spaces:"
+#~ msgstr "Tegn mellomrom:"
+
+#~ msgid "For selected text"
+#~ msgstr "For valgt tekst"
+
+#~ msgid "High Contrast"
+#~ msgstr "Høy kontrast"
+
+#~ msgid "Solarized Light"
+#~ msgstr "Solarisert lys"
+
+#~ msgid "Solarized Dark"
+#~ msgstr "Solarisert lys"
+
+#, fuzzy
+#~| msgid "Add a project folder to the sidebar."
+#~ msgid "Open a Git project folder in the sidebar."
+#~ msgstr "Legg til en prosjektmappe i sidestolpen."
+
+#, fuzzy
+#~| msgid "Add a project folder to the sidebar."
+#~ msgid ""
+#~ "Open a document in a Git project folder in the sidebar or use a project "
+#~ "context menu."
+#~ msgstr "Legg til en prosjektmappe i sidestolpen."
+
+#, fuzzy
+#~| msgid "Search next"
+#~ msgid "Search for:"
+#~ msgstr "Søk neste"
+
+#~ msgid "Zeitgeist Datasource for Code"
+#~ msgstr "Zeitgeist datakilde for Kode"
+
+#~ msgid "%s, New"
+#~ msgstr "%s, ny"
+
+#~ msgid "File \"%s\" Cannot Be Created"
+#~ msgstr "Filen \"%s\" kan ikke opprettes"
+
+#~ msgid "Maybe you do not have the necessary permissions."
+#~ msgstr "Det er mulig du ikke har de nødvendige rettighetene."
+
+#~ msgid "Maybe the file path provided is not valid."
+#~ msgstr "Det er mulig stien du oppga ikke er gyldig."
+
+#~ msgid "The location is read-only."
+#~ msgstr "Plasseringen kan bare leses."
+
+#~ msgid "The parent directory doesn't exist."
+#~ msgstr "Overnevnt mappe finnes ikke."
+
+#~ msgid "It is a mountable location."
+#~ msgstr "Det er en plassering som kan monteres."
+
+#~ msgid ""
+#~ "It is a \"special\" file such as a socket,\n"
+#~ " FIFO, block device, or character device."
+#~ msgstr ""
+#~ "Er en \"spesiell\" fil, som en socket,\n"
+#~ "FIFO, blokkenhet, eller tegnenhet."
+
+#~ msgid "It is an \"unknown\" file type."
+#~ msgstr "Det er en \"ukjent\" filtype."
+
+#~ msgid "File \"%s\" Cannot Be Opened"
+#~ msgstr "Filen \"%s\" kan ikke åpnes"
+
+#~ msgid "Web Preview"
+#~ msgstr "Forhåndsvisning som nettside"
+
+#~ msgid "Hide Preview"
+#~ msgstr "Skjul forhåndsvisning"
+
+#~ msgid "Share via Pastebin"
+#~ msgstr "Del på Pastebin"
+
+#~ msgid "Other formats"
+#~ msgstr "Andre formater"
+
+#~ msgid "Add New View"
+#~ msgstr "Legg til ny visning"
+
+#~ msgid "untitled folder %d"
+#~ msgstr "ikke navngitt mappe %d"
+
+#~ msgid "new file %d"
+#~ msgstr "ny fil %d"
+
+#~ msgid "Could not load icon theme: %s\n"
+#~ msgstr "Kunne ikke laste drakt for ikoner: %s\n"
+
+#~ msgid "directory"
+#~ msgstr "mappe"
+
+#~ msgid ""
+#~ "File \"%s\" cannot be created.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kan ikke lage filen \"%s\".\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "File \"%s\" cannot be opened.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kan ikke åpne filen \"%s\".\n"
+#~ "%s"
+
+#~ msgid "Highlight current line:"
+#~ msgstr "Uthev den valgte linja"
+
+#~ msgid "New file"
+#~ msgstr "Ny fil"
+
+#~ msgid "New file from clipboard"
+#~ msgstr "Ny fil fra utklippstavlen"
+
+#~ msgid "Create a new file from the contents of your clipboard."
+#~ msgstr "Lage en ny fil med innholdet fra utklippstavlen."
+
+#~ msgid "Open With…"
+#~ msgstr "Åpne med..."
+
+#~ msgid "Terminal on Right"
+#~ msgstr "Terminal til høyre"
+
+#~ msgid "Terminal on Bottom"
+#~ msgstr "Terminal nederst"
+
+#~ msgid "Font and Color Scheme"
+#~ msgstr "Skrift og fargevalg"
+
+#~ msgid "Color scheme:"
+#~ msgstr "Fargetema:"
+
+#~ msgid "Edit text files"
+#~ msgstr "Redigér tekstfiler"
+
+#~ msgid "About Scratch"
+#~ msgstr "Om Scratch"
+
+#~ msgid "Trash"
+#~ msgstr "Papirkurv"
+
+#~ msgid "Go to line…"
+#~ msgstr "Gå til linje..."
+
+#~ msgid "Quit"
+#~ msgstr "Avslutt"
+
+#~ msgid "Reopen closed document"
+#~ msgstr "Gjenåpne lukket dokument"
+
+#~ msgid "Open last closed document in a new tab"
+#~ msgstr "Åpne sist lukkede dokument i en ny fane"
+
+#~ msgid "Add New Tab"
+#~ msgstr "Legg til ny fane"
+
+#~ msgid "Add a new tab"
+#~ msgstr "Legg til en ny fane"
+
+#~ msgid "Add a new view"
+#~ msgstr "Legg til en ny visning"
+
+#~ msgid "Remove this view"
+#~ msgstr "Fjern denne visningen"
+
+#~ msgid "Undo"
+#~ msgstr "Angre"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Angre siste handling"
+
+#~ msgid "Redo"
+#~ msgstr "Gjenta"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Gjenopprett siste angrede handling"
+
+#~ msgid "Revert"
+#~ msgstr "Tilbakestill"
+
+#~ msgid "Duplicate selected strings"
+#~ msgstr "Kopier de valgte strengene"
+
+#~ msgid "Clipboard"
+#~ msgstr "Utklippstavle"
+
+#~ msgid "New file from Clipboard"
+#~ msgstr "Ny fil med innhold fra utklippstavle"
+
+#~ msgid "Next Tab"
+#~ msgstr "Neste fane"
+
+#~ msgid "Previous Tab"
+#~ msgstr "Forrige fane"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Hele skjermen"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Allan Nordhøy https://launchpad.net/~comradekingu\n"
+#~ "  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+#~ "  Mathias Bynke https://launchpad.net/~mabynke\n"
+#~ "  Niklas Fjeldberg https://launchpad.net/~niklasolai\n"
+#~ "  ProsjektX https://launchpad.net/~prosjektx\n"
+#~ "  Thomas Lekanger https://launchpad.net/~datagutt\n"
+#~ "  pingu https://launchpad.net/~hangud\n"
+#~ "  Åka Sikrom https://launchpad.net/~akrosikam"
+
+#~ msgid "Wait while restoring last session..."
+#~ msgstr "Vent mens foregående sesjon gjenopprettes..."
+
+#~ msgid "Normal Text"
+#~ msgstr "Normal Tekst"
+
+#~ msgid "When Scratch starts:"
+#~ msgstr "Når programmet starter:"
+
+#~ msgid "Show welcome screen"
+#~ msgstr "Vis velkomstskjerm"
+
+#~ msgid "Show last open tabs"
+#~ msgstr "Vis sist brukte faner"
+
+#~ msgid "A terminal in your text editor"
+#~ msgstr "En terminal i din tekstbehandler"
+
+#~ msgid "Highlight Selected Words"
+#~ msgstr "Uthev de valgte ordene"
+
+#~ msgid "Highlights all occurrences of words that are selected"
+#~ msgstr "Uthever alle tilfeller av ord som er valgt"
+
+#~ msgid "Brackets Completion"
+#~ msgstr "Fullføring av parenteser"
+
+#~ msgid "Complete brackets while typing"
+#~ msgstr "Fullfør paranteser under skriving"
+
+#~ msgid "Source Tree"
+#~ msgstr "Modertre"
+
+#~ msgid "Have a look at your sources organized in a nice tree"
+#~ msgstr "Ta i øyesyn dine kilder organisert i en fin avgreiningsvisning"
+
+#~ msgid "Loading..."
+#~ msgstr "Laster…"
+
+#~ msgid "Bookmark"
+#~ msgstr "Bokmerke"
+
+#~ msgid "Files"
+#~ msgstr "Filer"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Bokmerker"
+
+#~ msgid "Vim Emulation"
+#~ msgstr "Vim-etterligning"
+
+#~ msgid "Use Vim commands in Scratch"
+#~ msgstr "Bruk Vim-kommandoer i Scratch"
+
+#~ msgid "Clipboard History"
+#~ msgstr "Utklippstavle historikk"
+
+#~ msgid "Clipboard to view history"
+#~ msgstr "Utklippstavle for å vise historikk"
+
+#~ msgid "..."
+#~ msgstr "…"
+
+#~ msgid "Delete"
+#~ msgstr "Slett"
+
+#~ msgid "Outline"
+#~ msgstr "Omriss"
+
+#~ msgid "Outline symbols in your current file in vala"
+#~ msgstr "Uthev symboler i din aktuelle fil i Vala"
+
+#~ msgid "Folder Manager"
+#~ msgstr "Mappebehandler"
+
+#~ msgid "Basic folder manager with file browsing"
+#~ msgstr "Standard mappebehandler med filutforskning"
+
+#~ msgid "Go to parent"
+#~ msgstr "Gå til forelder"
+
+#~ msgid "Add file"
+#~ msgstr "Legg til fil"
+
+#~ msgid "Remove file"
+#~ msgstr "Fjern fil"
+
+#~ msgid "File Manager"
+#~ msgstr "Filbehandler"
+
+#~ msgid "Spell Checker"
+#~ msgstr "Stavekontroll"
+
+#~ msgid "Checks the spelling of your documents"
+#~ msgstr "Sjekker stavingen i dokumentene dine"
+
+#~ msgid "Browser Preview"
+#~ msgstr "Forhåndsvisning i nettleser"
+
+#~ msgid "Get a preview your work in a web page"
+#~ msgstr "Forhåndsvisning av arbeid i en nettside"
+
+#~ msgid "Words Completion"
+#~ msgstr "Ordfullføring"
+
+#~ msgid "Show a completion dialog with most used words from your files"
+#~ msgstr "Vis fullføringsdialog med de oftest brukte ordebe fra dine filer"
+
+#~ msgid "Pastebin"
+#~ msgstr "Pastebin"
+
+#~ msgid "Share files with pastebin service"
+#~ msgstr "Del filer med pastebin service"
+
+#~ msgid "Share your files with Contractor"
+#~ msgstr "Del dine filer med Contractor"
+
+#~ msgid "Preserve Indent"
+#~ msgstr "Bevar innrykk"
+
+#~ msgid "Maintains indent level of pasted text when auto-indent is active"
+#~ msgstr ""
+#~ "Beholder dybde på innrykk av tekst som limes inn når auto-inntrykk er "
+#~ "aktivt"
+
+#~ msgid "Open With"
+#~ msgstr "Åpne med"
+
+#~ msgid "Open files you are editing with another application"
+#~ msgstr "Åpne filene du behandler med annet program"
+
+#~ msgid "Detect Indent"
+#~ msgstr "Detekter innrykk"
+
+#~ msgid "Heuristically detect tab or space settings"
+#~ msgstr "Detekter innstillinger for tabulator og mellomrom"
+
+#~ msgid "Go to line..."
+#~ msgstr "Gå til linje..."
+
+#~ msgid "Find..."
+#~ msgstr "Finn …"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Lag nytt dokument i en ny fane"
+
+#~ msgid "New document"
+#~ msgstr "Nytt dokument"
+
+#~ msgid "Previous Search"
+#~ msgstr "Forrige søk"
+
+#~ msgid "Next Search"
+#~ msgstr "Nete søk"
+
+#~ msgid "Save as"
+#~ msgstr "Lagre som..."
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Lagre aktiv fil med et nytt navn"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Opprett et nytt dokument fra en skisse"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Argument for settet av utvidelser"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Bunnpanelet"
+
+#~ msgid "Status Bar"
+#~ msgstr "Statuslinje"
+
+#~ msgid "Context View"
+#~ msgstr "Kontekstvisning"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Velg ny plassering"
+
+#~ msgid "No files are open."
+#~ msgstr "Ingen filer er åpne."
+
+#~ msgid "Normal text"
+#~ msgstr "Vanlig tekst"
+
+#~ msgid "General:"
+#~ msgstr "Generelt:"
+
+#~ msgid "Editor:"
+#~ msgstr "Redigerer:"
+
+#~ msgid "Tabs:"
+#~ msgstr "Faner:"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Vis marg på høyre side:"
+
+#~ msgid "Draw spaces:"
+#~ msgstr "Tegn mellomrom:"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Lagre endringer til fila før lukking?"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Du kan ikke lagre endriner til:"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "Endringene i denne fila har ikke blitt lagra."
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Vl du lagre endringene før denne fia lukkes?"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Vil du laste den på nytt?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Vil du lage det på nytt?"
+
+#~ msgid "The file %s was modified."
+#~ msgstr "Filen%s ble endret."
+
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "Lagre ulagrede endringer til fil %s før du avslutter?"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "Det er ulagrede endringer!"
+
+#~ msgid ""
+#~ "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Vil du lagre endringene i denne fila til en annen plass?"
+
+#~ msgid "Font and Color Scheme:"
+#~ msgstr "Skrifttype og fargevalg:"

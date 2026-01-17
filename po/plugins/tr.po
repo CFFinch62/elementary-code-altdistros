@@ -1,0 +1,138 @@
+# Turkish translations for plugins package.
+# Copyright (C) 2018 THE plugins'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the plugins package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2024-09-20 09:43+0000\n"
+"Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/code/plugins/tr/"
+">\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#: plugins/brackets-completion/brackets-completion.plugin:6
+msgid "Brackets Completion"
+msgstr "Parantez Tamamlama"
+
+#: plugins/brackets-completion/brackets-completion.plugin:7
+msgid "Complete brackets while typing"
+msgstr "Parantezleri yazarken tamamla"
+
+#: plugins/detect-indent/detect-indent.plugin:6
+msgid "Detect Indent"
+msgstr "Girintiyi Algıla"
+
+#: plugins/detect-indent/detect-indent.plugin:7
+msgid "Heuristically detect tab or space settings"
+msgstr "Sekme veya boşluk ayarlarını sezgisel olarak tespit et"
+
+#: plugins/editorconfig/editorconfig.plugin:6
+msgid "EditorConfig"
+msgstr "EditorConfig"
+
+#: plugins/editorconfig/editorconfig.plugin:7
+msgid "Load settings from an EditorConfig file"
+msgstr "Ayarları bir EditorConfig dosyasından yükle"
+
+#: plugins/fuzzy-search/fuzzy-search.plugin:6
+msgid "Find Project Files"
+msgstr "Proje Dosyalarını Bul"
+
+#: plugins/fuzzy-search/fuzzy-search.plugin:7
+msgid "Fuzzy search for files in all open projects (Show using ALT + F)"
+msgstr ""
+"Tüm açık projelerdeki dosyalar için yaklaşık arama (ALT + F kullanarak "
+"göster)"
+
+#: plugins/highlight-word-selection/highlight-word-selection.plugin:6
+msgid "Highlight Word Selection"
+msgstr "Kelime Seçimini Vurgula"
+
+#: plugins/highlight-word-selection/highlight-word-selection.plugin:7
+msgid "Highlights all occurrences of words that are selected"
+msgstr "Seçilmiş olan tüm kelime oluşumlarını vurgula"
+
+#: plugins/markdown-actions/markdown-actions.plugin:6
+msgid "Markdown Actions"
+msgstr "Markdown Eylemleri"
+
+#: plugins/markdown-actions/markdown-actions.plugin:7
+msgid "Adds keyboard shortcuts for quick editing Markdown files"
+msgstr ""
+"Markdown dosyalarını hızlı bir şekilde düzenlemek için klavye kısayolları "
+"ekler"
+
+#: plugins/pastebin/pastebin.plugin:6
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: plugins/pastebin/pastebin.plugin:7
+msgid "Share files with pastebin service"
+msgstr "Dosyaları pastebin servisi ile paylaş"
+
+#: plugins/preserve-indent/preserve-indent.plugin:6
+msgid "Preserve Indent"
+msgstr "Girintiyi Koru"
+
+#: plugins/preserve-indent/preserve-indent.plugin:7
+msgid "Maintains relative indent level of pasted text"
+msgstr "Yapıştırılan metnin göreceli girinti seviyesini korur"
+
+#: plugins/spell/spell.plugin:6
+msgid "Spell Checker"
+msgstr "Yazım Denetleyicisi"
+
+#: plugins/spell/spell.plugin:7
+msgid "Checks the spelling of your documents"
+msgstr "Belgelerinizde yazım denetimi yapar"
+
+#: plugins/vim-emulation/vim-emulation.plugin:6
+msgid "Vim Emulation"
+msgstr "Vim Emülasyonu"
+
+#: plugins/vim-emulation/vim-emulation.plugin:7
+msgid "Use Vim commands in Code"
+msgstr "Kod uygulamasında Vim komutlarını kullan"
+
+#: plugins/word-completion/word-completion.plugin:3
+msgid "Words Completion"
+msgstr "Kelime Tamamlama"
+
+#: plugins/word-completion/word-completion.plugin:7
+msgid "Show a completion dialog with most used words from your files"
+msgstr ""
+"Dosyalarınızdaki en çok kullanılan kelimeler için bir tamamlama iletişim "
+"kutusu göster"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "A terminal in your code editor"
+#~ msgstr "Kod düzenleyicinizdeki terminal"
+
+#~ msgid "Outline"
+#~ msgstr "Outline"
+
+#~ msgid "Outline symbols in your current file for Vala"
+#~ msgstr "Vala dosyalarınızdaki sembolleri kenar çubuğunda gösterir"
+
+#~ msgid "Strip trailing whitespace"
+#~ msgstr "Sondaki boşlukları temizle"
+
+#~ msgid "Strip trailing whitespace on save"
+#~ msgstr "Kaydederken sondaki boşlukları temizler"
+
+#~ msgid "Browser Preview"
+#~ msgstr "Tarayıcı Önizlemesi"
+
+#~ msgid "Get a preview of your work in a web page"
+#~ msgstr "Çalışmanızın bir önizlemesini bir web sayfasında görün"

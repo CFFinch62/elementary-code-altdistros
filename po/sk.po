@@ -1,0 +1,1792 @@
+# Slovak translation for scratch
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2022-12-26 20:25+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/code/code/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.2\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:03+0000\n"
+
+#: src/Application.vala:41 src/Widgets/DocumentView.vala:99
+msgid "New Tab"
+msgstr "Nová karta"
+
+#: src/Application.vala:42 src/FolderManager/FileItem.vala:87
+msgid "New Window"
+msgstr "Nové okno"
+
+#: src/Application.vala:43
+msgid "Print version info and exit"
+msgstr "Zobraziť informácie o verzii a ukončiť"
+
+#: src/Application.vala:44
+msgid "Open file at specified selection range"
+msgstr ""
+
+#: src/Application.vala:44
+msgid "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+msgstr ""
+
+#: src/Application.vala:45
+msgid "[FILE…]"
+msgstr "[SÚBOR…]"
+
+#: src/MainWindow.vala:263
+#, fuzzy, c-format
+#| msgid "Code"
+msgid "Code (%s)"
+msgstr "Kód"
+
+#: src/MainWindow.vala:265
+msgid "Code"
+msgstr "Kód"
+
+#: src/MainWindow.vala:399
+msgid "Hide search bar"
+msgstr "Skryť panel vyhľadávania"
+
+#: src/MainWindow.vala:404 src/Widgets/HeaderBar.vala:122
+#, fuzzy
+#| msgid "Find in Project…"
+msgid "Find on Page…"
+msgstr "Nájsť v projekte…"
+
+#: src/MainWindow.vala:415
+#, fuzzy
+#| msgid "Hide search bar"
+msgid "Hide Projects Sidebar"
+msgstr "Skryť panel vyhľadávania"
+
+#: src/MainWindow.vala:420
+#, fuzzy
+#| msgid "Show Preview"
+msgid "Show Projects Sidebar"
+msgstr "Zobraziť náhľad"
+
+#: src/MainWindow.vala:429
+msgid "Hide Symbol Outline"
+msgstr ""
+
+#: src/MainWindow.vala:434
+#, fuzzy
+#| msgid "No Symbols Found"
+msgid "Show Symbol Outline"
+msgstr "Neboli nájdené žiadne symboly"
+
+#: src/MainWindow.vala:443
+msgid "Hide Terminal"
+msgstr "Skryť terminál"
+
+#: src/MainWindow.vala:448 src/Widgets/HeaderBar.vala:196
+msgid "Show Terminal"
+msgstr "Zobraziť terminál"
+
+#. Update MainWindow title
+#. / TRANSLATORS: First placeholder is document name, second placeholder is app name
+#: src/MainWindow.vala:618
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
+#: src/MainWindow.vala:977 src/Services/Document.vala:668
+msgid "All files"
+msgstr "Všetky súbory"
+
+#: src/MainWindow.vala:981 src/Services/Document.vala:672
+msgid "Text files"
+msgstr "Textové súbory"
+
+#: src/MainWindow.vala:985
+msgid "Open some files"
+msgstr "Otvorte nejaké súbory"
+
+#: src/MainWindow.vala:988
+msgid "Open"
+msgstr "Otvoriť"
+
+#: src/MainWindow.vala:989 src/Dialogs/CloneRepositoryDialog.vala:58
+#: src/Dialogs/CloneRepositoryDialog.vala:97
+#: src/Dialogs/GlobalSearchDialog.vala:86 src/Dialogs/NewBranchDialog.vala:42
+#: src/Services/Document.vala:510 src/Services/Document.vala:680
+#: plugins/pastebin/pastebin_dialog.vala:327
+#: plugins/pastebin/pastebin_dialog.vala:378
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: src/MainWindow.vala:1032
+msgid "_Open"
+msgstr "_Otvoriť"
+
+#: src/MainWindow.vala:1033
+msgid "_Cancel"
+msgstr "_Zrušiť"
+
+#: src/MainWindow.vala:1088
+msgid "Cloning completed"
+msgstr ""
+
+#: src/MainWindow.vala:1089
+#, c-format
+msgid "Clone successfully created in %s"
+msgstr ""
+
+#: src/MainWindow.vala:1095
+#, c-format
+msgid "Unable to clone %s"
+msgstr ""
+
+#: src/MainWindow.vala:1102
+msgid "Retry"
+msgstr ""
+
+#. /TRANSLATORS '%s' represents the quoted basename of a uri to be opened with the default app
+#: src/Utils.vala:212
+#, c-format
+msgid "Show '%s' with default app"
+msgstr ""
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/CloneRepositoryDialog.vala:55
+msgid "Create a local clone of a Git repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:56
+msgid ""
+"The source repository and local folder must exist and have the required read "
+"and write permissions"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:59
+msgid "Clone Repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:69
+msgid "https://example.com/username/projectname.git"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:93
+msgid "Select folder where the cloned repository will be created"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:96
+#, fuzzy
+#| msgid "Select Format"
+msgid "Select"
+msgstr "Vybrať formát"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:118
+msgid "Repository URL"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:119
+msgid "Location"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:120
+msgid "Name of Clone"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:122
+msgid "Cloning in progress"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:62
+#, fuzzy
+#| msgid "The search term must be at least 3 characters long."
+msgid "The search term will be treated as a regex expression"
+msgstr "Vyhľadávaný pojem musí byť dlhý aspoň 3 znaky."
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case sensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case insensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:65
+msgid "Search will match only whole words"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:68
+#, c-format
+msgid "Search for text in “%s”"
+msgstr "Vyhľadať text v „%s“"
+
+#: src/Dialogs/GlobalSearchDialog.vala:69
+msgid "The search term must be at least 3 characters long."
+msgstr "Vyhľadávaný pojem musí byť dlhý aspoň 3 znaky."
+
+#: src/Dialogs/GlobalSearchDialog.vala:88
+msgid "Search"
+msgstr "Hľadať"
+
+#: src/Dialogs/NewBranchDialog.vala:43
+#, c-format
+msgid "Create a new branch of “%s/%s”"
+msgstr "Vytvoriť novú vetvu „%s/%s“"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/NewBranchDialog.vala:48
+msgid "The branch name must be unique and follow Git naming rules."
+msgstr ""
+"Názov vetvy musí byť jedinečný a musí byť v súlade s pravidlami názvov Git."
+
+#: src/Dialogs/NewBranchDialog.vala:56
+msgid "Create Branch"
+msgstr "Vytvoriť vetvu"
+
+#: src/Dialogs/PreferencesDialog.vala:15 src/Widgets/HeaderBar.vala:218
+msgid "Preferences"
+msgstr "Predvoľby"
+
+#: src/Dialogs/PreferencesDialog.vala:23
+msgid "General"
+msgstr "Všeobecné"
+
+#: src/Dialogs/PreferencesDialog.vala:24
+#, fuzzy
+#| msgid "Save files when changed:"
+msgid "Save files when changed"
+msgstr "Ukladať súbory po upravení:"
+
+#: src/Dialogs/PreferencesDialog.vala:25
+#, fuzzy
+#| msgid "Strip trailing whitespace:"
+msgid "Strip trailing whitespace on save"
+msgstr "Odstraňovať medzery na konci riadkov:"
+
+#: src/Dialogs/PreferencesDialog.vala:27
+#, fuzzy
+#| msgid "Smart cut/copy lines:"
+msgid "Smart cut/copy lines"
+msgstr "Inteligentné vystrihnutie/kopírovanie riadkov:"
+
+#: src/Dialogs/PreferencesDialog.vala:29
+msgid ""
+"Cutting or copying without an active selection will cut or copy the entire "
+"current line"
+msgstr ""
+"Vystrihnutie alebo kopírovanie bez aktívneho výberu vystrihne alebo "
+"skopíruje celý aktuálny riadok"
+
+#: src/Dialogs/PreferencesDialog.vala:35
+#, fuzzy
+#| msgid "Margin width:"
+msgid "Indentation width"
+msgstr "Šírka okraja:"
+
+#: src/Dialogs/PreferencesDialog.vala:46
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Indentation"
+msgstr "Automatické odsadzovanie:"
+
+#: src/Dialogs/PreferencesDialog.vala:47
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic indentation"
+msgstr "Automatické odsadzovanie:"
+
+#: src/Dialogs/PreferencesDialog.vala:48
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert spaces instead of tabs"
+msgstr "Vkladať medzery namiesto tabulátorov:"
+
+#: src/Dialogs/PreferencesDialog.vala:57
+msgid "Default build directory"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:67
+#, fuzzy
+#| msgid "Project"
+msgid "Projects"
+msgstr "Projekt"
+
+#: src/Dialogs/PreferencesDialog.vala:78
+msgid "None"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:79
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Current Line"
+msgstr "Odstrániť aktuálne zobrazenie"
+
+#: src/Dialogs/PreferencesDialog.vala:80
+msgid "All"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:96
+msgid "Whitespace visible when not selected"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:111
+msgid "Editor"
+msgstr "Editor"
+
+#: src/Dialogs/PreferencesDialog.vala:112
+#, fuzzy
+#| msgid "Highlight matching brackets:"
+msgid "Highlight matching brackets"
+msgstr "Zvýrazňovať zodpovedajúce zátvorky:"
+
+#: src/Dialogs/PreferencesDialog.vala:114
+#, fuzzy
+#| msgid "Show Mini Map:"
+msgid "Mini Map"
+msgstr "Zobraziť minimapu:"
+
+#: src/Dialogs/PreferencesDialog.vala:115
+msgid "Wrap lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:116
+#, fuzzy
+#| msgid "Line width guide:"
+msgid "Line width guide"
+msgstr "Vodidlo dĺžky riadku:"
+
+#: src/Dialogs/PreferencesDialog.vala:124
+msgid "Font"
+msgstr "Písmo"
+
+#: src/Dialogs/PreferencesDialog.vala:125
+msgid "Use system font"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:136
+msgid "Behavior"
+msgstr "Správanie"
+
+#: src/Dialogs/PreferencesDialog.vala:137 src/SymbolPane/SymbolOutline.vala:51
+msgid "Interface"
+msgstr "Rozhranie"
+
+#: src/Dialogs/PreferencesDialog.vala:153 src/Services/PluginManager.vala:130
+msgid "Extensions"
+msgstr "Rozšírenia"
+
+#: src/Dialogs/PreferencesDialog.vala:159
+#: plugins/pastebin/pastebin_dialog.vala:434
+msgid "Close"
+msgstr "Zatvoriť"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:31
+msgid "Are You Sure You Want to Restore This File?"
+msgstr "Ste si istý, že chcete obnoviť tento súbor?"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:32
+msgid "Restoring a file will undo all changes made since opening it"
+msgstr "Obnovenie súboru zmaže všetky vykonané zmeny od jeho otvorenia"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:34
+msgid "Don't Restore"
+msgstr "Neobnovovať"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:36
+msgid "Restore Anyway"
+msgstr "Napriek tomu obnoviť"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:40
+msgid "This folder is the parent of an open project"
+msgid_plural "This folder is the parent of open projects"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:46
+msgid "Opening this folder will close the child project"
+msgid_plural "Opening this folder will close all child projects"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:52
+msgid "Close Child Project"
+msgid_plural "Close Child Projects"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:57
+msgid "This folder is a child of an open project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:58
+msgid "Opening this folder will close the parent project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:59
+msgid "Close Parent Project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:62
+#, fuzzy
+#| msgid "Don't Restore"
+msgid "Don't Open"
+msgstr "Neobnovovať"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:40
+msgid "There are uncommitted changes in the current branch"
+msgstr ""
+
+#. /TRANSLATORS '%s' is a placeholder for the name of the branch to be checked out
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:42
+#, c-format
+msgid ""
+"Uncommitted changes will be permanently lost if <b>'%s'</b> is checked out "
+"now.\n"
+"\n"
+"<i>It is recommended that uncommitted changes are stashed, committed, or "
+"reverted before proceeding.</i>"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:44
+msgid "Do not Checkout"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:45
+msgid "Checkout and Overwrite"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:49 src/FolderManager/FolderItem.vala:166
+msgid "Other Actions"
+msgstr "Ostatné akcie"
+
+#: src/FolderManager/FileItem.vala:55 src/FolderManager/FolderItem.vala:140
+msgid "Rename"
+msgstr "Premenovať"
+
+#: src/FolderManager/FileItem.vala:65 src/FolderManager/FolderItem.vala:148
+msgid "Move to Trash"
+msgstr "Presunúť do koša"
+
+#: src/FolderManager/FileItem.vala:100 src/FolderManager/FolderItem.vala:198
+msgid "Other Application…"
+msgstr "Iná aplikácia…"
+
+#: src/FolderManager/FileItem.vala:115 src/FolderManager/FolderItem.vala:218
+msgid "Open In"
+msgstr "Otvoriť v"
+
+#: src/FolderManager/FileView.vala:74
+msgid "Folders"
+msgstr "Priečinky"
+
+#: src/FolderManager/FolderItem.vala:156
+msgid "Find in Folder…"
+msgstr "Nájsť v priečinku…"
+
+#: src/FolderManager/FolderItem.vala:189
+#, fuzzy
+#| msgid "Terminal"
+msgid "Terminal Pane"
+msgstr "Terminál"
+
+#: src/FolderManager/FolderItem.vala:224
+msgid "Folder"
+msgstr "Priečinok"
+
+#: src/FolderManager/FolderItem.vala:232
+msgid "Empty File"
+msgstr "Prázdny súbor"
+
+#. scan all children
+#. No need to show status when children shown
+#: src/FolderManager/FolderItem.vala:243
+#: src/FolderManager/ProjectFolderItem.vala:427
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "New"
+msgstr "Nový"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "untitled folder"
+msgstr "priečinok bez názvu"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "new file"
+msgstr "nový súbor"
+
+#: src/FolderManager/ProjectFolderItem.vala:147
+#, fuzzy
+#| msgid "Active Git project: %s"
+msgid "Set as Active Project"
+msgstr "Aktívny Git projekt: %s"
+
+#: src/FolderManager/ProjectFolderItem.vala:155
+msgid "Open in Terminal Pane"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:186
+msgid "Close Folder"
+msgstr "Zatvoriť priečinok"
+
+#: src/FolderManager/ProjectFolderItem.vala:194
+msgid "Close Other Folders"
+msgstr "Zatvoriť ostatné priečinky"
+
+#: src/FolderManager/ProjectFolderItem.vala:211
+#, c-format
+msgid "Close %u Open Document"
+msgid_plural "Close %u Open Documents"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:223
+#, fuzzy, c-format
+#| msgid "New Document"
+msgid "Hide %u Open Document"
+msgid_plural "Hide %u Open Documents"
+msgstr[0] "Nový dokument"
+msgstr[1] "Nový dokument"
+msgstr[2] "Nový dokument"
+
+#: src/FolderManager/ProjectFolderItem.vala:246
+#, c-format
+msgid "Restore %u Hidden Document"
+msgid_plural "Restore %u Hidden Documents"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:279 src/Widgets/HeaderBar.vala:131
+msgid "Find in Project…"
+msgstr "Nájsť v projekte…"
+
+#: src/FolderManager/ProjectFolderItem.vala:320
+msgid "Local"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:337
+msgid "Remote"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:352
+msgid "New Branch…"
+msgstr "Nová vetva…"
+
+#: src/FolderManager/ProjectFolderItem.vala:377
+msgid "Branch"
+msgstr "Vetva"
+
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "Modified"
+msgstr "Upravený"
+
+#: src/FolderManager/ProjectFolderItem.vala:471
+#, c-format
+msgid "Error while creating new branch: “%s”"
+msgstr "Chyba pri vytváraní novej vetvy: „%s“"
+
+#. Empty files are valid text files
+#: src/Services/Document.vala:384
+#, c-format
+msgid "%s Is Not a Text File"
+msgstr "%s nie je textový súbor"
+
+#: src/Services/Document.vala:385
+msgid "Code will not load this type of file."
+msgstr "Aplikácia Kód nenačíta tento typ súboru."
+
+#: src/Services/Document.vala:387
+msgid "Load Anyway"
+msgstr "Napriek tomu načítať"
+
+#: src/Services/Document.vala:408
+#, fuzzy, c-format
+#| msgid "Loading File \"%s\" Is Taking a Long Time"
+msgid "Loading File “%s” Is Taking a Long Time"
+msgstr "Načítanie súboru „%s“ trvá veľmi dlho"
+
+#: src/Services/Document.vala:409
+msgid "Please wait while Code is loading the file."
+msgstr "Prosím čakajte, kým aplikácia Kód načíta súbor."
+
+#: src/Services/Document.vala:411
+msgid "Cancel Loading"
+msgstr "Zrušiť načítanie"
+
+#: src/Services/Document.vala:500
+#, fuzzy, c-format
+#| msgid "Save changes to \"%s\" before closing?"
+msgid "Save changes to “%s” before closing?"
+msgstr "Uložiť zmeny do „%s“ pred ukončením?"
+
+#: src/Services/Document.vala:501
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Ak ich neuložíte, zmeny budú navždy stratené."
+
+#: src/Services/Document.vala:507
+msgid "Close Without Saving"
+msgstr "Zatvoriť bez uloženia"
+
+#: src/Services/Document.vala:511 src/Services/Document.vala:679
+msgid "Save"
+msgstr "Uložiť"
+
+#: src/Services/Document.vala:638
+#, fuzzy, c-format
+#| msgid "Save changes to \"%s\" before closing?"
+msgid "Saving to “%s” failed."
+msgstr "Uložiť zmeny do „%s“ pred ukončením?"
+
+#: src/Services/Document.vala:676
+msgid "Save File"
+msgstr "Uložiť súbor"
+
+#: src/Services/Document.vala:763 src/Services/Document.vala:781
+msgid "New Document"
+msgstr "Nový dokument"
+
+#. No path for a new document
+#: src/Services/Document.vala:783
+#, c-format
+msgid "Cannot save this document to %s"
+msgstr ""
+
+#. Show an error view which says "Hey, I cannot read that file!"
+#: src/Services/Document.vala:870
+#, fuzzy, c-format
+#| msgid "Search for text in “%s”"
+msgid "Cannot read text in file “%s”"
+msgstr "Vyhľadať text v „%s“"
+
+#: src/Services/Document.vala:873
+#, fuzzy
+#| msgid "It may be corrupt or you don't have permission to read it."
+msgid "You may not have permission to read the file."
+msgstr "Môže byť poškodený, alebo nemáte potrebné oprávnenie na jeho čítanie."
+
+#: src/Services/Document.vala:875
+msgid "The file may be corrupt or may not be a text file"
+msgstr ""
+
+#. Lack of read permission results in empty content string. Do not give option to open
+#. in new document in that case.
+#: src/Services/Document.vala:881
+#, fuzzy
+#| msgid "Load Anyway"
+msgid "Show Anyway"
+msgstr "Napriek tomu načítať"
+
+#: src/Services/Document.vala:912
+#, fuzzy, c-format
+#| msgid ""
+#| "The location containing the file \"%s\" was unmounted. Do you want to "
+#| "save somewhere else?"
+msgid ""
+"The location containing the file “%s” was unmounted and there are unsaved "
+"changes."
+msgstr ""
+"Umiestnenie obsahujúce súbor „%s“ bolo odpojené. Chceli by ste ho uložiť na "
+"iné miesto?"
+
+#: src/Services/Document.vala:914
+#, fuzzy, c-format
+#| msgid ""
+#| "File \"%s\" was modified by an external application. Do you want to load "
+#| "it again or continue your editing?"
+msgid "File “%s” was deleted, renamed or moved and there are unsaved changes."
+msgstr ""
+"Súbor „%s“ bol upravený inou aplikáciou. Chceli by ste ho opätovne načítať "
+"alebo chcete pokračovať v úpravách?"
+
+#. Check external changes after loading
+#. The file has become unwritable while changes are pending
+#: src/Services/Document.vala:928
+#, fuzzy, c-format
+#| msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgid "File “%s” does not have write permission."
+msgstr "Súbor „%s“ bol odstránený. Chceli by ste ho aj napriek tomu uložiť?"
+
+#: src/Services/Document.vala:974
+#, fuzzy, c-format
+#| msgid ""
+#| "File \"%s\" was modified by an external application. Do you want to load "
+#| "it again or continue your editing?"
+msgid "File “%s” was modified by an external application"
+msgstr ""
+"Súbor „%s“ bol upravený inou aplikáciou. Chceli by ste ho opätovne načítať "
+"alebo chcete pokračovať v úpravách?"
+
+#: src/Services/Document.vala:979
+msgid ""
+"There are also unsaved changes. Reloading the document will overwrite the "
+"unsaved changes."
+msgstr ""
+
+#: src/Services/Document.vala:983
+msgid "The document changed externally since you last saved it."
+msgstr ""
+
+#: src/Services/Document.vala:999
+#, c-format
+msgid "“%s” can't be saved here. Save a duplicate somewhere else?"
+msgstr ""
+
+#: src/Services/Document.vala:1008
+msgid "Ignore"
+msgstr ""
+
+#: src/Services/Document.vala:1010
+msgid "Save Duplicate…"
+msgstr ""
+
+#: src/Services/Document.vala:1059
+msgid "Continue"
+msgstr "Pokračovať"
+
+#: src/Services/Document.vala:1061
+#, fuzzy
+#| msgid "Upload"
+msgid "Reload"
+msgstr "Nahrať"
+
+#: src/Services/Document.vala:1064
+msgid "Overwrite"
+msgstr ""
+
+#: src/Services/Document.vala:1067
+#, fuzzy
+#| msgid "Save the current file"
+msgid "Save Document elsewhere"
+msgstr "Uložiť súčasný súbor"
+
+#: src/Services/MonitoredRepository.vala:246
+#, c-format
+msgid "Remote Branch '%s' not found"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:247
+msgid ""
+"The requested branch was not found in any remote linked to this repository"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:284
+msgid "An error occurred while checking out the requested branch"
+msgstr ""
+
+#. /TRANSLATORS "%.8s" is a placeholder for the first 8 characters of a commit reference
+#: src/Services/MonitoredRepository.vala:332
+#, c-format
+msgid "%.8s (detached)"
+msgstr ""
+
+#: src/Services/TemplateManager.vala:198
+msgid "Templates"
+msgstr "Šablóny"
+
+#. Remove fake fields created by the vala parser.
+#: src/SymbolPane/C/CtagsSymbolOutline.vala:79
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:193
+#: src/SymbolPane/SymbolOutline.vala:127
+msgid "Symbols"
+msgstr "Symboly"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:122
+#, fuzzy
+#| msgid "Symbols"
+msgid "Too Many Symbols"
+msgstr "Symboly"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:123
+#, c-format
+msgid ""
+"%s contains too many Vala symbols.\n"
+"Parsing and showing them took too long."
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:194
+#, c-format
+msgid "Vala symbols found in %s"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:35
+msgid "Class"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:37
+msgid "Property"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:39
+msgid "Signal"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:41
+msgid "Method"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:43
+msgid "Struct"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:45
+msgid "Enum"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:47
+msgid "Constant"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:49
+msgid "Constructor"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:53
+msgid "Namespace"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:55
+#, fuzzy
+#| msgid "Others…"
+msgid "Other"
+msgstr "Iné…"
+
+#: src/SymbolPane/SymbolOutline.vala:131
+#, fuzzy
+#| msgid "Symbols"
+msgid "Find Symbol"
+msgstr "Symboly"
+
+#: src/SymbolPane/SymbolOutline.vala:140
+msgid "Filter symbol type"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:160
+#, fuzzy
+#| msgid "Select Format"
+msgid "Select All"
+msgstr "Vybrať formát"
+
+#: src/SymbolPane/SymbolOutline.vala:166
+msgid "Deselect All"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:22
+msgid "No Project Selected"
+msgstr "Žiadny zvolený projekt"
+
+#: src/Widgets/ChooseProjectButton.vala:23
+#, fuzzy, c-format
+#| msgid "Active Git project: %s"
+msgid "Active Git Project: %s"
+msgstr "Aktívny Git projekt: %s"
+
+#: src/Widgets/ChooseProjectButton.vala:61
+msgid "Filter projects"
+msgstr "Filtrovať projekty"
+
+#: src/Widgets/ChooseProjectButton.vala:84
+#, fuzzy
+#| msgid "Open Folder"
+msgid "Open Folder…"
+msgstr "Otvoriť priečinok"
+
+#: src/Widgets/ChooseProjectButton.vala:89
+msgid "Clone Git Repository…"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:109
+#, fuzzy
+#| msgid "Close"
+msgid "Closed Tabs"
+msgstr "Zatvoriť"
+
+#: src/Widgets/DocumentView.vala:449
+#, c-format
+msgid "Text file from %s:%d"
+msgstr "Textový súbor z %s:%d"
+
+#: src/Widgets/DocumentView.vala:625
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:626
+#, fuzzy
+#| msgid "Close Other Folders"
+msgid "Close Other Tabs"
+msgstr "Zatvoriť ostatné priečinky"
+
+#: src/Widgets/DocumentView.vala:627
+#, fuzzy
+#| msgid "Close"
+msgid "Close Tab"
+msgstr "Zatvoriť"
+
+#: src/Widgets/DocumentView.vala:630
+#, fuzzy
+#| msgid "New Window"
+msgid "Open in New Window"
+msgstr "Nové okno"
+
+#: src/Widgets/DocumentView.vala:631
+msgid "Duplicate Tab"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:50
+msgid "Syntax Highlighting"
+msgstr "Zvýrazňovanie syntaxe"
+
+#: src/Widgets/FormatBar.vala:60
+msgid "Line number"
+msgstr "Číslo riadku"
+
+#: src/Widgets/FormatBar.vala:87
+msgid "Filter languages"
+msgstr "Filtrovať jazyky"
+
+#: src/Widgets/FormatBar.vala:111
+msgid "Plain Text"
+msgstr "Jednoduchý text"
+
+#: src/Widgets/FormatBar.vala:149
+msgid "Some settings set by EditorConfig file"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:152
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic Indentation"
+msgstr "Automatické odsadzovanie:"
+
+#: src/Widgets/FormatBar.vala:154
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert Spaces Instead Of Tabs"
+msgstr "Vkladať medzery namiesto tabulátorov:"
+
+#: src/Widgets/FormatBar.vala:156
+#, fuzzy
+#| msgid "Tab width:"
+msgid "Tab width"
+msgstr "Šírka tabulátora:"
+
+#: src/Widgets/FormatBar.vala:236
+msgid "Go To Line:"
+msgstr "Prejsť na riadok:"
+
+#: src/Widgets/FormatBar.vala:287
+#, c-format
+msgid "%d Space"
+msgid_plural "%d Spaces"
+msgstr[0] "%d medzera"
+msgstr[1] "%d medzery"
+msgstr[2] "%d medzier"
+
+#: src/Widgets/FormatBar.vala:289
+#, c-format
+msgid "%d Tab"
+msgid_plural "%d Tabs"
+msgstr[0] "%d tabulátor"
+msgstr[1] "%d tabulátory"
+msgstr[2] "%d tabulátorov"
+
+#: src/Widgets/HeaderBar.vala:38
+msgid "Open a file"
+msgstr "Otvoriť súbor"
+
+#: src/Widgets/HeaderBar.vala:44
+msgid "Project templates"
+msgstr "Šablóny projektu"
+
+#: src/Widgets/HeaderBar.vala:51
+msgid "Save this file"
+msgstr "Uložiť tento súbor"
+
+#: src/Widgets/HeaderBar.vala:59
+msgid "Save this file with a different name"
+msgstr "Uložiť súbor pod iným názvom"
+
+#: src/Widgets/HeaderBar.vala:67
+msgid "Restore this file"
+msgstr "Obnoviť tento súbor"
+
+#: src/Widgets/HeaderBar.vala:76
+msgid "Share"
+msgstr "Zdieľať"
+
+#: src/Widgets/HeaderBar.vala:84
+msgid "Zoom Out"
+msgstr "Oddialiť"
+
+#: src/Widgets/HeaderBar.vala:92
+msgid "Zoom 1:1"
+msgstr "Mierka 1:1"
+
+#: src/Widgets/HeaderBar.vala:100
+msgid "Zoom In"
+msgstr "Priblížiť"
+
+#: src/Widgets/HeaderBar.vala:145
+msgid "Follow System Style"
+msgstr "Rešpektovať systémovú tému"
+
+#: src/Widgets/HeaderBar.vala:240
+msgid "Menu"
+msgstr "Menu"
+
+#: src/Widgets/Sidebar.vala:52
+msgid "Cloning complete"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:80
+msgid "Collapse All"
+msgstr "Zbaliť všetko"
+
+#: src/Widgets/Sidebar.vala:83
+msgid "Alphabetize"
+msgstr "Zoradiť abecedne"
+
+#: src/Widgets/Sidebar.vala:91
+#, fuzzy
+#| msgid "Manage project folders"
+msgid "Manage project folders…"
+msgstr "Spravovať priečinky projektu"
+
+#: src/Widgets/SearchBar.vala:101
+msgid "Find"
+msgstr "Nájsť"
+
+#: src/Widgets/SearchBar.vala:104
+#, fuzzy
+#| msgid "no results"
+msgid "No Results"
+msgstr "žiadne výsledky"
+
+#: src/Widgets/SearchBar.vala:116
+msgid "Search next"
+msgstr "Hľadať ďalšie"
+
+#: src/Widgets/SearchBar.vala:126
+msgid "Search previous"
+msgstr "Hľadať predchádzajúce"
+
+#: src/Widgets/SearchBar.vala:129
+msgid "Cyclic Search"
+msgstr "Opakované hľadanie"
+
+#: src/Widgets/SearchBar.vala:132 plugins/pastebin/pastebin_dialog.vala:467
+msgid "Never"
+msgstr "Nikdy"
+
+#: src/Widgets/SearchBar.vala:133
+msgid "Mixed Case"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:134
+msgid "Always"
+msgstr "Vždy"
+
+#: src/Widgets/SearchBar.vala:137
+msgid "Case Sensitive"
+msgstr "Rozlišovať malé a veľké písmená"
+
+#: src/Widgets/SearchBar.vala:144
+#, fuzzy
+#| msgid "Use regular expressions"
+msgid "Use Regular Expressions"
+msgstr "Používať bežné výrazy"
+
+#: src/Widgets/SearchBar.vala:145
+msgid "Match Whole Words"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:166
+#, fuzzy
+#| msgid "Search previous"
+msgid "Search Options"
+msgstr "Hľadať predchádzajúce"
+
+#: src/Widgets/SearchBar.vala:203
+msgid "Replace With"
+msgstr "Nahradiť s"
+
+#: src/Widgets/SearchBar.vala:206
+msgid "Replace"
+msgstr "Nahradiť"
+
+#: src/Widgets/SearchBar.vala:209
+msgid "Replace all"
+msgstr "Nahradiť všetko"
+
+#: src/Widgets/SearchBar.vala:614
+#, c-format
+msgid "%d of %d"
+msgstr "%d z %d"
+
+#: src/Widgets/SearchBar.vala:619
+msgid "no results"
+msgstr "žiadne výsledky"
+
+#: src/Widgets/SourceView.vala:583
+msgid "Sort Selected Lines"
+msgstr "Zoradiť vybrané riadky"
+
+#: src/Widgets/SourceView.vala:594
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Mark Current Line"
+msgstr "Odstrániť aktuálne zobrazenie"
+
+#: src/Widgets/SourceView.vala:605
+msgid "Goto Previous Edit Mark"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:616
+#, fuzzy
+#| msgid "Text Editor"
+msgid "Goto Next Edit Mark"
+msgstr "Textový editor"
+
+#: src/Widgets/SourceView.vala:635
+msgid "Toggle Comment"
+msgstr "Zobraziť/Skryť komentár"
+
+#: src/Widgets/Terminal.vala:140
+msgid "Copy"
+msgstr "Kopírovať"
+
+#: src/Widgets/Terminal.vala:141
+msgid "Paste"
+msgstr "Vložiť"
+
+#: src/Widgets/WelcomeView.vala:26
+msgid "No Files Open"
+msgstr "Žiadne otvorené súbory"
+
+#: src/Widgets/WelcomeView.vala:27
+msgid "Open a file to begin editing."
+msgstr "Otvorte súbor a začnite upravovať."
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "New File"
+msgstr "Nový súbor"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "Create a new empty file."
+msgstr "Vytvoriť nový prázdny súbor."
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open File"
+msgstr "Otvoriť súbor"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open a saved file."
+msgstr "Otvoriť uložený súbor."
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Open Folder"
+msgstr "Otvoriť priečinok"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Add a project folder to the sidebar."
+msgstr "Pridať priečinok projektu do bočného panela."
+
+#: plugins/pastebin/pastebin_dialog.vala:248
+#: plugins/pastebin/pastebin_dialog.vala:328 plugins/pastebin/pastebin.vala:124
+msgid "Upload to Pastebin"
+msgstr "Nahrať na Pastebin"
+
+#: plugins/pastebin/pastebin_dialog.vala:257
+msgid "Name:"
+msgstr "Názov:"
+
+#: plugins/pastebin/pastebin_dialog.vala:261
+msgid "Format:"
+msgstr "Formát:"
+
+#: plugins/pastebin/pastebin_dialog.vala:268
+msgid "Choose different format"
+msgstr "Vybrať iný formát"
+
+#: plugins/pastebin/pastebin_dialog.vala:290
+msgid "Expiration:"
+msgstr "Expirácia:"
+
+#: plugins/pastebin/pastebin_dialog.vala:297
+msgid "Keep this paste private"
+msgstr "Ponechať toto vloženie súkromné"
+
+#: plugins/pastebin/pastebin_dialog.vala:354
+msgid "Available Formats"
+msgstr "Dostupné formáty"
+
+#: plugins/pastebin/pastebin_dialog.vala:380
+msgid "Select Format"
+msgstr "Vybrať formát"
+
+#: plugins/pastebin/pastebin_dialog.vala:468
+msgid "Ten minutes"
+msgstr "Desať minút"
+
+#: plugins/pastebin/pastebin_dialog.vala:469
+msgid "One hour"
+msgstr "Jedna hodina"
+
+#: plugins/pastebin/pastebin_dialog.vala:470
+msgid "One day"
+msgstr "Jeden deň"
+
+#: plugins/pastebin/pastebin_dialog.vala:471
+msgid "One month"
+msgstr "Jeden mesiac"
+
+#: plugins/spell/spell.vala:73
+msgid "No Suitable Dictionaries Were Found"
+msgstr "Neboli nájdené žiadne vhodné slovníky"
+
+#: plugins/spell/spell.vala:74
+msgid "Please install at least one [aspell] dictionary."
+msgstr "Nainštalujte prosím aspoň jeden [aspell] slovník."
+
+#: plugins/word-completion/plugin.vala:165
+#: plugins/word-completion/completion-provider.vala:55
+#, c-format
+msgid "%s - Word Completion"
+msgstr "Dokončovanie slov: %s"
+
+#~ msgid "Case sensitive:"
+#~ msgstr "Rozlišovať malé a veľké písmená:"
+
+#~ msgid "Use regular expressions:"
+#~ msgstr "Používať bežné výrazy:"
+
+#, fuzzy, c-format
+#~| msgid "Current working directory"
+#~ msgid "Local repository working directory is %s"
+#~ msgstr "Aktuálny pracovný adresár"
+
+#~ msgid "Tabs"
+#~ msgstr "Karty"
+
+#~ msgid "Tab width:"
+#~ msgstr "Šírka tabulátora:"
+
+#~ msgid "Line wrap:"
+#~ msgstr "Zalamovať riadky:"
+
+#~ msgid "Custom font:"
+#~ msgstr "Vlastné písmo:"
+
+#~ msgid "Visible whitespace:"
+#~ msgstr "Viditeľné medzery:"
+
+#, fuzzy, c-format
+#~| msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+#~ msgid "File “%s” was deleted."
+#~ msgstr "Súbor „%s“ bol odstránený. Chceli by ste ho aj napriek tomu uložiť?"
+
+#~ msgid "Set of plugins"
+#~ msgstr "Sada doplnkov"
+
+#~ msgid "plugin"
+#~ msgstr "zásuvný modul"
+
+#~ msgid "Save As…"
+#~ msgstr "Uložiť ako…"
+
+#~ msgid "Load"
+#~ msgstr "Načítať"
+
+#, fuzzy, c-format
+#~| msgid ""
+#~| "You cannot save changes to the file \"%s\". Do you want to save the "
+#~| "changes somewhere else?"
+#~ msgid ""
+#~ "You cannot save the document to “%s”. Do you want to save the file "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Nie je možné uložiť zmeny do súboru „%s“. Chceli by ste uložiť tieto "
+#~ "zmeny na iné miesto?"
+
+#, fuzzy, c-format
+#~| msgid ""
+#~| "You cannot save changes to the file \"%s\". Do you want to save the "
+#~| "changes somewhere else?"
+#~ msgid ""
+#~ "You cannot save changes to the file “%s”. Do you want to save the changes "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Nie je možné uložiť zmeny do súboru „%s“. Chceli by ste uložiť tieto "
+#~ "zmeny na iné miesto?"
+
+#, c-format
+#~ msgid "File \"%s\" Cannot Be Read"
+#~ msgstr "Súbor „%s“ sa nedá prečítať"
+
+#~ msgid "Case Insensitive"
+#~ msgstr "Nerozlišovať malé a veľké písmená"
+
+#~ msgid "Save changes elsewhere"
+#~ msgstr "Uložiť zmeny inam"
+
+#~ msgid "Open Project Folder…"
+#~ msgstr "Otvoriť priečinok projektu…"
+
+#~ msgid "Toggle Sidebar"
+#~ msgstr "Zobraziť/Skryť bočný panel"
+
+#~ msgid "Find…"
+#~ msgstr "Nájsť…"
+
+#~ msgid "Draw Spaces:"
+#~ msgstr "Zobrazovať medzery:"
+
+#~ msgid "For selected text"
+#~ msgstr "Pre vybraný text"
+
+#~ msgid "High Contrast"
+#~ msgstr "Vysoký kontrast"
+
+#~ msgid "Solarized Light"
+#~ msgstr "Solarizovaný svetlý"
+
+#~ msgid "Solarized Dark"
+#~ msgstr "Solarizovaný tmavý"
+
+#, fuzzy
+#~| msgid "Add a project folder to the sidebar."
+#~ msgid "Open a Git project folder in the sidebar."
+#~ msgstr "Pridať priečinok projektu do bočného panela."
+
+#, fuzzy
+#~| msgid "Add a project folder to the sidebar."
+#~ msgid ""
+#~ "Open a document in a Git project folder in the sidebar or use a project "
+#~ "context menu."
+#~ msgstr "Pridať priečinok projektu do bočného panela."
+
+#, fuzzy
+#~| msgid "Search next"
+#~ msgid "Search for:"
+#~ msgstr "Hľadať ďalší"
+
+#, fuzzy
+#~ msgid "Zeitgeist Datasource for Code"
+#~ msgstr "Zeitgeist zdroj dát pre Scratch"
+
+#, fuzzy
+#~ msgid "File \"%s\" Cannot Be Created"
+#~ msgstr "Súbor \"%s\" sa nedá prečítať"
+
+#~ msgid "Maybe you do not have the necessary permissions."
+#~ msgstr "Možno nemáte potrebné oprávnenia."
+
+#~ msgid "Maybe the file path provided is not valid."
+#~ msgstr "Zadaná cesta k súboru pravdepodobne nie je platná."
+
+#~ msgid "The location is read-only."
+#~ msgstr "Lokácia je len pre čítanie."
+
+#~ msgid "The parent directory doesn't exist."
+#~ msgstr "Rodičovský priečinok neexistuje."
+
+#~ msgid "It is a mountable location."
+#~ msgstr "Pripojiteľné umiestnenie."
+
+#~ msgid ""
+#~ "It is a \"special\" file such as a socket,\n"
+#~ " FIFO, block device, or character device."
+#~ msgstr ""
+#~ "Je to \"špeciálny\" súbor ako socket,\n"
+#~ " FIFO, blokové zariadenie, alebo znakové zariadenie."
+
+#~ msgid "It is an \"unknown\" file type."
+#~ msgstr "\"Neznámy\" typ súboru."
+
+#, fuzzy
+#~ msgid "File \"%s\" Cannot Be Opened"
+#~ msgstr "Súbor \"%s\" sa nedá prečítať"
+
+#~ msgid "Web Preview"
+#~ msgstr "Náhľad v prehliadači"
+
+#~ msgid "Hide Preview"
+#~ msgstr "Skryť náhľad"
+
+#~ msgid "Share via Pastebin"
+#~ msgstr "Zdieľať s použitím PasteBin"
+
+#~ msgid "Other formats"
+#~ msgstr "Iné formáty"
+
+#~ msgid "Add New View"
+#~ msgstr "Pridať nové zobrazenie"
+
+#~ msgid "untitled folder %d"
+#~ msgstr "Priečinok bez názvu %d"
+
+#~ msgid "new file %d"
+#~ msgstr "nový súbor %d"
+
+#~ msgid "Could not load icon theme: %s\n"
+#~ msgstr "Nepodarilo sa načítať motív ikon: %s\n"
+
+#, fuzzy
+#~ msgid "directory"
+#~ msgstr "Je to priečinok."
+
+#~ msgid ""
+#~ "File \"%s\" cannot be created.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Súbor \"%s\" nemôže byť vytvorený.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "File \"%s\" cannot be opened.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Súbor \"%s\" nemôže byť otvorený.\n"
+#~ "%s"
+
+#~ msgid "Highlight current line:"
+#~ msgstr "Zvýrazniť súčasný riadok:"
+
+#~ msgid "New file"
+#~ msgstr "Nový súbor"
+
+#~ msgid "New file from clipboard"
+#~ msgstr "Nový súbor zo schránky"
+
+#~ msgid "Create a new file from the contents of your clipboard."
+#~ msgstr "Vytvoriť nový súbor z obsahu vašej schránky."
+
+#~ msgid "Open With…"
+#~ msgstr "Otvoriť s..."
+
+#~ msgid "Terminal on Right"
+#~ msgstr "Terminál vpravo"
+
+#~ msgid "Terminal on Bottom"
+#~ msgstr "Terminál dole"
+
+#~ msgid "Font and Color Scheme"
+#~ msgstr "Písmo a farebná schéma"
+
+#~ msgid "Color scheme:"
+#~ msgstr "Farebná schéma:"
+
+#~ msgid "Edit text files"
+#~ msgstr "Úprava textových súborov"
+
+#~ msgid "About Scratch"
+#~ msgstr "O programe Scratch"
+
+#~ msgid "Trash"
+#~ msgstr "Kôš"
+
+#~ msgid "Go to line…"
+#~ msgstr "Prejsť na riadok..."
+
+#~ msgid "Quit"
+#~ msgstr "Ukončit"
+
+#~ msgid "Reopen closed document"
+#~ msgstr "Znovu otvoriť zatvorený dokument"
+
+#~ msgid "Open last closed document in a new tab"
+#~ msgstr "Otvoriť posledný zatvorený dokument v novej karte"
+
+#~ msgid "Add New Tab"
+#~ msgstr "Pridať novú kartu"
+
+#~ msgid "Add a new tab"
+#~ msgstr "Pridať novú kartu"
+
+#~ msgid "Add a new view"
+#~ msgstr "Pridať nové zobrazenie"
+
+#~ msgid "Remove this view"
+#~ msgstr "Odstraniť toto zobrazenie"
+
+#~ msgid "Undo"
+#~ msgstr "Späť"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Vrátiť poslednú akciu"
+
+#~ msgid "Redo"
+#~ msgstr "Opakovať"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Opakovať poslednú vrátenú akciu"
+
+#~ msgid "Revert"
+#~ msgstr "Vrátiť"
+
+#~ msgid "Duplicate selected strings"
+#~ msgstr "Duplikovať vybrané reťazce"
+
+#~ msgid "Clipboard"
+#~ msgstr "Schránka"
+
+#~ msgid "New file from Clipboard"
+#~ msgstr "Nový súbor zo schránky"
+
+#~ msgid "Next Tab"
+#~ msgstr "Ďalšia karta"
+
+#~ msgid "Previous Tab"
+#~ msgstr "Predchádzajúca karta"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Na celú obrazovku"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Daniel Foxik https://launchpad.net/~foxik0169\n"
+#~ "  Igor Štefanko https://launchpad.net/~istefanko\n"
+#~ "  Ivan Cizik https://launchpad.net/~ivancizik\n"
+#~ "  Lukáš Papík https://launchpad.net/~stereo839\n"
+#~ "  Marek https://launchpad.net/~sveco86\n"
+#~ "  Marek Zelinka https://launchpad.net/~mzelinka\n"
+#~ "  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+#~ "  Martin Maričák https://launchpad.net/~matko-maricak\n"
+#~ "  Matej Kovac https://launchpad.net/~matejkovaclc2\n"
+#~ "  Milan Slovák https://launchpad.net/~milboys\n"
+#~ "  pyler https://launchpad.net/~pyler-inbox\n"
+#~ "  Ľubomír Hlavko https://launchpad.net/~5lubo555"
+
+#~ msgid "Wait while restoring last session..."
+#~ msgstr "Čakať na obnovenie poslednej relácie..."
+
+#~ msgid "Normal Text"
+#~ msgstr "Normálny text"
+
+#~ msgid "When Scratch starts:"
+#~ msgstr "Po spustení Scratch:"
+
+#~ msgid "Show welcome screen"
+#~ msgstr "Ukázať uvítaciu obrazovku"
+
+#~ msgid "Show last open tabs"
+#~ msgstr "Zobraziť naposledy otvorené karty"
+
+#~ msgid "A terminal in your text editor"
+#~ msgstr "Terminál vo vašom textovom editore"
+
+#~ msgid "Highlight Selected Words"
+#~ msgstr "Zvýrazniť označený text"
+
+#~ msgid "Highlights all occurrences of words that are selected"
+#~ msgstr "Zvýrazňuje výskyt všetkých vybraných slov"
+
+#~ msgid "Brackets Completion"
+#~ msgstr "Ukončovanie zátvoriek"
+
+#~ msgid "Complete brackets while typing"
+#~ msgstr "Automaticky ukončovať zátvorky pri písaní"
+
+#~ msgid "Source Tree"
+#~ msgstr "Zdrojový strom"
+
+#~ msgid "Have a look at your sources organized in a nice tree"
+#~ msgstr "Pozrite sa na svoje zdroje organizované v strome"
+
+#~ msgid "Loading..."
+#~ msgstr "Načítavam..."
+
+#~ msgid "Bookmark"
+#~ msgstr "Záložka"
+
+#~ msgid "Files"
+#~ msgstr "Súbory"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Záložky"
+
+#~ msgid "Vim Emulation"
+#~ msgstr "Emulácia Vim"
+
+#~ msgid "Use Vim commands in Scratch"
+#~ msgstr "Použiť Vim príkazy v Scratch"
+
+#~ msgid "Clipboard History"
+#~ msgstr "História schránky"
+
+#~ msgid "Clipboard to view history"
+#~ msgstr "Prezrieť históriu schránky"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Delete"
+#~ msgstr "Odstrániť"
+
+#~ msgid "Outline"
+#~ msgstr "Obrys"
+
+#~ msgid "Outline symbols in your current file in vala"
+#~ msgstr "Vyznačiť symboly v aktuálnom súbore vo vale"
+
+#~ msgid "Folder Manager"
+#~ msgstr "Správca priečinkov"
+
+#~ msgid "Basic folder manager with file browsing"
+#~ msgstr "Základný správca priečinkov s prehliadaním súborov"
+
+#~ msgid "Go to parent"
+#~ msgstr "O úroveň vyššie"
+
+#~ msgid "Add file"
+#~ msgstr "Pridať súbor"
+
+#~ msgid "Remove file"
+#~ msgstr "Odstrániť súbor"
+
+#~ msgid "File Manager"
+#~ msgstr "Správca súborov"
+
+#~ msgid "Spell Checker"
+#~ msgstr "Kontrola pravopisu"
+
+#~ msgid "Checks the spelling of your documents"
+#~ msgstr "Kontrola pravopisu vašich dokumentov"
+
+#~ msgid "Browser Preview"
+#~ msgstr "Náhľad prehliadača"
+
+#~ msgid "Get a preview your work in a web page"
+#~ msgstr "Získajte náhľad svojej práce na webovej stránke"
+
+#~ msgid "Words Completion"
+#~ msgstr "Dokončovanie slov"
+
+#~ msgid "Show a completion dialog with most used words from your files"
+#~ msgstr ""
+#~ "Zobraziť dialógové okno s väčšinou používaných slov z vašich súborov"
+
+#~ msgid "Pastebin"
+#~ msgstr "Pastebin"
+
+#~ msgid "Share files with pastebin service"
+#~ msgstr "Zdieľať súbory v službe pastebin"
+
+#~ msgid "Share your files with Contractor"
+#~ msgstr "Zdieľajte vaše súbory cez Contractor"
+
+#~ msgid "Preserve Indent"
+#~ msgstr "Zachovať odsadenie"
+
+#~ msgid "Maintains indent level of pasted text when auto-indent is active"
+#~ msgstr ""
+#~ "Udržujte odsadenie úrovne vloženého textu, keď je aktívne automatické "
+#~ "odsadenie"
+
+#~ msgid "Open With"
+#~ msgstr "Otvoriť pomocou"
+
+#~ msgid "Open files you are editing with another application"
+#~ msgstr "Otvoriť súbory, ktoré upravujete inou aplikáciou"
+
+#~ msgid "Detect Indent"
+#~ msgstr "Zistiť odsadenie"
+
+#~ msgid "Heuristically detect tab or space settings"
+#~ msgstr "Zistiť nastavenia záražiek a medzier"
+
+#~ msgid "Go to line..."
+#~ msgstr "Ísť na riadok..."
+
+#~ msgid "Find..."
+#~ msgstr "Nájsť..."
+
+#~ msgid "New document"
+#~ msgstr "Nový dokument"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Vytvoriť nový dokument zo šablóny"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Argument pre set pluginov"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Dolní panel"
+
+#~ msgid "Status Bar"
+#~ msgstr "Stavová lišta"
+
+#~ msgid "Context View"
+#~ msgstr "Kontextové zobrazenie"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Vyberte novú lokáciu"
+
+#~ msgid "No files are open."
+#~ msgstr "Nie sú otvorené žiadne súbory."
+
+#~ msgid "Normal text"
+#~ msgstr "Normální text"
+
+#~ msgid "Next Search"
+#~ msgstr "Ďalšie"
+
+#~ msgid "Previous Search"
+#~ msgstr "Predchádzajúci"
+
+#~ msgid "Save as"
+#~ msgstr "Uložiť ako"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Uložiť súčasný súbor pod iným menom"
+
+#~ msgid "Editor:"
+#~ msgstr "Editor:"
+
+#~ msgid "Tabs:"
+#~ msgstr "Karty:"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Uložiť neuložené zmeny pred zatvorením?"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Nemôžete uložiť zmeny v:"
+
+#~ msgid ""
+#~ "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Chcete uložiť zmeny v tomto súbore na inom mieste?"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "Zmeny v tomto súbore neboli uložené."
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Chcete uložiť zmeny pred zatvorením tohoto súboru?"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Chcete to načítať znova?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Chcete to vytvoriť znova?"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Zobraziť okraj napravo:"
+
+#~ msgid "Draw spaces:"
+#~ msgstr "Vykresľovanie medzier:"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Vytvoriť nový dokument v novej záložke"
+
+#~ msgid "Font and Color Scheme:"
+#~ msgstr "Písmo a farebná schéma:"
+
+#~ msgid "General:"
+#~ msgstr "Základné:"

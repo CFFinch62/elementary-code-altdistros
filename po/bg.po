@@ -1,0 +1,1665 @@
+# Bulgarian translation for scratch
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2019-09-10 14:54+0000\n"
+"Last-Translator: Cleiton Floss <cleitonfloss@gmail.com>\n"
+"Language-Team: Bulgarian <https://l10n.elementary.io/projects/code/code/bg/"
+">\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:01+0000\n"
+
+#: src/Application.vala:41 src/Widgets/DocumentView.vala:99
+msgid "New Tab"
+msgstr "Нов раздел"
+
+#: src/Application.vala:42 src/FolderManager/FileItem.vala:87
+msgid "New Window"
+msgstr "Нов прозорец"
+
+#: src/Application.vala:43
+msgid "Print version info and exit"
+msgstr "Принтиране на информация за версията и затваряне"
+
+#: src/Application.vala:44
+msgid "Open file at specified selection range"
+msgstr ""
+
+#: src/Application.vala:44
+msgid "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+msgstr ""
+
+#: src/Application.vala:45
+msgid "[FILE…]"
+msgstr ""
+
+#: src/MainWindow.vala:263
+#, c-format
+msgid "Code (%s)"
+msgstr ""
+
+#: src/MainWindow.vala:265
+msgid "Code"
+msgstr ""
+
+#: src/MainWindow.vala:399
+msgid "Hide search bar"
+msgstr "Скриване на лентата за търсене"
+
+#: src/MainWindow.vala:404 src/Widgets/HeaderBar.vala:122
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Find on Page…"
+msgstr "Отвори папка"
+
+#: src/MainWindow.vala:415
+#, fuzzy
+#| msgid "Hide search bar"
+msgid "Hide Projects Sidebar"
+msgstr "Скриване на лентата за търсене"
+
+#: src/MainWindow.vala:420
+#, fuzzy
+#| msgid "Show Preview"
+msgid "Show Projects Sidebar"
+msgstr "Предварителен преглед"
+
+#: src/MainWindow.vala:429
+msgid "Hide Symbol Outline"
+msgstr ""
+
+#: src/MainWindow.vala:434
+msgid "Show Symbol Outline"
+msgstr ""
+
+#: src/MainWindow.vala:443
+msgid "Hide Terminal"
+msgstr ""
+
+#: src/MainWindow.vala:448 src/Widgets/HeaderBar.vala:196
+msgid "Show Terminal"
+msgstr ""
+
+#. Update MainWindow title
+#. / TRANSLATORS: First placeholder is document name, second placeholder is app name
+#: src/MainWindow.vala:618
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
+#: src/MainWindow.vala:977 src/Services/Document.vala:668
+msgid "All files"
+msgstr "Всички файлове"
+
+#: src/MainWindow.vala:981 src/Services/Document.vala:672
+msgid "Text files"
+msgstr "Текстови файлове"
+
+#: src/MainWindow.vala:985
+msgid "Open some files"
+msgstr "Отваряне на файлове"
+
+#: src/MainWindow.vala:988
+msgid "Open"
+msgstr "Отваряне"
+
+#: src/MainWindow.vala:989 src/Dialogs/CloneRepositoryDialog.vala:58
+#: src/Dialogs/CloneRepositoryDialog.vala:97
+#: src/Dialogs/GlobalSearchDialog.vala:86 src/Dialogs/NewBranchDialog.vala:42
+#: src/Services/Document.vala:510 src/Services/Document.vala:680
+#: plugins/pastebin/pastebin_dialog.vala:327
+#: plugins/pastebin/pastebin_dialog.vala:378
+msgid "Cancel"
+msgstr "Отказ"
+
+#: src/MainWindow.vala:1032
+msgid "_Open"
+msgstr "_Отвори"
+
+#: src/MainWindow.vala:1033
+msgid "_Cancel"
+msgstr "_Отмени"
+
+#: src/MainWindow.vala:1088
+msgid "Cloning completed"
+msgstr ""
+
+#: src/MainWindow.vala:1089
+#, c-format
+msgid "Clone successfully created in %s"
+msgstr ""
+
+#: src/MainWindow.vala:1095
+#, c-format
+msgid "Unable to clone %s"
+msgstr ""
+
+#: src/MainWindow.vala:1102
+msgid "Retry"
+msgstr ""
+
+#. /TRANSLATORS '%s' represents the quoted basename of a uri to be opened with the default app
+#: src/Utils.vala:212
+#, c-format
+msgid "Show '%s' with default app"
+msgstr ""
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/CloneRepositoryDialog.vala:55
+msgid "Create a local clone of a Git repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:56
+msgid ""
+"The source repository and local folder must exist and have the required read "
+"and write permissions"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:59
+msgid "Clone Repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:69
+msgid "https://example.com/username/projectname.git"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:93
+msgid "Select folder where the cloned repository will be created"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:96
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select"
+msgstr "Избор на шрифт:"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:118
+msgid "Repository URL"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:119
+msgid "Location"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:120
+msgid "Name of Clone"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:122
+msgid "Cloning in progress"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:62
+msgid "The search term will be treated as a regex expression"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case sensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case insensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:65
+msgid "Search will match only whole words"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:68
+#, c-format
+msgid "Search for text in “%s”"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:69
+msgid "The search term must be at least 3 characters long."
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:88
+#, fuzzy
+#| msgid "Search next"
+msgid "Search"
+msgstr "Търси следващ"
+
+#: src/Dialogs/NewBranchDialog.vala:43
+#, fuzzy, c-format
+#| msgid "Create a new instance"
+msgid "Create a new branch of “%s/%s”"
+msgstr "Създаване на нов прозорец"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/NewBranchDialog.vala:48
+msgid "The branch name must be unique and follow Git naming rules."
+msgstr ""
+
+#: src/Dialogs/NewBranchDialog.vala:56
+#, fuzzy
+msgid "Create Branch"
+msgstr "Промяна на настройките на програмата"
+
+#: src/Dialogs/PreferencesDialog.vala:15 src/Widgets/HeaderBar.vala:218
+msgid "Preferences"
+msgstr "Предпочитания"
+
+#: src/Dialogs/PreferencesDialog.vala:23
+msgid "General"
+msgstr "Основни"
+
+#: src/Dialogs/PreferencesDialog.vala:24
+#, fuzzy
+#| msgid "Save files when changed:"
+msgid "Save files when changed"
+msgstr "Записвай файловете при промяна:"
+
+#: src/Dialogs/PreferencesDialog.vala:25
+#, fuzzy
+#| msgid "Strip trailing whitespace on save"
+msgid "Strip trailing whitespace on save"
+msgstr "Мажнете свободните места в края ва файла при запис"
+
+#: src/Dialogs/PreferencesDialog.vala:27
+msgid "Smart cut/copy lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:29
+msgid ""
+"Cutting or copying without an active selection will cut or copy the entire "
+"current line"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:35
+#, fuzzy
+#| msgid "Margin width:"
+msgid "Indentation width"
+msgstr "Ширина на ограничителя:"
+
+#: src/Dialogs/PreferencesDialog.vala:46
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Indentation"
+msgstr "Самостоятелно подравняване:"
+
+#: src/Dialogs/PreferencesDialog.vala:47
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic indentation"
+msgstr "Самостоятелно подравняване:"
+
+#: src/Dialogs/PreferencesDialog.vala:48
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert spaces instead of tabs"
+msgstr "Използване на интервали вместо табулации:"
+
+#: src/Dialogs/PreferencesDialog.vala:57
+msgid "Default build directory"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:67
+#, fuzzy
+#| msgid "Project"
+msgid "Projects"
+msgstr "Проект"
+
+#: src/Dialogs/PreferencesDialog.vala:78
+msgid "None"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:79
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Current Line"
+msgstr "Премахване на текущия изглед"
+
+#: src/Dialogs/PreferencesDialog.vala:80
+msgid "All"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:96
+msgid "Whitespace visible when not selected"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:111
+msgid "Editor"
+msgstr "Редактор"
+
+#: src/Dialogs/PreferencesDialog.vala:112
+#, fuzzy
+#| msgid "Highlight matching brackets:"
+msgid "Highlight matching brackets"
+msgstr "Открояване на съвпадащи скоби:"
+
+#: src/Dialogs/PreferencesDialog.vala:114
+#, fuzzy
+#| msgid "Show Mini Map:"
+msgid "Mini Map"
+msgstr "Показване на карта:"
+
+#: src/Dialogs/PreferencesDialog.vala:115
+msgid "Wrap lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:116
+#, fuzzy
+#| msgid "Line width guide:"
+msgid "Line width guide"
+msgstr "Покажи препоръчителната ширина за ред:"
+
+#: src/Dialogs/PreferencesDialog.vala:124
+msgid "Font"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:125
+msgid "Use system font"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:136
+msgid "Behavior"
+msgstr "Поведение"
+
+#: src/Dialogs/PreferencesDialog.vala:137 src/SymbolPane/SymbolOutline.vala:51
+msgid "Interface"
+msgstr "Потребителска среда"
+
+#: src/Dialogs/PreferencesDialog.vala:153 src/Services/PluginManager.vala:130
+msgid "Extensions"
+msgstr "Разширения"
+
+#: src/Dialogs/PreferencesDialog.vala:159
+#: plugins/pastebin/pastebin_dialog.vala:434
+msgid "Close"
+msgstr "Затваряне"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:31
+msgid "Are You Sure You Want to Restore This File?"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:32
+msgid "Restoring a file will undo all changes made since opening it"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:34
+msgid "Don't Restore"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:36
+msgid "Restore Anyway"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:40
+msgid "This folder is the parent of an open project"
+msgid_plural "This folder is the parent of open projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:46
+msgid "Opening this folder will close the child project"
+msgid_plural "Opening this folder will close all child projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:52
+msgid "Close Child Project"
+msgid_plural "Close Child Projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:57
+msgid "This folder is a child of an open project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:58
+msgid "Opening this folder will close the parent project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:59
+msgid "Close Parent Project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:62
+msgid "Don't Open"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:40
+msgid "There are uncommitted changes in the current branch"
+msgstr ""
+
+#. /TRANSLATORS '%s' is a placeholder for the name of the branch to be checked out
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:42
+#, c-format
+msgid ""
+"Uncommitted changes will be permanently lost if <b>'%s'</b> is checked out "
+"now.\n"
+"\n"
+"<i>It is recommended that uncommitted changes are stashed, committed, or "
+"reverted before proceeding.</i>"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:44
+msgid "Do not Checkout"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:45
+msgid "Checkout and Overwrite"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:49 src/FolderManager/FolderItem.vala:166
+#, fuzzy
+msgid "Other Actions"
+msgstr "Други форати"
+
+#: src/FolderManager/FileItem.vala:55 src/FolderManager/FolderItem.vala:140
+msgid "Rename"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:65 src/FolderManager/FolderItem.vala:148
+msgid "Move to Trash"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:100 src/FolderManager/FolderItem.vala:198
+msgid "Other Application…"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:115 src/FolderManager/FolderItem.vala:218
+#, fuzzy
+msgid "Open In"
+msgstr "Отваряне"
+
+#: src/FolderManager/FileView.vala:74
+msgid "Folders"
+msgstr "Папки"
+
+#: src/FolderManager/FolderItem.vala:156
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Find in Folder…"
+msgstr "Отвори папка"
+
+#: src/FolderManager/FolderItem.vala:189
+#, fuzzy
+#| msgid "Terminal"
+msgid "Terminal Pane"
+msgstr "Терминал"
+
+#: src/FolderManager/FolderItem.vala:224
+#, fuzzy
+msgid "Folder"
+msgstr "Папки"
+
+#: src/FolderManager/FolderItem.vala:232
+msgid "Empty File"
+msgstr ""
+
+#. scan all children
+#. No need to show status when children shown
+#: src/FolderManager/FolderItem.vala:243
+#: src/FolderManager/ProjectFolderItem.vala:427
+#: src/FolderManager/ProjectFolderItem.vala:433
+#, fuzzy
+msgid "New"
+msgstr "Нов раздел"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "untitled folder"
+msgstr ""
+
+#: src/FolderManager/FolderItem.vala:399
+#, fuzzy
+msgid "new file"
+msgstr "Нов файл"
+
+#: src/FolderManager/ProjectFolderItem.vala:147
+msgid "Set as Active Project"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:155
+msgid "Open in Terminal Pane"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:186
+msgid "Close Folder"
+msgstr "Затвори Папка"
+
+#: src/FolderManager/ProjectFolderItem.vala:194
+#, fuzzy
+#| msgid "Close Folder"
+msgid "Close Other Folders"
+msgstr "Затвори Папка"
+
+#: src/FolderManager/ProjectFolderItem.vala:211
+#, c-format
+msgid "Close %u Open Document"
+msgid_plural "Close %u Open Documents"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:223
+#, fuzzy, c-format
+#| msgid "New Document"
+msgid "Hide %u Open Document"
+msgid_plural "Hide %u Open Documents"
+msgstr[0] "Нов документ"
+msgstr[1] "Нов документ"
+
+#: src/FolderManager/ProjectFolderItem.vala:246
+#, c-format
+msgid "Restore %u Hidden Document"
+msgid_plural "Restore %u Hidden Documents"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:279 src/Widgets/HeaderBar.vala:131
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Find in Project…"
+msgstr "Отвори папка"
+
+#: src/FolderManager/ProjectFolderItem.vala:320
+msgid "Local"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:337
+msgid "Remote"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:352
+#, fuzzy
+msgid "New Branch…"
+msgstr "Промяна на настройките на програмата"
+
+#: src/FolderManager/ProjectFolderItem.vala:377
+#, fuzzy
+msgid "Branch"
+msgstr "Промяна на настройките на програмата"
+
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "Modified"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:471
+#, c-format
+msgid "Error while creating new branch: “%s”"
+msgstr ""
+
+#. Empty files are valid text files
+#: src/Services/Document.vala:384
+#, c-format
+msgid "%s Is Not a Text File"
+msgstr ""
+
+#: src/Services/Document.vala:385
+msgid "Code will not load this type of file."
+msgstr ""
+
+#: src/Services/Document.vala:387
+msgid "Load Anyway"
+msgstr ""
+
+#: src/Services/Document.vala:408
+#, c-format
+msgid "Loading File “%s” Is Taking a Long Time"
+msgstr ""
+
+#: src/Services/Document.vala:409
+msgid "Please wait while Code is loading the file."
+msgstr ""
+
+#: src/Services/Document.vala:411
+#, fuzzy
+msgid "Cancel Loading"
+msgstr "Отказ"
+
+#: src/Services/Document.vala:500
+#, fuzzy, c-format
+msgid "Save changes to “%s” before closing?"
+msgstr "Записване на промените в документа %s преди затваряне?"
+
+#: src/Services/Document.vala:501
+#, fuzzy
+msgid "If you don't save, changes will be permanently lost."
+msgstr ""
+"Ако не съхраните файла, промените от предходните 4 секунди ще бъдат загубени "
+"окончателно."
+
+#: src/Services/Document.vala:507
+#, fuzzy
+msgid "Close Without Saving"
+msgstr "Затваряне без запазване"
+
+#: src/Services/Document.vala:511 src/Services/Document.vala:679
+msgid "Save"
+msgstr "Запазване"
+
+#: src/Services/Document.vala:638
+#, fuzzy, c-format
+msgid "Saving to “%s” failed."
+msgstr "Записване на промените в документа %s преди затваряне?"
+
+#: src/Services/Document.vala:676
+msgid "Save File"
+msgstr "Запазване на файл"
+
+#: src/Services/Document.vala:763 src/Services/Document.vala:781
+msgid "New Document"
+msgstr "Нов документ"
+
+#. No path for a new document
+#: src/Services/Document.vala:783
+#, c-format
+msgid "Cannot save this document to %s"
+msgstr ""
+
+#. Show an error view which says "Hey, I cannot read that file!"
+#: src/Services/Document.vala:870
+#, c-format
+msgid "Cannot read text in file “%s”"
+msgstr ""
+
+#: src/Services/Document.vala:873
+#, fuzzy
+msgid "You may not have permission to read the file."
+msgstr ""
+"Файлът \"%s\" не може да бъде прочетен. Възможно е да е повреден или вие "
+"нямате необходимите права, за да го прочетете."
+
+#: src/Services/Document.vala:875
+msgid "The file may be corrupt or may not be a text file"
+msgstr ""
+
+#. Lack of read permission results in empty content string. Do not give option to open
+#. in new document in that case.
+#: src/Services/Document.vala:881
+msgid "Show Anyway"
+msgstr ""
+
+#: src/Services/Document.vala:912
+#, fuzzy, c-format
+#| msgid ""
+#| "The location containing the file \"%s\" was unmounted. Do you want to "
+#| "save somewhere else?"
+msgid ""
+"The location containing the file “%s” was unmounted and there are unsaved "
+"changes."
+msgstr ""
+"Източникът съдържащ файлът \"%s\" бе демонтиран. Искате ли да го запазите на "
+"друго място?"
+
+#: src/Services/Document.vala:914
+#, fuzzy, c-format
+#| msgid ""
+#| "File \"%s\" was modified by an external application. Do you want to load "
+#| "it again or continue your editing?"
+msgid "File “%s” was deleted, renamed or moved and there are unsaved changes."
+msgstr ""
+"Файла \"%s\" се модифицира от друго приложение. Искате ли да го заредите "
+"отново или да продължите редактирането си?"
+
+#. Check external changes after loading
+#. The file has become unwritable while changes are pending
+#: src/Services/Document.vala:928
+#, fuzzy, c-format
+#| msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgid "File “%s” does not have write permission."
+msgstr "Файла \"%s\" бе изтрит. Искате ли да го запазите все пак?"
+
+#: src/Services/Document.vala:974
+#, fuzzy, c-format
+#| msgid ""
+#| "File \"%s\" was modified by an external application. Do you want to load "
+#| "it again or continue your editing?"
+msgid "File “%s” was modified by an external application"
+msgstr ""
+"Файла \"%s\" се модифицира от друго приложение. Искате ли да го заредите "
+"отново или да продължите редактирането си?"
+
+#: src/Services/Document.vala:979
+msgid ""
+"There are also unsaved changes. Reloading the document will overwrite the "
+"unsaved changes."
+msgstr ""
+
+#: src/Services/Document.vala:983
+msgid "The document changed externally since you last saved it."
+msgstr ""
+
+#: src/Services/Document.vala:999
+#, c-format
+msgid "“%s” can't be saved here. Save a duplicate somewhere else?"
+msgstr ""
+
+#: src/Services/Document.vala:1008
+msgid "Ignore"
+msgstr ""
+
+#: src/Services/Document.vala:1010
+msgid "Save Duplicate…"
+msgstr ""
+
+#: src/Services/Document.vala:1059
+msgid "Continue"
+msgstr "Продължаване"
+
+#: src/Services/Document.vala:1061
+#, fuzzy
+#| msgid "Upload"
+msgid "Reload"
+msgstr "Качване"
+
+#: src/Services/Document.vala:1064
+msgid "Overwrite"
+msgstr ""
+
+#: src/Services/Document.vala:1067
+#, fuzzy
+#| msgid "Save the current file"
+msgid "Save Document elsewhere"
+msgstr "Запазване на текущия файл"
+
+#: src/Services/MonitoredRepository.vala:246
+#, c-format
+msgid "Remote Branch '%s' not found"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:247
+msgid ""
+"The requested branch was not found in any remote linked to this repository"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:284
+msgid "An error occurred while checking out the requested branch"
+msgstr ""
+
+#. /TRANSLATORS "%.8s" is a placeholder for the first 8 characters of a commit reference
+#: src/Services/MonitoredRepository.vala:332
+#, c-format
+msgid "%.8s (detached)"
+msgstr ""
+
+#: src/Services/TemplateManager.vala:198
+msgid "Templates"
+msgstr "Шаблони"
+
+#. Remove fake fields created by the vala parser.
+#: src/SymbolPane/C/CtagsSymbolOutline.vala:79
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:193
+#: src/SymbolPane/SymbolOutline.vala:127
+msgid "Symbols"
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:122
+msgid "Too Many Symbols"
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:123
+#, c-format
+msgid ""
+"%s contains too many Vala symbols.\n"
+"Parsing and showing them took too long."
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:194
+#, c-format
+msgid "Vala symbols found in %s"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:35
+msgid "Class"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:37
+msgid "Property"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:39
+msgid "Signal"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:41
+msgid "Method"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:43
+msgid "Struct"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:45
+msgid "Enum"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:47
+msgid "Constant"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:49
+msgid "Constructor"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:53
+msgid "Namespace"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:55
+#, fuzzy
+msgid "Other"
+msgstr "Други..."
+
+#: src/SymbolPane/SymbolOutline.vala:131
+msgid "Find Symbol"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:140
+msgid "Filter symbol type"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:160
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select All"
+msgstr "Избор на шрифт:"
+
+#: src/SymbolPane/SymbolOutline.vala:166
+msgid "Deselect All"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:22
+#, fuzzy
+#| msgid "Project templates"
+msgid "No Project Selected"
+msgstr "Проектни шаблони"
+
+#: src/Widgets/ChooseProjectButton.vala:23
+#, c-format
+msgid "Active Git Project: %s"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:61
+msgid "Filter projects"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:84
+#, fuzzy
+msgid "Open Folder…"
+msgstr "Отвори папка"
+
+#: src/Widgets/ChooseProjectButton.vala:89
+msgid "Clone Git Repository…"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:109
+#, fuzzy
+#| msgid "Close"
+msgid "Closed Tabs"
+msgstr "Затваряне"
+
+#: src/Widgets/DocumentView.vala:449
+#, fuzzy, c-format
+msgid "Text file from %s:%d"
+msgstr "Текстови файлове"
+
+#: src/Widgets/DocumentView.vala:625
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:626
+#, fuzzy
+#| msgid "Close Folder"
+msgid "Close Other Tabs"
+msgstr "Затвори Папка"
+
+#: src/Widgets/DocumentView.vala:627
+#, fuzzy
+#| msgid "Close"
+msgid "Close Tab"
+msgstr "Затваряне"
+
+#: src/Widgets/DocumentView.vala:630
+#, fuzzy
+#| msgid "New Window"
+msgid "Open in New Window"
+msgstr "Нов прозорец"
+
+#: src/Widgets/DocumentView.vala:631
+msgid "Duplicate Tab"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:50
+msgid "Syntax Highlighting"
+msgstr "Синтактично открояване"
+
+#: src/Widgets/FormatBar.vala:60
+#, fuzzy
+msgid "Line number"
+msgstr "Покажи номерата на редовете"
+
+#: src/Widgets/FormatBar.vala:87
+msgid "Filter languages"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:111
+msgid "Plain Text"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:149
+msgid "Some settings set by EditorConfig file"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:152
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic Indentation"
+msgstr "Самостоятелно подравняване:"
+
+#: src/Widgets/FormatBar.vala:154
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert Spaces Instead Of Tabs"
+msgstr "Използване на интервали вместо табулации:"
+
+#: src/Widgets/FormatBar.vala:156
+#, fuzzy
+#| msgid "Tab width:"
+msgid "Tab width"
+msgstr "Широчина на табулацията:"
+
+#: src/Widgets/FormatBar.vala:236
+msgid "Go To Line:"
+msgstr "Отиди на ред:"
+
+#: src/Widgets/FormatBar.vala:287
+#, c-format
+msgid "%d Space"
+msgid_plural "%d Spaces"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Widgets/FormatBar.vala:289
+#, fuzzy, c-format
+msgid "%d Tab"
+msgid_plural "%d Tabs"
+msgstr[0] "Нов раздел"
+msgstr[1] "Нов раздел"
+
+#: src/Widgets/HeaderBar.vala:38
+msgid "Open a file"
+msgstr "Отваряне на файл"
+
+#: src/Widgets/HeaderBar.vala:44
+msgid "Project templates"
+msgstr "Проектни шаблони"
+
+#: src/Widgets/HeaderBar.vala:51
+msgid "Save this file"
+msgstr "Запази този файл"
+
+#: src/Widgets/HeaderBar.vala:59
+msgid "Save this file with a different name"
+msgstr "Запази този файл под друго име"
+
+#: src/Widgets/HeaderBar.vala:67
+msgid "Restore this file"
+msgstr "Възстановяване на този файл"
+
+#: src/Widgets/HeaderBar.vala:76
+msgid "Share"
+msgstr "Споделяне"
+
+#: src/Widgets/HeaderBar.vala:84
+#, fuzzy
+msgid "Zoom Out"
+msgstr "Приближаване"
+
+#: src/Widgets/HeaderBar.vala:92
+msgid "Zoom 1:1"
+msgstr "Мащаб 1:1"
+
+#: src/Widgets/HeaderBar.vala:100
+#, fuzzy
+msgid "Zoom In"
+msgstr "Приближаване"
+
+#: src/Widgets/HeaderBar.vala:145
+msgid "Follow System Style"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:240
+msgid "Menu"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:52
+msgid "Cloning complete"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:80
+msgid "Collapse All"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:83
+msgid "Alphabetize"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:91
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Manage project folders…"
+msgstr "Отвори папка"
+
+#: src/Widgets/SearchBar.vala:101
+msgid "Find"
+msgstr "Търсене"
+
+#: src/Widgets/SearchBar.vala:104
+msgid "No Results"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:116
+msgid "Search next"
+msgstr "Търси следващ"
+
+#: src/Widgets/SearchBar.vala:126
+msgid "Search previous"
+msgstr "Търси предишен"
+
+#: src/Widgets/SearchBar.vala:129
+msgid "Cyclic Search"
+msgstr "Циклично търсене"
+
+#: src/Widgets/SearchBar.vala:132 plugins/pastebin/pastebin_dialog.vala:467
+msgid "Never"
+msgstr "Безсрочно"
+
+#: src/Widgets/SearchBar.vala:133
+msgid "Mixed Case"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:134
+msgid "Always"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:137
+msgid "Case Sensitive"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:144
+msgid "Use Regular Expressions"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:145
+msgid "Match Whole Words"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:166
+#, fuzzy
+#| msgid "Search previous"
+msgid "Search Options"
+msgstr "Търси предишен"
+
+#: src/Widgets/SearchBar.vala:203
+msgid "Replace With"
+msgstr "Замяна с"
+
+#: src/Widgets/SearchBar.vala:206
+msgid "Replace"
+msgstr "Заместване"
+
+#: src/Widgets/SearchBar.vala:209
+msgid "Replace all"
+msgstr "Заместване на всички"
+
+#: src/Widgets/SearchBar.vala:614
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:619
+msgid "no results"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:583
+msgid "Sort Selected Lines"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:594
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Mark Current Line"
+msgstr "Премахване на текущия изглед"
+
+#: src/Widgets/SourceView.vala:605
+msgid "Goto Previous Edit Mark"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:616
+#, fuzzy
+#| msgid "Text Editor"
+msgid "Goto Next Edit Mark"
+msgstr "Текстов редактор"
+
+#: src/Widgets/SourceView.vala:635
+msgid "Toggle Comment"
+msgstr ""
+
+#: src/Widgets/Terminal.vala:140
+msgid "Copy"
+msgstr "Копирай"
+
+#: src/Widgets/Terminal.vala:141
+msgid "Paste"
+msgstr "Постави"
+
+#: src/Widgets/WelcomeView.vala:26
+msgid "No Files Open"
+msgstr "Няма отворени файлове"
+
+#: src/Widgets/WelcomeView.vala:27
+msgid "Open a file to begin editing."
+msgstr "Отворете файл, за да започнете да редактирате."
+
+#: src/Widgets/WelcomeView.vala:32
+#, fuzzy
+msgid "New File"
+msgstr "/Нов Файл"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "Create a new empty file."
+msgstr "Създаване на нов празен файл."
+
+#: src/Widgets/WelcomeView.vala:33
+#, fuzzy
+msgid "Open File"
+msgstr "Отваряне на файл"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open a saved file."
+msgstr "Отваряне на запазен файл."
+
+#: src/Widgets/WelcomeView.vala:34
+#, fuzzy
+msgid "Open Folder"
+msgstr "Отвори папка"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Add a project folder to the sidebar."
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:248
+#: plugins/pastebin/pastebin_dialog.vala:328 plugins/pastebin/pastebin.vala:124
+msgid "Upload to Pastebin"
+msgstr "Качи в Пейстбин"
+
+#: plugins/pastebin/pastebin_dialog.vala:257
+msgid "Name:"
+msgstr "Име:"
+
+#: plugins/pastebin/pastebin_dialog.vala:261
+#, fuzzy
+msgid "Format:"
+msgstr "Формат: "
+
+#: plugins/pastebin/pastebin_dialog.vala:268
+msgid "Choose different format"
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:290
+#, fuzzy
+#| msgid "Expiry time:"
+msgid "Expiration:"
+msgstr "Време на валидност:"
+
+#: plugins/pastebin/pastebin_dialog.vala:297
+msgid "Keep this paste private"
+msgstr "Запази това като частно и лично"
+
+#: plugins/pastebin/pastebin_dialog.vala:354
+msgid "Available Formats"
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:380
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select Format"
+msgstr "Избор на шрифт:"
+
+#: plugins/pastebin/pastebin_dialog.vala:468
+msgid "Ten minutes"
+msgstr "10 минути"
+
+#: plugins/pastebin/pastebin_dialog.vala:469
+msgid "One hour"
+msgstr "60 минути"
+
+#: plugins/pastebin/pastebin_dialog.vala:470
+msgid "One day"
+msgstr "Един ден"
+
+#: plugins/pastebin/pastebin_dialog.vala:471
+msgid "One month"
+msgstr "Един месец"
+
+#: plugins/spell/spell.vala:73
+msgid "No Suitable Dictionaries Were Found"
+msgstr ""
+
+#: plugins/spell/spell.vala:74
+msgid "Please install at least one [aspell] dictionary."
+msgstr ""
+
+#: plugins/word-completion/plugin.vala:165
+#: plugins/word-completion/completion-provider.vala:55
+#, c-format
+msgid "%s - Word Completion"
+msgstr "%s - Довършване на думи"
+
+#, fuzzy, c-format
+#~| msgid "Current working directory"
+#~ msgid "Local repository working directory is %s"
+#~ msgstr "Текуща директория"
+
+#~ msgid "Tabs"
+#~ msgstr "Подпрозорци"
+
+#~ msgid "Tab width:"
+#~ msgstr "Широчина на табулацията:"
+
+#~ msgid "Line wrap:"
+#~ msgstr "Обвивка на ред:"
+
+#~ msgid "Custom font:"
+#~ msgstr "Шрифт по избор:"
+
+#, fuzzy
+#~| msgid "Strip trailing whitespace"
+#~ msgid "Visible whitespace:"
+#~ msgstr "Мажнете свободните места в края ва файла"
+
+#, fuzzy, c-format
+#~| msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+#~ msgid "File “%s” was deleted."
+#~ msgstr "Файла \"%s\" бе изтрит. Искате ли да го запазите все пак?"
+
+#~ msgid "Set of plugins"
+#~ msgstr "Набор от добавки"
+
+#, fuzzy
+#~ msgid "plugin"
+#~ msgstr "Набор от добавки"
+
+#~ msgid "Save As…"
+#~ msgstr "Запазване като…"
+
+#~ msgid "Load"
+#~ msgstr "Зареждане"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "You cannot save the document to “%s”. Do you want to save the file "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Не можете да запазите промените на файл \"%s\". Искате ли да запазите "
+#~ "промените на файла на друго място?"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "You cannot save changes to the file “%s”. Do you want to save the changes "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Не можете да запазите промените на файл \"%s\". Искате ли да запазите "
+#~ "промените на файла на друго място?"
+
+#~ msgid "Save changes elsewhere"
+#~ msgstr "Запазване на промените другаде"
+
+#, fuzzy
+#~ msgid "Toggle Sidebar"
+#~ msgstr "Странична лента"
+
+#~ msgid "Find…"
+#~ msgstr "Търсене…"
+
+#, fuzzy
+#~| msgid "Search next"
+#~ msgid "Search for:"
+#~ msgstr "Търси следващ"
+
+#, fuzzy
+#~ msgid "Zeitgeist Datasource for Code"
+#~ msgstr "Зайтгайст източник за Драскутина"
+
+#~ msgid "Maybe you do not have the necessary permissions."
+#~ msgstr "Може би нямате нужният достъп."
+
+#~ msgid "Maybe the file path provided is not valid."
+#~ msgstr "Може би предоставеният път до файла не е валиден."
+
+#~ msgid "The location is read-only."
+#~ msgstr "Локацията има достъп само за четене."
+
+#~ msgid "The parent directory doesn't exist."
+#~ msgstr "Директорията родител не съществува."
+
+#~ msgid "It is a mountable location."
+#~ msgstr "Локацията позволява маунтване."
+
+#, fuzzy
+#~ msgid "Share via Pastebin"
+#~ msgstr "Споделяне чрез Пейстбин"
+
+#~ msgid "Other formats"
+#~ msgstr "Други форати"
+
+#~ msgid "Add New View"
+#~ msgstr "Добавяне на нов изглед"
+
+#, fuzzy
+#~ msgid "new file %d"
+#~ msgstr "Нов файл"
+
+#~ msgid "Could not load icon theme: %s\n"
+#~ msgstr "Не беше възможно зареждането на иконовата тема: %s\n"
+
+#~ msgid "Edit text files"
+#~ msgstr "Редактиране на текстови файлове"
+
+#~ msgid "About Scratch"
+#~ msgstr "За програмата"
+
+#~ msgid "Trash"
+#~ msgstr "Кошче"
+
+#~ msgid "Go to line…"
+#~ msgstr "Отиди на ред..."
+
+#~ msgid "Quit"
+#~ msgstr "Изход"
+
+#~ msgid "Reopen closed document"
+#~ msgstr "Отвори отново документа"
+
+#~ msgid "Open last closed document in a new tab"
+#~ msgstr "Отваряне на последно затворен документ в нов таб"
+
+#~ msgid "Add New Tab"
+#~ msgstr "Добавяне на нов подпрозорец"
+
+#~ msgid "Add a new tab"
+#~ msgstr "Добавяне на нов подпрозорец"
+
+#~ msgid "Add a new view"
+#~ msgstr "Добавяне на нов изглед"
+
+#~ msgid "Remove this view"
+#~ msgstr "Премахване на този изглед"
+
+#~ msgid "Undo"
+#~ msgstr "Отмяна"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Отмени последното действие"
+
+#~ msgid "Redo"
+#~ msgstr "Повтаряне"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Повтаряне на последното отменено действие"
+
+#~ msgid "Revert"
+#~ msgstr "Връщане"
+
+#~ msgid "Duplicate selected strings"
+#~ msgstr "Дублиране на избрания текст"
+
+#~ msgid "Clipboard"
+#~ msgstr "Буфер за обмен"
+
+#~ msgid "New file from Clipboard"
+#~ msgstr "Нов файл от буфера за обмен"
+
+#~ msgid "Next Tab"
+#~ msgstr "Следващ подпрозорец"
+
+#~ msgid "Previous Tab"
+#~ msgstr "Предишен подпрозорец"
+
+#~ msgid "Fullscreen"
+#~ msgstr "На цял екран"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Dimitar Dimitrov https://launchpad.net/~dimitrov\n"
+#~ "  George Radev https://launchpad.net/~georgeradev\n"
+#~ "  ITPROJECTS https://launchpad.net/~itprojects\n"
+#~ "  KVG https://launchpad.net/~kvgkvg\n"
+#~ "  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+#~ "  Martin Georgiev https://launchpad.net/~martingeorgiev1995\n"
+#~ "  Nikola Lardev https://launchpad.net/~nikolalardev\n"
+#~ "  ShanoDJ https://launchpad.net/~shanodj\n"
+#~ "  Veselin Trakiyski https://launchpad.net/~wesako\n"
+#~ "  Yennefer of Vengerberg https://launchpad.net/~yennefer1251\n"
+#~ "  Адмирал АнимЕ https://launchpad.net/~aeternus-arcis"
+
+#~ msgid "New file from clipboard"
+#~ msgstr "Нов файл от буфера за обмен"
+
+#~ msgid "Create a new file from the contents of your clipboard."
+#~ msgstr "Създай нов файл от съдържанието на буфера за обмен."
+
+#~ msgid "Wait while restoring last session..."
+#~ msgstr "Почакайте докато се възстанови предишното състояние..."
+
+#~ msgid "Normal Text"
+#~ msgstr "Обикновен текст"
+
+#~ msgid "When Scratch starts:"
+#~ msgstr "При пускане на програмата:"
+
+#~ msgid "Show welcome screen"
+#~ msgstr "Показване на началния екран"
+
+#~ msgid "Show last open tabs"
+#~ msgstr "Показване на последните отворени подпрозорци"
+
+#~ msgid "Highlight current line:"
+#~ msgstr "Открояване на текущия ред:"
+
+#~ msgid "Color scheme:"
+#~ msgstr "Цветова схема:"
+
+#~ msgid "A terminal in your text editor"
+#~ msgstr "Терминал в текстовия ви редактор"
+
+#~ msgid "Highlight Selected Words"
+#~ msgstr "Маркирай Избраните Думи"
+
+#~ msgid "Highlights all occurrences of words that are selected"
+#~ msgstr "Маркирай всичките попадения на думи които са избрани"
+
+#~ msgid "Brackets Completion"
+#~ msgstr "Скобно Довършване"
+
+#~ msgid "Complete brackets while typing"
+#~ msgstr "Завършване на скобите по време на писане"
+
+#~ msgid "Source Tree"
+#~ msgstr "Програмно-кодово Дърво"
+
+#~ msgid "Have a look at your sources organized in a nice tree"
+#~ msgstr "Прегледайте вашите източници във вид на едно приятно дърво"
+
+#~ msgid "Loading..."
+#~ msgstr "Зарежда се..."
+
+#~ msgid "Bookmark"
+#~ msgstr "Отметка"
+
+#~ msgid "Files"
+#~ msgstr "Файлове"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Отметки"
+
+#~ msgid "Vim Emulation"
+#~ msgstr "Вим Емилация"
+
+#~ msgid "Use Vim commands in Scratch"
+#~ msgstr "Ползвайте Вим команди в Драскотина"
+
+#~ msgid "Clipboard History"
+#~ msgstr "История на буфера за обмен"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Delete"
+#~ msgstr "Изтриване"
+
+#~ msgid "Folder Manager"
+#~ msgstr "Папков Управител"
+
+#~ msgid "Basic folder manager with file browsing"
+#~ msgstr "Основен папков управител с файлово разглеждане"
+
+#~ msgid "Go to parent"
+#~ msgstr "Отиди на по-главната папкка"
+
+#~ msgid "Add file"
+#~ msgstr "Добавяне на файл"
+
+#~ msgid "Remove file"
+#~ msgstr "Отстраняване на файла"
+
+#~ msgid "File Manager"
+#~ msgstr "Файлов Управител"
+
+#~ msgid "Spell Checker"
+#~ msgstr "Проверка на правописа"
+
+#~ msgid "Checks the spelling of your documents"
+#~ msgstr "Проверете правописа на вашите документите"
+
+#~ msgid "Browser Preview"
+#~ msgstr "Преглед"
+
+#~ msgid "Get a preview your work in a web page"
+#~ msgstr "Преглед на работата ви в мрежов страница"
+
+#~ msgid "Words Completion"
+#~ msgstr "Довършване на думи"
+
+#~ msgid "Show a completion dialog with most used words from your files"
+#~ msgstr ""
+#~ "Покажи прозорченцето с най-често използваните думи от вашите файлове"
+
+#~ msgid "Pastebin"
+#~ msgstr "Пейстбин"
+
+#~ msgid "Share files with pastebin service"
+#~ msgstr "Сподели файлове с мрежовата услуга на Пейстбин"
+
+#~ msgid "Share your files with Contractor"
+#~ msgstr "Споделете файловете си с Контрактор"
+
+#~ msgid "Preserve Indent"
+#~ msgstr "Запази отстъп"
+
+#~ msgid "Maintains indent level of pasted text when auto-indent is active"
+#~ msgstr ""
+#~ "Запази дълбочината на отстъпа на поставения текст, когато автоматичен "
+#~ "отстъп е активен."
+
+#~ msgid "Open With"
+#~ msgstr "Отвори с"
+
+#~ msgid "Open files you are editing with another application"
+#~ msgstr "Отвоете текущите файлове с друго приложение"
+
+#~ msgid "Go to line..."
+#~ msgstr "Отиване на ред..."
+
+#~ msgid "Find..."
+#~ msgstr "Намери..."
+
+#~ msgid "New document"
+#~ msgstr "Нов документ"
+
+#~ msgid "Save as"
+#~ msgstr "Запази като"
+
+#~ msgid "Previous Search"
+#~ msgstr "Предишно търсене"
+
+#~ msgid "Next Search"
+#~ msgstr "Следващо търсене"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Запазване на текущия файл с различно име"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Създаване на нов документ от шаблон"
+
+#~ msgid "Normal text"
+#~ msgstr "Нормален текст"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Долен панел"
+
+#~ msgid "Status Bar"
+#~ msgstr "Лента за състояние"
+
+#~ msgid "No files are open."
+#~ msgstr "Няма отворени файлове."
+
+#~ msgid "General:"
+#~ msgstr "Общи:"
+
+#~ msgid "Editor:"
+#~ msgstr "Редактор:"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Запазване на незаписаните промени в файл преди изход?"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "Промените в този файл не са запазени."
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Искате ли да запазите промените преди да затворите този файл?"
+
+#~ msgid ""
+#~ "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Искате ли да запазите промените в този файл на друго място?"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Искате ли да го презаредите?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Искате ли да го създадете отново?"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Нов документ в нов раздел"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Избиране на новото местоположение"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Показване на ляв ограничител:"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Не можете да съхраните промените в:"
+
+#~ msgid "Tabs:"
+#~ msgstr "Подпрозорци"
+
+#~ msgid "Draw spaces:"
+#~ msgstr "Очертай интервалите:"
+
+#~ msgid "Font and Color Scheme:"
+#~ msgstr "Цветово и Шрифтово Оформление:"

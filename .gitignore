@@ -1,0 +1,5 @@
+build
+src/config.vala
+*~
+.flatpak
+.flatpak-builder

@@ -1,0 +1,1633 @@
+# Albanian translation for scratch
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2016-09-02 08:23+0000\n"
+"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:00+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
+
+#: src/Application.vala:41 src/Widgets/DocumentView.vala:99
+msgid "New Tab"
+msgstr "Skedë të re"
+
+#: src/Application.vala:42 src/FolderManager/FileItem.vala:87
+msgid "New Window"
+msgstr "Dritare e re"
+
+#: src/Application.vala:43
+msgid "Print version info and exit"
+msgstr "Shtyp informacione mbi versionin dhe dil"
+
+#: src/Application.vala:44
+msgid "Open file at specified selection range"
+msgstr ""
+
+#: src/Application.vala:44
+msgid "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+msgstr ""
+
+#: src/Application.vala:45
+msgid "[FILE…]"
+msgstr ""
+
+#: src/MainWindow.vala:263
+#, c-format
+msgid "Code (%s)"
+msgstr ""
+
+#: src/MainWindow.vala:265
+msgid "Code"
+msgstr ""
+
+#: src/MainWindow.vala:399
+msgid "Hide search bar"
+msgstr "Fshehe shiritin e kërkimit"
+
+#: src/MainWindow.vala:404 src/Widgets/HeaderBar.vala:122
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Find on Page…"
+msgstr "Hap një dosje"
+
+#: src/MainWindow.vala:415
+#, fuzzy
+#| msgid "Hide search bar"
+msgid "Hide Projects Sidebar"
+msgstr "Fshehe shiritin e kërkimit"
+
+#: src/MainWindow.vala:420
+#, fuzzy
+#| msgid "Show Preview"
+msgid "Show Projects Sidebar"
+msgstr "Shfaq shikimin paraprak"
+
+#: src/MainWindow.vala:429
+msgid "Hide Symbol Outline"
+msgstr ""
+
+#: src/MainWindow.vala:434
+#, fuzzy
+#| msgid "Symbols"
+msgid "Show Symbol Outline"
+msgstr "Simbolet"
+
+#: src/MainWindow.vala:443
+msgid "Hide Terminal"
+msgstr "Fsheh terminalin"
+
+#: src/MainWindow.vala:448 src/Widgets/HeaderBar.vala:196
+msgid "Show Terminal"
+msgstr "Shfaq terminalin"
+
+#. Update MainWindow title
+#. / TRANSLATORS: First placeholder is document name, second placeholder is app name
+#: src/MainWindow.vala:618
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
+#: src/MainWindow.vala:977 src/Services/Document.vala:668
+msgid "All files"
+msgstr "Të gjithë skedarët"
+
+#: src/MainWindow.vala:981 src/Services/Document.vala:672
+msgid "Text files"
+msgstr "Skedarë teksti"
+
+#: src/MainWindow.vala:985
+msgid "Open some files"
+msgstr "Hap disa skedarë"
+
+#: src/MainWindow.vala:988
+msgid "Open"
+msgstr "Hap"
+
+#: src/MainWindow.vala:989 src/Dialogs/CloneRepositoryDialog.vala:58
+#: src/Dialogs/CloneRepositoryDialog.vala:97
+#: src/Dialogs/GlobalSearchDialog.vala:86 src/Dialogs/NewBranchDialog.vala:42
+#: src/Services/Document.vala:510 src/Services/Document.vala:680
+#: plugins/pastebin/pastebin_dialog.vala:327
+#: plugins/pastebin/pastebin_dialog.vala:378
+msgid "Cancel"
+msgstr "Anulo"
+
+#: src/MainWindow.vala:1032
+msgid "_Open"
+msgstr "_Hap"
+
+#: src/MainWindow.vala:1033
+msgid "_Cancel"
+msgstr "_Anulo"
+
+#: src/MainWindow.vala:1088
+msgid "Cloning completed"
+msgstr ""
+
+#: src/MainWindow.vala:1089
+#, c-format
+msgid "Clone successfully created in %s"
+msgstr ""
+
+#: src/MainWindow.vala:1095
+#, c-format
+msgid "Unable to clone %s"
+msgstr ""
+
+#: src/MainWindow.vala:1102
+msgid "Retry"
+msgstr ""
+
+#. /TRANSLATORS '%s' represents the quoted basename of a uri to be opened with the default app
+#: src/Utils.vala:212
+#, c-format
+msgid "Show '%s' with default app"
+msgstr ""
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/CloneRepositoryDialog.vala:55
+msgid "Create a local clone of a Git repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:56
+msgid ""
+"The source repository and local folder must exist and have the required read "
+"and write permissions"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:59
+msgid "Clone Repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:69
+msgid "https://example.com/username/projectname.git"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:93
+msgid "Select folder where the cloned repository will be created"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:96
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select"
+msgstr "Përzgjidh shkronjat:"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:118
+msgid "Repository URL"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:119
+msgid "Location"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:120
+msgid "Name of Clone"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:122
+msgid "Cloning in progress"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:62
+msgid "The search term will be treated as a regex expression"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case sensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case insensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:65
+msgid "Search will match only whole words"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:68
+#, c-format
+msgid "Search for text in “%s”"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:69
+msgid "The search term must be at least 3 characters long."
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:88
+#, fuzzy
+#| msgid "Cyclic Search"
+msgid "Search"
+msgstr "Kërkim ciklik"
+
+#: src/Dialogs/NewBranchDialog.vala:43
+#, c-format
+msgid "Create a new branch of “%s/%s”"
+msgstr ""
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/NewBranchDialog.vala:48
+msgid "The branch name must be unique and follow Git naming rules."
+msgstr ""
+
+#: src/Dialogs/NewBranchDialog.vala:56
+#, fuzzy
+msgid "Create Branch"
+msgstr "Ndrysho rregullimet e Scratch"
+
+#: src/Dialogs/PreferencesDialog.vala:15 src/Widgets/HeaderBar.vala:218
+msgid "Preferences"
+msgstr "Parapëlqimet"
+
+#: src/Dialogs/PreferencesDialog.vala:23
+msgid "General"
+msgstr "Të përgjithshme"
+
+#: src/Dialogs/PreferencesDialog.vala:24
+#, fuzzy
+#| msgid "Save files when changed:"
+msgid "Save files when changed"
+msgstr "Ruaji skedarët kur të ndryshojnë:"
+
+#: src/Dialogs/PreferencesDialog.vala:25
+#, fuzzy
+#| msgid "Strip trailing whitespace on save"
+msgid "Strip trailing whitespace on save"
+msgstr "Hiq hapësirat në fund të rreshtit gjatë ruajtjes"
+
+#: src/Dialogs/PreferencesDialog.vala:27
+msgid "Smart cut/copy lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:29
+msgid ""
+"Cutting or copying without an active selection will cut or copy the entire "
+"current line"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:35
+msgid "Indentation width"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:46
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Indentation"
+msgstr "Kryeradhë automatike:"
+
+#: src/Dialogs/PreferencesDialog.vala:47
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic indentation"
+msgstr "Kryeradhë automatike:"
+
+#: src/Dialogs/PreferencesDialog.vala:48
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert spaces instead of tabs"
+msgstr "Fut hapësira në vend të tabulatorëve:"
+
+#: src/Dialogs/PreferencesDialog.vala:57
+msgid "Default build directory"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:67
+#, fuzzy
+#| msgid "Project"
+msgid "Projects"
+msgstr "Projekti"
+
+#: src/Dialogs/PreferencesDialog.vala:78
+msgid "None"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:79
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Current Line"
+msgstr "Hiq pamjen e tanishme"
+
+#: src/Dialogs/PreferencesDialog.vala:80
+msgid "All"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:96
+msgid "Whitespace visible when not selected"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:111
+msgid "Editor"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:112
+#, fuzzy
+#| msgid "Highlight matching brackets:"
+msgid "Highlight matching brackets"
+msgstr "Vënia në dukje e kllapave përkatëse:"
+
+#: src/Dialogs/PreferencesDialog.vala:114
+#, fuzzy
+#| msgid "Show Mini Map:"
+msgid "Mini Map"
+msgstr "Shfaq hartën e vogël:"
+
+#: src/Dialogs/PreferencesDialog.vala:115
+msgid "Wrap lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:116
+#, fuzzy
+#| msgid "Line width guide:"
+msgid "Line width guide"
+msgstr "Vijë udhëzuese për gjerësisë:"
+
+#: src/Dialogs/PreferencesDialog.vala:124
+msgid "Font"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:125
+msgid "Use system font"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:136
+msgid "Behavior"
+msgstr "Sjellja"
+
+#: src/Dialogs/PreferencesDialog.vala:137 src/SymbolPane/SymbolOutline.vala:51
+msgid "Interface"
+msgstr "Ndërfaqja"
+
+#: src/Dialogs/PreferencesDialog.vala:153 src/Services/PluginManager.vala:130
+msgid "Extensions"
+msgstr "Prapashtesat"
+
+#: src/Dialogs/PreferencesDialog.vala:159
+#: plugins/pastebin/pastebin_dialog.vala:434
+msgid "Close"
+msgstr "Mbyll"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:31
+msgid "Are You Sure You Want to Restore This File?"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:32
+msgid "Restoring a file will undo all changes made since opening it"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:34
+msgid "Don't Restore"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:36
+msgid "Restore Anyway"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:40
+msgid "This folder is the parent of an open project"
+msgid_plural "This folder is the parent of open projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:46
+msgid "Opening this folder will close the child project"
+msgid_plural "Opening this folder will close all child projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:52
+msgid "Close Child Project"
+msgid_plural "Close Child Projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:57
+msgid "This folder is a child of an open project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:58
+msgid "Opening this folder will close the parent project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:59
+msgid "Close Parent Project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:62
+msgid "Don't Open"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:40
+msgid "There are uncommitted changes in the current branch"
+msgstr ""
+
+#. /TRANSLATORS '%s' is a placeholder for the name of the branch to be checked out
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:42
+#, c-format
+msgid ""
+"Uncommitted changes will be permanently lost if <b>'%s'</b> is checked out "
+"now.\n"
+"\n"
+"<i>It is recommended that uncommitted changes are stashed, committed, or "
+"reverted before proceeding.</i>"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:44
+msgid "Do not Checkout"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:45
+msgid "Checkout and Overwrite"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:49 src/FolderManager/FolderItem.vala:166
+#, fuzzy
+msgid "Other Actions"
+msgstr "Formatet e tjera"
+
+#: src/FolderManager/FileItem.vala:55 src/FolderManager/FolderItem.vala:140
+msgid "Rename"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:65 src/FolderManager/FolderItem.vala:148
+msgid "Move to Trash"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:100 src/FolderManager/FolderItem.vala:198
+msgid "Other Application…"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:115 src/FolderManager/FolderItem.vala:218
+#, fuzzy
+msgid "Open In"
+msgstr "Hap"
+
+#: src/FolderManager/FileView.vala:74
+msgid "Folders"
+msgstr "Dosjet"
+
+#: src/FolderManager/FolderItem.vala:156
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Find in Folder…"
+msgstr "Hap një dosje"
+
+#: src/FolderManager/FolderItem.vala:189
+#, fuzzy
+#| msgid "Terminal"
+msgid "Terminal Pane"
+msgstr "Terminal"
+
+#: src/FolderManager/FolderItem.vala:224
+#, fuzzy
+msgid "Folder"
+msgstr "Dosjet"
+
+#: src/FolderManager/FolderItem.vala:232
+msgid "Empty File"
+msgstr ""
+
+#. scan all children
+#. No need to show status when children shown
+#: src/FolderManager/FolderItem.vala:243
+#: src/FolderManager/ProjectFolderItem.vala:427
+#: src/FolderManager/ProjectFolderItem.vala:433
+#, fuzzy
+msgid "New"
+msgstr "Skedë të re"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "untitled folder"
+msgstr ""
+
+#: src/FolderManager/FolderItem.vala:399
+#, fuzzy
+msgid "new file"
+msgstr "Skedar i ri"
+
+#: src/FolderManager/ProjectFolderItem.vala:147
+msgid "Set as Active Project"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:155
+msgid "Open in Terminal Pane"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:186
+msgid "Close Folder"
+msgstr "Mbyll dosjen"
+
+#: src/FolderManager/ProjectFolderItem.vala:194
+#, fuzzy
+#| msgid "Close Folder"
+msgid "Close Other Folders"
+msgstr "Mbyll dosjen"
+
+#: src/FolderManager/ProjectFolderItem.vala:211
+#, c-format
+msgid "Close %u Open Document"
+msgid_plural "Close %u Open Documents"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:223
+#, fuzzy, c-format
+#| msgid "New Document"
+msgid "Hide %u Open Document"
+msgid_plural "Hide %u Open Documents"
+msgstr[0] "Dokument i ri"
+msgstr[1] "Dokument i ri"
+
+#: src/FolderManager/ProjectFolderItem.vala:246
+#, c-format
+msgid "Restore %u Hidden Document"
+msgid_plural "Restore %u Hidden Documents"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:279 src/Widgets/HeaderBar.vala:131
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Find in Project…"
+msgstr "Hap një dosje"
+
+#: src/FolderManager/ProjectFolderItem.vala:320
+msgid "Local"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:337
+msgid "Remote"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:352
+#, fuzzy
+msgid "New Branch…"
+msgstr "Ndrysho rregullimet e Scratch"
+
+#: src/FolderManager/ProjectFolderItem.vala:377
+#, fuzzy
+msgid "Branch"
+msgstr "Ndrysho rregullimet e Scratch"
+
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "Modified"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:471
+#, c-format
+msgid "Error while creating new branch: “%s”"
+msgstr ""
+
+#. Empty files are valid text files
+#: src/Services/Document.vala:384
+#, c-format
+msgid "%s Is Not a Text File"
+msgstr ""
+
+#: src/Services/Document.vala:385
+msgid "Code will not load this type of file."
+msgstr ""
+
+#: src/Services/Document.vala:387
+msgid "Load Anyway"
+msgstr ""
+
+#: src/Services/Document.vala:408
+#, c-format
+msgid "Loading File “%s” Is Taking a Long Time"
+msgstr ""
+
+#: src/Services/Document.vala:409
+msgid "Please wait while Code is loading the file."
+msgstr ""
+
+#: src/Services/Document.vala:411
+#, fuzzy
+msgid "Cancel Loading"
+msgstr "Anulo"
+
+#: src/Services/Document.vala:500
+#, fuzzy, c-format
+msgid "Save changes to “%s” before closing?"
+msgstr "Të ruaj ndryshimet e dokumentit %s para mbylljes?"
+
+#: src/Services/Document.vala:501
+#, fuzzy
+msgid "If you don't save, changes will be permanently lost."
+msgstr ""
+"Nëse nuk e ruan, ndryshimet e bëra në 4 sekondat e fundit do të humben "
+"përfundimisht."
+
+#: src/Services/Document.vala:507
+#, fuzzy
+msgid "Close Without Saving"
+msgstr "Mbyll pa ruajtur"
+
+#: src/Services/Document.vala:511 src/Services/Document.vala:679
+msgid "Save"
+msgstr "Ruaj"
+
+#: src/Services/Document.vala:638
+#, fuzzy, c-format
+msgid "Saving to “%s” failed."
+msgstr "Të ruaj ndryshimet e dokumentit %s para mbylljes?"
+
+#: src/Services/Document.vala:676
+msgid "Save File"
+msgstr "Ruaj skedarin"
+
+#: src/Services/Document.vala:763 src/Services/Document.vala:781
+msgid "New Document"
+msgstr "Dokument i ri"
+
+#. No path for a new document
+#: src/Services/Document.vala:783
+#, c-format
+msgid "Cannot save this document to %s"
+msgstr ""
+
+#. Show an error view which says "Hey, I cannot read that file!"
+#: src/Services/Document.vala:870
+#, c-format
+msgid "Cannot read text in file “%s”"
+msgstr ""
+
+#: src/Services/Document.vala:873
+#, fuzzy
+msgid "You may not have permission to read the file."
+msgstr ""
+"Skedari \"%s\" nuk mund të lexohet. Ndoshta është i dëmtuar\n"
+"ose nuk ke të drejtat e mjaftueshme për leximin e tij."
+
+#: src/Services/Document.vala:875
+msgid "The file may be corrupt or may not be a text file"
+msgstr ""
+
+#. Lack of read permission results in empty content string. Do not give option to open
+#. in new document in that case.
+#: src/Services/Document.vala:881
+msgid "Show Anyway"
+msgstr ""
+
+#: src/Services/Document.vala:912
+#, fuzzy, c-format
+#| msgid ""
+#| "The location containing the file \"%s\" was unmounted. Do you want to "
+#| "save somewhere else?"
+msgid ""
+"The location containing the file “%s” was unmounted and there are unsaved "
+"changes."
+msgstr ""
+"Vendndodhja që përmban skedarin \"%s\" është çmontuar. Dëshiron ta ruash "
+"diku tjetër?"
+
+#: src/Services/Document.vala:914
+#, fuzzy, c-format
+#| msgid ""
+#| "File \"%s\" was modified by an external application. Do you want to load "
+#| "it again or continue your editing?"
+msgid "File “%s” was deleted, renamed or moved and there are unsaved changes."
+msgstr ""
+"Skedari \"%s\" është ndryshuar nga një program i jashtëm. Dëshiron ta "
+"ngarkosh përsëri ose të vazhdosh përpunimin?"
+
+#. Check external changes after loading
+#. The file has become unwritable while changes are pending
+#: src/Services/Document.vala:928
+#, fuzzy, c-format
+#| msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgid "File “%s” does not have write permission."
+msgstr "Skedari \"%s\" është fshirë. Dëshiron ta ruash sidoqoftë?"
+
+#: src/Services/Document.vala:974
+#, fuzzy, c-format
+#| msgid ""
+#| "File \"%s\" was modified by an external application. Do you want to load "
+#| "it again or continue your editing?"
+msgid "File “%s” was modified by an external application"
+msgstr ""
+"Skedari \"%s\" është ndryshuar nga një program i jashtëm. Dëshiron ta "
+"ngarkosh përsëri ose të vazhdosh përpunimin?"
+
+#: src/Services/Document.vala:979
+msgid ""
+"There are also unsaved changes. Reloading the document will overwrite the "
+"unsaved changes."
+msgstr ""
+
+#: src/Services/Document.vala:983
+msgid "The document changed externally since you last saved it."
+msgstr ""
+
+#: src/Services/Document.vala:999
+#, c-format
+msgid "“%s” can't be saved here. Save a duplicate somewhere else?"
+msgstr ""
+
+#: src/Services/Document.vala:1008
+msgid "Ignore"
+msgstr ""
+
+#: src/Services/Document.vala:1010
+msgid "Save Duplicate…"
+msgstr ""
+
+#: src/Services/Document.vala:1059
+msgid "Continue"
+msgstr "Vazdhdo"
+
+#: src/Services/Document.vala:1061
+#, fuzzy
+#| msgid "Upload"
+msgid "Reload"
+msgstr "Ngarko"
+
+#: src/Services/Document.vala:1064
+msgid "Overwrite"
+msgstr ""
+
+#: src/Services/Document.vala:1067
+#, fuzzy
+#| msgid "Save changes elsewhere"
+msgid "Save Document elsewhere"
+msgstr "Ruaj ndryshimet tjetërkund"
+
+#: src/Services/MonitoredRepository.vala:246
+#, c-format
+msgid "Remote Branch '%s' not found"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:247
+msgid ""
+"The requested branch was not found in any remote linked to this repository"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:284
+msgid "An error occurred while checking out the requested branch"
+msgstr ""
+
+#. /TRANSLATORS "%.8s" is a placeholder for the first 8 characters of a commit reference
+#: src/Services/MonitoredRepository.vala:332
+#, c-format
+msgid "%.8s (detached)"
+msgstr ""
+
+#: src/Services/TemplateManager.vala:198
+msgid "Templates"
+msgstr "Shabllonet"
+
+#. Remove fake fields created by the vala parser.
+#: src/SymbolPane/C/CtagsSymbolOutline.vala:79
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:193
+#: src/SymbolPane/SymbolOutline.vala:127
+msgid "Symbols"
+msgstr "Simbolet"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:122
+#, fuzzy
+#| msgid "Symbols"
+msgid "Too Many Symbols"
+msgstr "Simbolet"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:123
+#, c-format
+msgid ""
+"%s contains too many Vala symbols.\n"
+"Parsing and showing them took too long."
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:194
+#, c-format
+msgid "Vala symbols found in %s"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:35
+msgid "Class"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:37
+msgid "Property"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:39
+msgid "Signal"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:41
+msgid "Method"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:43
+msgid "Struct"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:45
+msgid "Enum"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:47
+msgid "Constant"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:49
+msgid "Constructor"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:53
+msgid "Namespace"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:55
+#, fuzzy
+msgid "Other"
+msgstr "Të tjera..."
+
+#: src/SymbolPane/SymbolOutline.vala:131
+#, fuzzy
+#| msgid "Symbols"
+msgid "Find Symbol"
+msgstr "Simbolet"
+
+#: src/SymbolPane/SymbolOutline.vala:140
+msgid "Filter symbol type"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:160
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select All"
+msgstr "Përzgjidh shkronjat:"
+
+#: src/SymbolPane/SymbolOutline.vala:166
+msgid "Deselect All"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:22
+#, fuzzy
+#| msgid "Project templates"
+msgid "No Project Selected"
+msgstr "Shabllonet e projektit"
+
+#: src/Widgets/ChooseProjectButton.vala:23
+#, c-format
+msgid "Active Git Project: %s"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:61
+msgid "Filter projects"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:84
+#, fuzzy
+msgid "Open Folder…"
+msgstr "Hap një dosje"
+
+#: src/Widgets/ChooseProjectButton.vala:89
+msgid "Clone Git Repository…"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:109
+#, fuzzy
+#| msgid "Close"
+msgid "Closed Tabs"
+msgstr "Mbyll"
+
+#: src/Widgets/DocumentView.vala:449
+#, fuzzy, c-format
+msgid "Text file from %s:%d"
+msgstr "Skedar teksti nga "
+
+#: src/Widgets/DocumentView.vala:625
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:626
+#, fuzzy
+#| msgid "Close Folder"
+msgid "Close Other Tabs"
+msgstr "Mbyll dosjen"
+
+#: src/Widgets/DocumentView.vala:627
+#, fuzzy
+#| msgid "Close"
+msgid "Close Tab"
+msgstr "Mbyll"
+
+#: src/Widgets/DocumentView.vala:630
+#, fuzzy
+#| msgid "New Window"
+msgid "Open in New Window"
+msgstr "Dritare e re"
+
+#: src/Widgets/DocumentView.vala:631
+msgid "Duplicate Tab"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:50
+msgid "Syntax Highlighting"
+msgstr "Vënia në dukje e sintaksës"
+
+#: src/Widgets/FormatBar.vala:60
+#, fuzzy
+msgid "Line number"
+msgstr "Shfaq numrat e rreshtave:"
+
+#: src/Widgets/FormatBar.vala:87
+msgid "Filter languages"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:111
+msgid "Plain Text"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:149
+msgid "Some settings set by EditorConfig file"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:152
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic Indentation"
+msgstr "Kryeradhë automatike:"
+
+#: src/Widgets/FormatBar.vala:154
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert Spaces Instead Of Tabs"
+msgstr "Fut hapësira në vend të tabulatorëve:"
+
+#: src/Widgets/FormatBar.vala:156
+#, fuzzy
+#| msgid "Tab width:"
+msgid "Tab width"
+msgstr "Gjatësia e tabulatorit:"
+
+#: src/Widgets/FormatBar.vala:236
+msgid "Go To Line:"
+msgstr "Shko tek rreshti:"
+
+#: src/Widgets/FormatBar.vala:287
+#, fuzzy, c-format
+msgid "%d Space"
+msgid_plural "%d Spaces"
+msgstr[0] "Vizato hapësirat"
+msgstr[1] "Vizato hapësirat"
+
+#: src/Widgets/FormatBar.vala:289
+#, fuzzy, c-format
+msgid "%d Tab"
+msgid_plural "%d Tabs"
+msgstr[0] "Skedë të re"
+msgstr[1] "Skedë të re"
+
+#: src/Widgets/HeaderBar.vala:38
+msgid "Open a file"
+msgstr "Hap një skedar"
+
+#: src/Widgets/HeaderBar.vala:44
+msgid "Project templates"
+msgstr "Shabllonet e projektit"
+
+#: src/Widgets/HeaderBar.vala:51
+msgid "Save this file"
+msgstr "Ruaj këtë skedar"
+
+#: src/Widgets/HeaderBar.vala:59
+msgid "Save this file with a different name"
+msgstr "Ruaj këtë skedar me një emër tjetër"
+
+#: src/Widgets/HeaderBar.vala:67
+msgid "Restore this file"
+msgstr "Restauro këtë skedar"
+
+#: src/Widgets/HeaderBar.vala:76
+msgid "Share"
+msgstr "Shpërndaje"
+
+#: src/Widgets/HeaderBar.vala:84
+#, fuzzy
+msgid "Zoom Out"
+msgstr "Zmadhimi"
+
+#: src/Widgets/HeaderBar.vala:92
+msgid "Zoom 1:1"
+msgstr "Shkalla 1:1"
+
+#: src/Widgets/HeaderBar.vala:100
+#, fuzzy
+msgid "Zoom In"
+msgstr "Zmadhimi"
+
+#: src/Widgets/HeaderBar.vala:145
+msgid "Follow System Style"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:240
+msgid "Menu"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:52
+msgid "Cloning complete"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:80
+msgid "Collapse All"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:83
+msgid "Alphabetize"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:91
+#, fuzzy
+#| msgid "Open a folder"
+msgid "Manage project folders…"
+msgstr "Hap një dosje"
+
+#: src/Widgets/SearchBar.vala:101
+msgid "Find"
+msgstr "Gjej"
+
+#: src/Widgets/SearchBar.vala:104
+msgid "No Results"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:116
+msgid "Search next"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:126
+msgid "Search previous"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:129
+msgid "Cyclic Search"
+msgstr "Kërkim ciklik"
+
+#: src/Widgets/SearchBar.vala:132 plugins/pastebin/pastebin_dialog.vala:467
+msgid "Never"
+msgstr "Kurrë"
+
+#: src/Widgets/SearchBar.vala:133
+msgid "Mixed Case"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:134
+msgid "Always"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:137
+msgid "Case Sensitive"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:144
+msgid "Use Regular Expressions"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:145
+msgid "Match Whole Words"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:166
+#, fuzzy
+#| msgid "Cyclic Search"
+msgid "Search Options"
+msgstr "Kërkim ciklik"
+
+#: src/Widgets/SearchBar.vala:203
+msgid "Replace With"
+msgstr "Zëvendësoje me"
+
+#: src/Widgets/SearchBar.vala:206
+msgid "Replace"
+msgstr "Zëvendëso"
+
+#: src/Widgets/SearchBar.vala:209
+msgid "Replace all"
+msgstr "Zëvendësoji të gjitha"
+
+#: src/Widgets/SearchBar.vala:614
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:619
+msgid "no results"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:583
+msgid "Sort Selected Lines"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:594
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Mark Current Line"
+msgstr "Hiq pamjen e tanishme"
+
+#: src/Widgets/SourceView.vala:605
+msgid "Goto Previous Edit Mark"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:616
+#, fuzzy
+#| msgid "Text Editor"
+msgid "Goto Next Edit Mark"
+msgstr "Përpunues Tekstesh"
+
+#: src/Widgets/SourceView.vala:635
+msgid "Toggle Comment"
+msgstr ""
+
+#: src/Widgets/Terminal.vala:140
+msgid "Copy"
+msgstr "Kopjo"
+
+#: src/Widgets/Terminal.vala:141
+msgid "Paste"
+msgstr "Ngjit"
+
+#: src/Widgets/WelcomeView.vala:26
+msgid "No Files Open"
+msgstr "Asnjë skedar i hapur"
+
+#: src/Widgets/WelcomeView.vala:27
+msgid "Open a file to begin editing."
+msgstr "Hap një skedar për të filluar redaktimin."
+
+#: src/Widgets/WelcomeView.vala:32
+#, fuzzy
+msgid "New File"
+msgstr "/Skedar i ri"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "Create a new empty file."
+msgstr "Krijo një skedar të ri bosh."
+
+#: src/Widgets/WelcomeView.vala:33
+#, fuzzy
+msgid "Open File"
+msgstr "Hap skedar"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open a saved file."
+msgstr "Hap një skedar të ruajtur."
+
+#: src/Widgets/WelcomeView.vala:34
+#, fuzzy
+msgid "Open Folder"
+msgstr "Hap një dosje"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Add a project folder to the sidebar."
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:248
+#: plugins/pastebin/pastebin_dialog.vala:328 plugins/pastebin/pastebin.vala:124
+msgid "Upload to Pastebin"
+msgstr "Ngarko tek Pastebin"
+
+#: plugins/pastebin/pastebin_dialog.vala:257
+msgid "Name:"
+msgstr "Emri:"
+
+#: plugins/pastebin/pastebin_dialog.vala:261
+#, fuzzy
+msgid "Format:"
+msgstr "Formati: "
+
+#: plugins/pastebin/pastebin_dialog.vala:268
+msgid "Choose different format"
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:290
+#, fuzzy
+#| msgid "Expiry time:"
+msgid "Expiration:"
+msgstr "Data e skadimit:"
+
+#: plugins/pastebin/pastebin_dialog.vala:297
+msgid "Keep this paste private"
+msgstr "Mbaje private"
+
+#: plugins/pastebin/pastebin_dialog.vala:354
+msgid "Available Formats"
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:380
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select Format"
+msgstr "Përzgjidh shkronjat:"
+
+#: plugins/pastebin/pastebin_dialog.vala:468
+msgid "Ten minutes"
+msgstr "Dhjetë minuta"
+
+#: plugins/pastebin/pastebin_dialog.vala:469
+msgid "One hour"
+msgstr "Një orë"
+
+#: plugins/pastebin/pastebin_dialog.vala:470
+msgid "One day"
+msgstr "Një ditë"
+
+#: plugins/pastebin/pastebin_dialog.vala:471
+msgid "One month"
+msgstr "Një muaj"
+
+#: plugins/spell/spell.vala:73
+msgid "No Suitable Dictionaries Were Found"
+msgstr ""
+
+#: plugins/spell/spell.vala:74
+msgid "Please install at least one [aspell] dictionary."
+msgstr ""
+
+#: plugins/word-completion/plugin.vala:165
+#: plugins/word-completion/completion-provider.vala:55
+#, c-format
+msgid "%s - Word Completion"
+msgstr "%s -Vetë-plotësimi i fjalëve"
+
+#, fuzzy, c-format
+#~| msgid "Current working directory"
+#~ msgid "Local repository working directory is %s"
+#~ msgstr "Dosja aktuale a punës"
+
+#~ msgid "Tab width:"
+#~ msgstr "Gjatësia e tabulatorit:"
+
+#~ msgid "Custom font:"
+#~ msgstr "Shkronja të vetë-zgjedhura:"
+
+#, fuzzy
+#~| msgid "Strip trailing whitespace"
+#~ msgid "Visible whitespace:"
+#~ msgstr "Hiq hapësirat në fundit të rreshtit"
+
+#, fuzzy, c-format
+#~| msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+#~ msgid "File “%s” was deleted."
+#~ msgstr "Skedari \"%s\" është fshirë. Dëshiron ta ruash sidoqoftë?"
+
+#~ msgid "Set of plugins"
+#~ msgstr "Koleksion prapashtesash"
+
+#, fuzzy
+#~ msgid "plugin"
+#~ msgstr "Koleksion prapashtesash"
+
+#~ msgid "Save As…"
+#~ msgstr "Ruaj si…"
+
+#~ msgid "Load"
+#~ msgstr "Ngarko"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "You cannot save the document to “%s”. Do you want to save the file "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Nuk mund të ruash ndryshimet në skedarin \"%s\". Dëshiron të ruash "
+#~ "ndryshimet në këtë skedar në një vendndodhje tjetër?"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "You cannot save changes to the file “%s”. Do you want to save the changes "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "Nuk mund të ruash ndryshimet në skedarin \"%s\". Dëshiron të ruash "
+#~ "ndryshimet në këtë skedar në një vendndodhje tjetër?"
+
+#, fuzzy, c-format
+#~ msgid "File \"%s\" Cannot Be Read"
+#~ msgstr ""
+#~ "Skedari \"%s\" nuk mund të krijohet.\n"
+#~ "%s"
+
+#~ msgid "Find…"
+#~ msgstr "Gjej…"
+
+#~ msgid "Draw Spaces:"
+#~ msgstr "Vizato hapësirat"
+
+#, fuzzy
+#~ msgid "Zeitgeist Datasource for Code"
+#~ msgstr "Burimi i të dhënave Zeitgeist për Scratch"
+
+#, fuzzy
+#~ msgid "File \"%s\" Cannot Be Created"
+#~ msgstr ""
+#~ "Skedari \"%s\" nuk mund të krijohet.\n"
+#~ "%s"
+
+#~ msgid "Maybe you do not have the necessary permissions."
+#~ msgstr "Ndoshta nuk ke lejet e mjaftueshme."
+
+#~ msgid "It is an \"unknown\" file type."
+#~ msgstr "Është një lloj skedari \"i panjohur\"."
+
+#, fuzzy
+#~ msgid "File \"%s\" Cannot Be Opened"
+#~ msgstr ""
+#~ "Skedari \"%s\" nuk mund të krijohet.\n"
+#~ "%s"
+
+#~ msgid "Web Preview"
+#~ msgstr "Shiko në web"
+
+#~ msgid "Hide Preview"
+#~ msgstr "Fshih shikimin paraprak"
+
+#, fuzzy
+#~ msgid "Share via Pastebin"
+#~ msgstr "Shpëndaje nëpërmjet PasteBin"
+
+#~ msgid "Other formats"
+#~ msgstr "Formatet e tjera"
+
+#~ msgid "Add New View"
+#~ msgstr "Shto pamje të re"
+
+#, fuzzy
+#~ msgid "new file %d"
+#~ msgstr "Skedar i ri"
+
+#~ msgid "Could not load icon theme: %s\n"
+#~ msgstr "Nuk ishte i mundur ngarkimi i temës së ikonave: %s\n"
+
+#, fuzzy
+#~ msgid "directory"
+#~ msgstr "Është një dosje."
+
+#~ msgid ""
+#~ "File \"%s\" cannot be created.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Skedari \"%s\" nuk mund të krijohet.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "File \"%s\" cannot be opened.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Skedari \"%s\" nuk mund të hapet.\n"
+#~ "%s"
+
+#~ msgid "Highlight current line:"
+#~ msgstr "Vënia në dukje e rreshtit të tanishëm:"
+
+#~ msgid "New file"
+#~ msgstr "Skedar i ri"
+
+#~ msgid "New file from clipboard"
+#~ msgstr "Skedar i ri nga shënimet"
+
+#~ msgid "Create a new file from the contents of your clipboard."
+#~ msgstr "Krijo një skedar të ri nga përbajtja e shënimeve."
+
+#~ msgid "Open With…"
+#~ msgstr "Hap me…"
+
+#~ msgid "Terminal on Right"
+#~ msgstr "Terminal në të djathtë"
+
+#~ msgid "Terminal on Bottom"
+#~ msgstr "Terminal poshtë"
+
+#~ msgid "Font and Color Scheme"
+#~ msgstr "Shkronjat dhe skema e ngjyrave"
+
+#~ msgid "Color scheme:"
+#~ msgstr "Skema e ngjyrave:"
+
+#~ msgid "Edit text files"
+#~ msgstr "Përpuno skedarë teksti"
+
+#~ msgid "About Scratch"
+#~ msgstr "Rreth Scratch"
+
+#~ msgid "Trash"
+#~ msgstr "Koshi"
+
+#~ msgid "Go to line…"
+#~ msgstr "Shko tek rreshti…"
+
+#~ msgid "Quit"
+#~ msgstr "Dil"
+
+#~ msgid "Reopen closed document"
+#~ msgstr "Rihap dokumentin e sapo mbyllur"
+
+#~ msgid "Open last closed document in a new tab"
+#~ msgstr "Hap dokumentin e mbyllur së fundmi në një tab të ri"
+
+#~ msgid "Add New Tab"
+#~ msgstr "Shto tab të ri"
+
+#~ msgid "Add a new tab"
+#~ msgstr "Shto një tab të ri"
+
+#~ msgid "Add a new view"
+#~ msgstr "Shto një pamje të re"
+
+#~ msgid "Remove this view"
+#~ msgstr "Hiqe këtë pamje"
+
+#~ msgid "Undo"
+#~ msgstr "Zhbëj"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Anulo veprimin e fundit"
+
+#~ msgid "Redo"
+#~ msgstr "Ribëje"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Përsërit veprimin e fundit të anuluar"
+
+#~ msgid "Revert"
+#~ msgstr "Rikthe"
+
+#~ msgid "Duplicate selected strings"
+#~ msgstr "Dyfisho vargun e shkronjave të përzgjedhura"
+
+#~ msgid "Clipboard"
+#~ msgstr "Shënime"
+
+#~ msgid "New file from Clipboard"
+#~ msgstr "Skedar i ri nga shënimet"
+
+#~ msgid "Next Tab"
+#~ msgstr "Skeda pasuese"
+
+#~ msgid "Previous Tab"
+#~ msgstr "Skeda e mëparshme"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Ekran të plotë"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Indrit Bashkimi https://launchpad.net/~indritbsh\n"
+#~ "  Kevi Beqiraj https://launchpad.net/~kevi-beqiraj-5\n"
+#~ "  Mario Guerriero https://launchpad.net/~mefrio-g"
+
+#~ msgid "Wait while restoring last session..."
+#~ msgstr "Prit sa të restaurohet seanca e fundit..."
+
+#~ msgid "Normal Text"
+#~ msgstr "Tekst Normal"
+
+#~ msgid "When Scratch starts:"
+#~ msgstr "Kur Scratch niset:"
+
+#~ msgid "Show welcome screen"
+#~ msgstr "Shfaq ekranin e mirëseardhjes"
+
+#~ msgid "Show last open tabs"
+#~ msgstr "Shfaq skedat e hapura së fundmi"
+
+#~ msgid "A terminal in your text editor"
+#~ msgstr "Një terminal në redaktuesin tënd të tekstit"
+
+#~ msgid "Highlight Selected Words"
+#~ msgstr "Vënia në dukje e fjalëve të përzgjedhura"
+
+#~ msgid "Highlights all occurrences of words that are selected"
+#~ msgstr "Vë në dukje të gjitha rastijet e fjalëve të përzgjedhura"
+
+#~ msgid "Brackets Completion"
+#~ msgstr "Plotësimi kllapave"
+
+#~ msgid "Complete brackets while typing"
+#~ msgstr "Plotëson kllapat gjatë shtypjes"
+
+#~ msgid "Source Tree"
+#~ msgstr "Pema e burimeve"
+
+#~ msgid "Have a look at your sources organized in a nice tree"
+#~ msgstr "Shiko burimet tuaja të organizuara në një pemë të këndshme"
+
+#~ msgid "Loading..."
+#~ msgstr "Duke ngarkuar..."
+
+#~ msgid "Bookmark"
+#~ msgstr "Libërshënues"
+
+#~ msgid "Files"
+#~ msgstr "Skedarët"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Libërshënuesit"
+
+#~ msgid "Vim Emulation"
+#~ msgstr "Emulacion i programit Vim"
+
+#~ msgid "Use Vim commands in Scratch"
+#~ msgstr "Përdor komandat e programit Vim në Scratch"
+
+#~ msgid "Clipboard History"
+#~ msgstr "Kronologjia e shënimeve"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Delete"
+#~ msgstr "Fshij"
+
+#~ msgid "Outline"
+#~ msgstr "Struktura"
+
+#~ msgid "Outline symbols in your current file in vala"
+#~ msgstr "Skico simbolet në skedën tënde aktuale në vala"
+
+#~ msgid "Folder Manager"
+#~ msgstr "Menaxher dosjesh"
+
+#~ msgid "Basic folder manager with file browsing"
+#~ msgstr "Menaxhues dosjesh i thjeshtë me shfletim të skedarëve"
+
+#~ msgid "Go to parent"
+#~ msgstr "Niveli i sipërm"
+
+#~ msgid "Add file"
+#~ msgstr "Shto skedar"
+
+#~ msgid "Remove file"
+#~ msgstr "Hiq skedar"
+
+#~ msgid "File Manager"
+#~ msgstr "Menaxher skedarësh"
+
+#~ msgid "Spell Checker"
+#~ msgstr "Kontrolluesi i drejtshkrimit"
+
+#~ msgid "Checks the spelling of your documents"
+#~ msgstr "Kontrollon drejtshkrimin e dokumenteve tuaja"
+
+#~ msgid "Browser Preview"
+#~ msgstr "Shikim paraprak në Shfletues"
+
+#~ msgid "Get a preview your work in a web page"
+#~ msgstr "Paraqit shikimin paraprak të punës tënde në një faqe ueb"
+
+#~ msgid "Words Completion"
+#~ msgstr "Plotësimi i fjalëve"
+
+#~ msgid "Show a completion dialog with most used words from your files"
+#~ msgstr ""
+#~ "Sugjeron një listë fjalësh sipas fjalëve më të përdorura në skedarët tuaj"
+
+#~ msgid "Pastebin"
+#~ msgstr "Pastebin"
+
+#~ msgid "Share files with pastebin service"
+#~ msgstr "Shpërndaje me shërbimin pastebin"
+
+#~ msgid "Share your files with Contractor"
+#~ msgstr "Shpërndaj skedarët tuaj me Contractor"
+
+#~ msgid "Preserve Indent"
+#~ msgstr "Ruaj kryeradhën"
+
+#~ msgid "Open With"
+#~ msgstr "Hap me"
+
+#~ msgid "Open files you are editing with another application"
+#~ msgstr "Hap skedarët që po përpunon me një program tjetër"
+
+#~ msgid "Detect Indent"
+#~ msgstr "Zbulo porositë"
+
+#~ msgid "General:"
+#~ msgstr "Të përgjithshme:"
+
+#~ msgid "Editor:"
+#~ msgstr "Redaktuesi:"
+
+#~ msgid ""
+#~ "Do you want to save the changes to this file in a different location?"
+#~ msgstr ""
+#~ "Dëshiron të ruash ndryshimet e këtij skedari në një vendndodhje tjetër?"
+
+#~ msgid "Font and Color Scheme:"
+#~ msgstr "Shkronjat dhe ngjyrat:"
+
+#~ msgid "Tabs:"
+#~ msgstr "Skedat:"
+
+#~ msgid "Draw spaces:"
+#~ msgstr "Vizato hapësirat:"

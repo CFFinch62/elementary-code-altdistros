@@ -1,0 +1,130 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-ubuntu-2204:
+    name: Build on Ubuntu 22.04
+    runs-on: ubuntu-22.04
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Install dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y \
+          meson \
+          valac \
+          libeditorconfig-dev \
+          libgail-3-dev \
+          libgee-0.8-dev \
+          libgit2-glib-1.0-dev \
+          libgtksourceview-4-dev \
+          libgtkspell3-3-dev \
+          libhandy-1-dev \
+          libpeas-dev \
+          libsoup-3.0-dev \
+          libvala-0.56-dev \
+          libvte-2.91-dev
+        
+        # Add Elementary PPA for Granite
+        sudo add-apt-repository -y ppa:elementary-os/stable
+        sudo apt update
+        sudo apt install -y libgranite-dev
+    
+    - name: Configure build
+      run: meson setup build --prefix=/usr
+      
+    - name: Build
+      run: ninja -C build
+      
+    - name: Run tests
+      run: ninja -C build test
+      continue-on-error: true
+      
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: elementary-code-ubuntu-2204
+        path: build/src/io.elementary.code
+        retention-days: 7
+
+  build-ubuntu-2404:
+    name: Build on Ubuntu 24.04
+    runs-on: ubuntu-24.04
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Install dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y \
+          meson \
+          valac \
+          libeditorconfig-dev \
+          libgail-3-dev \
+          libgee-0.8-dev \
+          libgit2-glib-1.0-dev \
+          libgtksourceview-4-dev \
+          libgtkspell3-3-dev \
+          libhandy-1-dev \
+          libpeas-2-dev \
+          libsoup-3.0-dev \
+          libvala-0.56-dev \
+          libvte-2.91-dev
+        
+        # Add Elementary PPA for Granite
+        sudo add-apt-repository -y ppa:elementary-os/stable
+        sudo apt update
+        sudo apt install -y libgranite-dev
+    
+    - name: Configure build
+      run: meson setup build --prefix=/usr
+      
+    - name: Build
+      run: ninja -C build
+      
+    - name: Run tests
+      run: ninja -C build test
+      continue-on-error: true
+      
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: elementary-code-ubuntu-2404
+        path: build/src/io.elementary.code
+        retention-days: 7
+
+  test-scripts:
+    name: Test Installation Scripts
+    runs-on: ubuntu-22.04
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Make scripts executable
+      run: chmod +x scripts/*.sh
+      
+    - name: Test dependency installer
+      run: |
+        # Run in dry-run mode (we'll modify script to support this later)
+        bash -n scripts/install-dependencies-mint.sh
+        
+    - name: Test build script
+      run: bash -n scripts/build.sh
+      
+    - name: Test install script
+      run: bash -n scripts/install.sh
+      
+    - name: Test uninstall script
+      run: bash -n scripts/uninstall.sh

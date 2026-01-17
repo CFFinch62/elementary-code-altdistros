@@ -1,0 +1,1085 @@
+# French translation for scratch
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2025-10-30 19:55+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"Language-Team: French <https://l10n.elementaryos.org/projects/code/extra/fr/>"
+"\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:04+0000\n"
+
+#: data/code.metainfo.xml.in:9
+msgid "Code"
+msgstr "Code"
+
+#: data/code.metainfo.xml.in:10
+msgid "The editor that works for you"
+msgstr "L'éditeur qui travaille pour vous"
+
+#: data/code.metainfo.xml.in:12
+msgid ""
+"Whether you're writing in Markdown or managing a complex app codebase, Code "
+"is the lightweight but full-featured editor for you. It auto-saves your "
+"files to ensure they're always up-to-date, and it remembers your tabs so you "
+"never lose your spot—even between sessions."
+msgstr ""
+"Que vous écriviez en Markdown ou que vous gériez le code d'une application "
+"complexe, Code est l'éditeur léger mais complet qu'il vous faut. Il "
+"enregistre automatiquement vos fichiers pour qu'ils soient toujours à jour "
+"et mémorise vos onglets pour que vous ne vous perdiez jamais, même entre "
+"deux sessions."
+
+#: data/code.metainfo.xml.in:13
+msgid ""
+"Designed around a project-based workflow, Code knows about your separate "
+"codebases. It comes with helpful Git integration to create and switch "
+"between branches and show changed files and lines within your projects."
+msgstr ""
+"Conçu pour fonctionner par projet, Code reconnaît vos bases de code "
+"distinctes. Il est livré avec une intégration Git utile pour créer et passer "
+"d'une branche à l'autre et afficher les fichiers et lignes modifiés dans vos "
+"projets."
+
+#: data/code.metainfo.xml.in:14
+msgid ""
+"Work with your language: whether you're crafting code in Vala, scripting "
+"with PHP, or marking things up in HTML, Code has you covered. Experience "
+"full syntax highlighting with nearly all programming, scripting, and markup "
+"languages."
+msgstr ""
+"Il fonctionne avec votre langage. Que vous élaboriez du code en Vala, des "
+"scripts PHP, ou des pages HTML, Code est là pour vous. Profitez d’une "
+"coloration syntaxique complète avec presque tous les langages de "
+"programmation, des scripts ou de balisage."
+
+#: data/code.metainfo.xml.in:15
+msgid ""
+"Find anything in your current file, specific folders, or your whole project "
+"with options for case-sensitivity and regular expressions."
+msgstr ""
+"Trouvez n'importe quoi dans votre fichier actuel, dans des dossiers "
+"spécifiques ou dans l'ensemble de votre projet grâce aux options de "
+"sensibilité à la casse et aux expressions régulières."
+
+#: data/code.metainfo.xml.in:16
+msgid ""
+"Smart features throughout: automatic indentation, smart cut/copy behavior, "
+"visible whitespace for selected text and at the end of lines by default, and "
+"optional extensions for Markdown actions, spell checking, whitespace "
+"trimming, word completion, and more."
+msgstr ""
+"De nombreuses fonctionnalités intelligentes : indentation automatique, "
+"comportement intelligent en matière de couper/copier, espaces blancs "
+"visibles pour le texte sélectionné et à la fin des lignes par défaut, et "
+"extensions disponibles en option pour les actions Markdown, la vérification "
+"orthographique, le découpage des espaces blancs, l'auto-complétion, et plus "
+"encore."
+
+#: data/code.metainfo.xml.in:17
+msgid ""
+"Adapt Code to your workflow: you can tweak the behavior and interface as "
+"needed with a handful of useful and well-considered extensions and "
+"preferences."
+msgstr ""
+"Adaptez Code à votre flux de travail : vous pouvez modifier le comportement "
+"et l'interface selon vos besoins grâce à une poignée d'extensions et de "
+"préférences utiles et bien pensées."
+
+#: data/code.metainfo.xml.in:18
+msgid "There's a ton more:"
+msgstr "Et bien plus encore :"
+
+#: data/code.metainfo.xml.in:20
+msgid ""
+"Solarized Light, Solarized Dark, and High Contrast color schemes that affect "
+"the whole UI"
+msgstr ""
+"Thèmes de couleurs Solarized Light, Solarized Dark et Contraste élevé qui "
+"affectent l'ensemble de l'interface utilisateur"
+
+#: data/code.metainfo.xml.in:21
+msgid "Togglable sidebar to fit your workflow"
+msgstr "Barre latérale amovible pour s'adapter à votre flux de travail"
+
+#: data/code.metainfo.xml.in:22
+msgid "Smart indentation and .editorconfig support"
+msgstr "Indentation intelligente et prise en charge des fichiers .editorconfig"
+
+#: data/code.metainfo.xml.in:23
+msgid ""
+"Browser-class tabs with drag-and-drop, duplication, undo closing, and tab "
+"history"
+msgstr ""
+"Onglets comme dans un navigateur, avec glisser-déposer, duplication, "
+"annulation de la fermeture et historique des onglets"
+
+#: data/code.metainfo.xml.in:24
+msgid "Display the current line and character—and quickly jump to a new line"
+msgstr ""
+"Affichage de la ligne et du caractère courants, et saut rapide à une "
+"nouvelle ligne"
+
+#: data/code.metainfo.xml.in:25
+msgid ""
+"Scroll past the end of the file so you can keep the current line where it's "
+"comfortable"
+msgstr ""
+"Faites défiler le fichier jusqu'à la fin pour garder la ligne en cours là où "
+"c'est confortable"
+
+#: data/code.metainfo.xml.in:26
+msgid "Optional mini-map to make navigating large files easier"
+msgstr ""
+"Mini-carte en option pour faciliter la navigation dans les gros fichiers"
+
+#: data/code.metainfo.xml.in:65
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/code.metainfo.xml.in:73 data/code.metainfo.xml.in:90
+#: data/code.metainfo.xml.in:109 data/code.metainfo.xml.in:140
+#: data/code.metainfo.xml.in:182 data/code.metainfo.xml.in:203
+#: data/code.metainfo.xml.in:232 data/code.metainfo.xml.in:271
+#: data/code.metainfo.xml.in:320 data/code.metainfo.xml.in:360
+msgid "Minor updates:"
+msgstr "Mises à jour mineures :"
+
+#: data/code.metainfo.xml.in:75
+msgid "The tooltips for C symbols are now more informative"
+msgstr ""
+"Les infobulles pour les symboles C donnent désormais plus d'information"
+
+#: data/code.metainfo.xml.in:76
+msgid "Cloning success is now indicated by toast instead of a dialog"
+msgstr ""
+"La réussite du clonage est désormais indiquée par un toast au lieu d'une "
+"boîte de dialogue"
+
+#: data/code.metainfo.xml.in:77
+msgid "Global search and local search now have the same case sensitivity"
+msgstr ""
+"La recherche globale et la recherche locale ont désormais la même "
+"sensibilité à la casse"
+
+#: data/code.metainfo.xml.in:78
+msgid ""
+"Opening a second window no longer results in duplicate project entries in "
+"the project chooser"
+msgstr ""
+"L'ouverture d'une deuxième fenêtre n'entraîne plus la duplication des "
+"entrées dans le sélecteur de projet"
+
+#: data/code.metainfo.xml.in:79 data/code.metainfo.xml.in:94
+#: data/code.metainfo.xml.in:114 data/code.metainfo.xml.in:154
+#: data/code.metainfo.xml.in:185 data/code.metainfo.xml.in:205
+#: data/code.metainfo.xml.in:241 data/code.metainfo.xml.in:282
+#: data/code.metainfo.xml.in:330 data/code.metainfo.xml.in:362
+msgid "Updated translations"
+msgstr "Mise à jour des traductions"
+
+#: data/code.metainfo.xml.in:92
+msgid ""
+"The terminal pane is now synchronized with the Terminal app foreground, "
+"background and palette settings"
+msgstr ""
+"Le panneau du terminal est désormais synchronisé avec les paramètres de "
+"couleur de l'application Terminal"
+
+#: data/code.metainfo.xml.in:93
+msgid ""
+"The terminal pane is now synchronized with GNOME font and cursor blink "
+"settings"
+msgstr ""
+"Le panneau du terminal est désormais synchronisé avec les paramètres de "
+"police et du curseur de GNOME"
+
+#: data/code.metainfo.xml.in:105 data/code.metainfo.xml.in:129
+#: data/code.metainfo.xml.in:198 data/code.metainfo.xml.in:226
+#: data/code.metainfo.xml.in:265 data/code.metainfo.xml.in:313
+#: data/code.metainfo.xml.in:345
+msgid "Improvements:"
+msgstr "Améliorations :"
+
+#: data/code.metainfo.xml.in:107
+msgid ""
+"The Project Chooser context menu now includes an option to clone a remote "
+"git repository"
+msgstr ""
+"Le menu contextuel du sélecteur de projet comprend désormais une option pour "
+"cloner un dépôt git distant"
+
+#: data/code.metainfo.xml.in:111
+msgid ""
+"The \"Open Folder\" action now appears in the Project Chooser context menu"
+msgstr ""
+"L'action « Ouvrir le dossier » apparaît désormais dans le menu contextuel du "
+"sélecteur de projet"
+
+#: data/code.metainfo.xml.in:112
+msgid "The Vala symbol pane now shows a spinner while loading"
+msgstr ""
+"Le panneau des symboles Vala affiche désormais un indicateur de chargement"
+
+#: data/code.metainfo.xml.in:113
+msgid "The filter in the C symbol pane now works"
+msgstr "Le filtre fonctionne désormais dans panneau de symbole C"
+
+#: data/code.metainfo.xml.in:131
+msgid ""
+"A new gutter is added for adding/removing edit marks that can be navigated "
+"between with keyboard shortcuts"
+msgstr ""
+"Une nouvelle bande est ajoutée pour ajouter/supprimer des marques d'édition "
+"entre lesquelles il est possible de naviguer à l'aide de raccourcis clavier"
+
+#: data/code.metainfo.xml.in:132
+msgid "Remote branches may now be opened from the \"Branch\" menu"
+msgstr ""
+"Les branches distantes peuvent désormais être ouvertes depuis le menu "
+"« Branche »"
+
+#: data/code.metainfo.xml.in:133
+msgid ""
+"Options to overwrite or cancel are given when switching branch with "
+"uncommitted changes"
+msgstr ""
+"Des options pour écraser ou annuler sont proposées lors du changement de "
+"branche avec des modifications non validées"
+
+#: data/code.metainfo.xml.in:134
+msgid "The network can now be accessed from within the Flatpak"
+msgstr "Le réseau est désormais accessible à partir du Flatpak"
+
+#: data/code.metainfo.xml.in:135
+msgid ""
+"The branch names in the \"Branch\" submenus are now sorted alphabetically"
+msgstr ""
+"Le nom des branches dans les sous-menus de « Branche » sont désormais triés "
+"alphabétiquement"
+
+#: data/code.metainfo.xml.in:136
+msgid ""
+"The extension list now has switches instead of checkboxes in order to "
+"provide a larger target"
+msgstr ""
+"La liste des extensions comporte désormais des boutons d'activation/"
+"désactivation au lieu des cases à cocher pour une meilleure ergonomie"
+
+#: data/code.metainfo.xml.in:137
+msgid ""
+"The terminal pane now implements smart copy-paste and follows the \"natural-"
+"copy-paste\" setting of Terminal"
+msgstr ""
+"Le panneau du terminal implémente désormais le copier-coller intelligent et "
+"suit le paramètre « copier-coller naturel » de l'application Terminal"
+
+#: data/code.metainfo.xml.in:138
+msgid "The Vala symbol pane now gives more information in the tooltips"
+msgstr ""
+"Le panneau des symboles Vala donne désormais plus d'information sur les "
+"infobulles"
+
+#: data/code.metainfo.xml.in:142
+msgid "Launcher actions now have icons"
+msgstr "Les actions du lanceur ont désormais des icônes"
+
+#: data/code.metainfo.xml.in:143
+msgid ""
+"Opening and immediately closing a new document no longer prevents further "
+"documents being opened"
+msgstr ""
+"L'ouverture puis la fermeture immédiate d'un nouveau document n'empêche plus "
+"l'ouverture d'autres documents"
+
+#: data/code.metainfo.xml.in:144
+msgid ""
+"The Vala symbol pane may only block the UI for a limited time if there are a "
+"large number of symbols"
+msgstr ""
+"Le panneau des symboles Vala ne peut bloquer l'interface que pendant un "
+"temps limité s'il y a un grand nombre de symboles"
+
+#: data/code.metainfo.xml.in:145
+msgid "The \"Open in …\" menu is no longer empty when running as Flatpak"
+msgstr ""
+"Le menu « Ouvrir dans… » n'est plus vide lors de l'exécution en tant que "
+"Flatpak"
+
+#: data/code.metainfo.xml.in:146
+msgid "The search term now persists until editing or closing the search bar."
+msgstr ""
+"La recherche est désormais persistante jusqu'à l'édition ou la fermeture de "
+"la barre de recherche."
+
+#: data/code.metainfo.xml.in:147
+msgid ""
+"No longer allow the parent or child of an open project to be itself opened "
+"as a project"
+msgstr ""
+"Le parent ou l'enfant d'un projet ouvert ne peut plus être lui-même ouvert "
+"en tant que projet"
+
+#: data/code.metainfo.xml.in:148
+msgid "The active project dropdown now keeps in sync"
+msgstr "La liste déroulante du projet actif est désormais synchronisée"
+
+#: data/code.metainfo.xml.in:149
+msgid "Numbered lists are now handled correctly by Markdown plugin"
+msgstr ""
+"Les listes ordonnées sont désormais correctement gérées par l'extension "
+"Markdown"
+
+#: data/code.metainfo.xml.in:150
+msgid "The highlighting plugin now works with selections of more than one word"
+msgstr ""
+"L'extension de surbrillance fonctionne désormais avec des sélections de plus "
+"d'un mot"
+
+#: data/code.metainfo.xml.in:151
+msgid ""
+"The \"Open in …\" menu is now sorted and includes a \"Terminal Pane\" entry"
+msgstr ""
+"Le menu « Ouvrir dans… » est désormais trié et comporte une entrée « Panneau "
+"du terminal »"
+
+#: data/code.metainfo.xml.in:152
+msgid "Folders containing may items now expand faster without blocking the UI"
+msgstr ""
+"Les dossiers comportant de nombreux éléments sont désormais ouverts plus "
+"rapidement sans bloquer l'interface"
+
+#: data/code.metainfo.xml.in:153
+msgid "Symbol Pane now always scrolls document to selected symbol"
+msgstr ""
+"Le panneau des symboles défile désormais toujours le document jusqu'aux "
+"symboles sélectionnés"
+
+#: data/code.metainfo.xml.in:184
+msgid "Add symbol filter to Outline pane"
+msgstr "Ajout d'un filtre de symbole au panneau"
+
+#: data/code.metainfo.xml.in:200
+msgid "The Terminal pane now has a settable default directory"
+msgstr ""
+"Le panneau Terminal dispose désormais d'un dossier par défaut configurable"
+
+#: data/code.metainfo.xml.in:201
+msgid "New Tab Bar with improved animations and Drag-n-Drop"
+msgstr "Nouvelle barre d'onglets avec animations améliorées et glisser-déposer"
+
+#: data/code.metainfo.xml.in:228
+msgid ""
+"When opening a file in Code from the commandline or another app, a line/char "
+"position or selection range may be specified"
+msgstr ""
+"Lors de l'ouverture d'un fichier dans Code depuis la ligne de commande ou "
+"une autre application, une position de ligne/caractère ou une plage de "
+"sélection peut être spécifiée"
+
+#: data/code.metainfo.xml.in:229
+msgid "Add a fuzzy-find plugin which finds files in all open projects"
+msgstr ""
+"Ajout d'une extension de recherche fuzzy qui trouve des fichiers dans tous "
+"les projets ouverts"
+
+#: data/code.metainfo.xml.in:230
+msgid "Save and restore the state of the terminal pane"
+msgstr "Sauvegarde et restauration de l'état du panneau de terminal"
+
+#: data/code.metainfo.xml.in:234
+msgid ""
+"\"Find in Folder\" now works for all folders and text files, not only "
+"\".vala\" files"
+msgstr ""
+"« Rechercher dans le dossier » fonctionne désormais pour tous les dossiers "
+"et fichiers texte, pas seulement les fichiers « .vala »"
+
+#: data/code.metainfo.xml.in:235
+msgid "\"Follow System Style\" is now fully respected"
+msgstr "« Suivre le thème du système » est désormais respecté"
+
+#: data/code.metainfo.xml.in:236
+msgid "The \"--new-tab\" commandline option now works"
+msgstr "L'option en ligne de commande « --new-tab » fonctionne désormais"
+
+#: data/code.metainfo.xml.in:237
+msgid "The symbol pane width is now synchronised and saved"
+msgstr ""
+"La largeur du panneau des symboles est désormais synchronisée et sauvegardée"
+
+#: data/code.metainfo.xml.in:238
+msgid ""
+"Project folders are automatically closed if they are externally renamed, "
+"moved or deleted"
+msgstr ""
+"Les dossiers de projet sont automatiquement fermés s'ils sont renommés, "
+"déplacés ou supprimés en dehors de l'application"
+
+#: data/code.metainfo.xml.in:239
+msgid "Fixed temporary backup files persisting under some circumstances"
+msgstr ""
+"Correction des fichiers de sauvegarde temporaires persistant dans certaines "
+"circonstances"
+
+#: data/code.metainfo.xml.in:240
+msgid "The Show-Replace action has been improved"
+msgstr "L'action « Afficher-Remplacer » a été améliorée"
+
+#: data/code.metainfo.xml.in:267
+msgid "Search options transferred to searchbar menu"
+msgstr ""
+"Les options de recherche ont été transférées dans le menu de la barre de "
+"recherche"
+
+#: data/code.metainfo.xml.in:268
+msgid "Whole word search option added"
+msgstr "Ajout d'une option de recherche de mots entiers"
+
+#: data/code.metainfo.xml.in:269
+msgid ""
+"Whole word, case sensitive mode and use regex search settings now persist"
+msgstr ""
+"Les paramètres de recherche de mots entiers, de mode sensible à la casse et "
+"d'utilisation d'expressions rationnelles persistent désormais"
+
+#: data/code.metainfo.xml.in:273
+msgid "The search bar now updates properly after changing the active document"
+msgstr ""
+"La barre de recherche se met désormais à jour correctement après avoir "
+"changé de document actif"
+
+#: data/code.metainfo.xml.in:274
+msgid ""
+"Trying to save a document to an unwritable location is now handled better"
+msgstr ""
+"La tentative d'enregistrement d'un document à un emplacement non "
+"inscriptible est désormais mieux gérée"
+
+#: data/code.metainfo.xml.in:275
+msgid ""
+"The system style is now followed by the symbol outline and when launched "
+"without open documents"
+msgstr ""
+"Le thème du système est maintenant respecté par le détecteur de symboles, "
+"ainsi que lors du lancement sans documents ouverts"
+
+#: data/code.metainfo.xml.in:276
+msgid "Mixed case sensitive search now works as expected"
+msgstr "La recherche sensible à la casse fonctionne désormais comme attendu"
+
+#: data/code.metainfo.xml.in:277
+msgid ""
+"The search results no longer change unexpectedly when focusing a document"
+msgstr ""
+"Les résultats de la recherche ne changent plus inopinément lors de la "
+"focalisation sur un document"
+
+#: data/code.metainfo.xml.in:278
+msgid ""
+"Now there is always an active project at startup if there are projects in "
+"the sidebar"
+msgstr ""
+"Désormais, il y a toujours un projet actif au démarrage lorsqu'il y a des "
+"projets dans la barre latérale"
+
+#: data/code.metainfo.xml.in:279
+msgid ""
+"If a development branch is running this shows in the window title and in the "
+"dock tooltip"
+msgstr ""
+"Si une branche de développement est en cours d'exécution, cela apparaît dans "
+"le titre de la fenêtre et dans l'infobulle du dock"
+
+#: data/code.metainfo.xml.in:280
+msgid "Ctrl+PageUp and Ctrl+PageDown shortcuts now switch tabs"
+msgstr ""
+"Les raccourcis Ctrl+PageHaut et Ctrl+PageBas permettent désormais de changer "
+"d'onglet"
+
+#: data/code.metainfo.xml.in:281
+msgid "Ensure active project at startup (include non-git folders)"
+msgstr ""
+"Nous nous sommes assurés qu'il y ait un projet actif au lancement (y compris "
+"pour les dossiers qui ne sont pas des dépôts git)"
+
+#: data/code.metainfo.xml.in:315
+msgid "Redesigned app icon"
+msgstr "Nouvelle icône de l'application"
+
+#: data/code.metainfo.xml.in:316
+msgid "New custom dark and light elementary styles for the source view"
+msgstr ""
+"Nouveaux thèmes sombre et clair personnalisés d'elementary pour la vue du "
+"code source"
+
+#: data/code.metainfo.xml.in:317
+msgid "Option to follow the system dark style preference"
+msgstr "Option pour suivre le thème du système"
+
+#: data/code.metainfo.xml.in:318
+msgid "Ability to half tile on small notebook displays"
+msgstr ""
+"Possibilité d'utiliser la moitié de l'écran sur les petits écrans "
+"d'ordinateurs portables"
+
+#: data/code.metainfo.xml.in:322
+msgid ""
+"Both Find on Page and Find in Project are now available from the app's menu "
+"instead of in the headerbar"
+msgstr ""
+"Les fonctions « Rechercher sur la page » et « Rechercher dans le projet » "
+"sont désormais disponibles dans le menu de l'application et non plus dans la "
+"barre de titre"
+
+#: data/code.metainfo.xml.in:323
+msgid ""
+"Options for hiding and showing panels are now all present in a compact set "
+"of linked buttons in the app's menu"
+msgstr ""
+"Les options permettant de masquer et d'afficher les panneaux sont désormais "
+"toutes présentes dans un ensemble compact de boutons liés dans le menu de "
+"l'application"
+
+#: data/code.metainfo.xml.in:324
+msgid ""
+"The sidebar now contains the project chooser button and fills the height of "
+"the window"
+msgstr ""
+"La barre latérale contient désormais le bouton de sélection des projets et "
+"occupe toute la hauteur de la fenêtre"
+
+#: data/code.metainfo.xml.in:325
+msgid "Starting a global search with text selected now pre-fills that text"
+msgstr ""
+"Le lancement d'une recherche globale avec du texte sélectionné pré-remplit "
+"désormais le champ"
+
+#: data/code.metainfo.xml.in:326
+msgid ""
+"The symbol outline pane is now shown to the right of the source view and can "
+"be shown and hidden with the keyboard shortcut \"Alt + \\\""
+msgstr ""
+"Le volet de détecteur de symboles est désormais affiché à droite de la vue "
+"du code source et peut être affiché et masqué à l'aide du raccourci clavier "
+"« Alt + \\ »"
+
+#: data/code.metainfo.xml.in:327
+msgid ""
+"Terminal, Symbol outline, and the Strip Trailing Whitespace plugins are now "
+"part of the main codebase"
+msgstr ""
+"Les modules terminal, détecteur de symboles et suppression des espaces "
+"blancs de fin de ligne font désormais partie intégrante de l'application"
+
+#: data/code.metainfo.xml.in:328
+msgid ""
+"Show an infobar when tab width settings are being overwritten by an "
+"EditorConfig file"
+msgstr ""
+"Affichage d'une barre d'information lorsque les paramètres de largeur de "
+"tabulation sont écrasés par un fichier EditorConfig"
+
+#: data/code.metainfo.xml.in:329
+msgid ""
+"The shortcut for rebuilding the completion word list is now \"Ctrl + |\""
+msgstr ""
+"Le raccourci pour reconstituer la liste d'autocomplétion est désormais "
+"« Ctrl + | »"
+
+#: data/code.metainfo.xml.in:347
+msgid ""
+"The current document filename is now shown as the window title in "
+"multitasking view"
+msgstr ""
+"Le nom du document courant est désormais affiché comme titre de fenêtre dans "
+"la vue multitâche"
+
+#: data/code.metainfo.xml.in:348
+msgid "Hidden folders are now shown in the project sidebar"
+msgstr ""
+"Les dossiers cachés sont désormais affichés dans la barre latérale du projet"
+
+#: data/code.metainfo.xml.in:349
+msgid ""
+"The currently selected result and the number of results is displayed while "
+"searching"
+msgstr ""
+"Le résultat sélectionné et le nombre de résultats est affiché lors de la "
+"recherche"
+
+#: data/code.metainfo.xml.in:350
+msgid "The search bar now has a regular expression mode"
+msgstr "La barre de recherche possède désormais un mode expression régulière"
+
+#: data/code.metainfo.xml.in:352
+msgid "Fixes:"
+msgstr "Corrections :"
+
+#: data/code.metainfo.xml.in:354
+msgid ""
+"It is now possible to change Git branch with untracked files present in a "
+"project"
+msgstr ""
+"Il est désormais possible de changer de branche Git lorsque des fichiers non "
+"suivi sont présent dans un projet"
+
+#: data/code.metainfo.xml.in:355
+msgid "Crashes are prevented while searching in large projects"
+msgstr ""
+"Prévention des risques de plantage lors de la recherche dans des projets "
+"conséquents"
+
+#: data/code.metainfo.xml.in:356
+msgid ""
+"The correct document is now focused after opening Code from an external "
+"program"
+msgstr ""
+"Le bon document est désormais sélectionné après l'ouverture de Code depuis "
+"un autre programme"
+
+#: data/code.metainfo.xml.in:357
+msgid ""
+"Line duplication is now actioned correctly if there is no selection present"
+msgstr ""
+"La duplication des lignes est maintenant effectuée correctement si aucune "
+"sélection n'est présente"
+
+#: data/code.metainfo.xml.in:358
+msgid "Code no longer crashes when asked to open an unknown URI format"
+msgstr ""
+"Code ne plante plus lorsqu'il est demandé d'ouvrir un format d'URI inconnu"
+
+#: data/io.elementary.code.desktop.in.in:4
+msgid "@NAME@"
+msgstr "@NAME@"
+
+#: data/io.elementary.code.desktop.in.in:5
+msgid "Edit code files"
+msgstr "Modifier des fichiers de code"
+
+#: data/io.elementary.code.desktop.in.in:6
+msgid "Code Editor"
+msgstr "Éditeur de code"
+
+#: data/io.elementary.code.desktop.in.in:11
+msgid "text;IDE;scratch;code;"
+msgstr "texte;EDI;scratch;code;"
+
+#: data/io.elementary.code.desktop.in.in:17
+msgid "New File"
+msgstr "Nouveau fichier"
+
+#: data/io.elementary.code.desktop.in.in:22
+msgid "New Window"
+msgstr "Nouvelle fenêtre"
+
+#: data/code.policy.in.in:10
+msgid "Run Code as Administrator"
+msgstr "Exécuter Code en tant qu'administrateur"
+
+#: data/code.policy.in.in:11
+msgid "Authentication is required to run Code as Administrator"
+msgstr ""
+"Une authentification est requise pour exécuter Code en tant qu'administrateur"
+
+#~ msgid ""
+#~ "Projects with the same name now include their parent folder name as well"
+#~ msgstr ""
+#~ "Les projets de même nom incluent désormais également le nom du dossier "
+#~ "parent"
+
+#~ msgid ""
+#~ "When scrolling to search results, overshoot slightly for better visibility"
+#~ msgstr ""
+#~ "Lors du défilement des résultats de recherche, ajout d'un léger "
+#~ "débordement pour une meilleure visibilité"
+
+#~ msgid "Use the FileChooser portal instead of the one from GTK"
+#~ msgstr ""
+#~ "Utilisation du portail pour le sélecteur de fichiers à la place de celui "
+#~ "fourni par GTK"
+
+#~ msgid "Center the global search dialog over the main Code window"
+#~ msgstr ""
+#~ "La boîte de dialogue de recherche gobale est désormais centrée par dessus "
+#~ "la fenêtre de Code"
+
+#~ msgid "Fix visibility of Terminal button on Welcome page"
+#~ msgstr ""
+#~ "Correction de la visibilité du bouton Terminal sur la page d'accueil"
+
+#~ msgid ""
+#~ "Fix some keyboard shortcuts affecting unfocused Document instead of "
+#~ "focused Terminal"
+#~ msgstr ""
+#~ "Correction de certains raccourcis clavier affectant le Document non "
+#~ "focalisé au lieu du Terminal focalisé"
+
+#~ msgid ""
+#~ "Close Terminal if shell exited and create new Terminal if re-opened with "
+#~ "no shell"
+#~ msgstr ""
+#~ "Fermeture du Terminal si le shell est fermé et création d'un nouveau "
+#~ "Terminal si réouvert sans le shell"
+
+#~ msgid "\"Visible whitespace\" combobox is now a switch"
+#~ msgstr ""
+#~ "« Espaces blancs visibles » est désormais un bouton d'activation/"
+#~ "désactivation"
+
+#~ msgid "Fix crash when creating new window from tab drop"
+#~ msgstr ""
+#~ "Correction d'un plantage lors de la création d'une nouvelle fenêtre au "
+#~ "moment de la suppression d'un onglet"
+
+#~ msgid "Ensure files created from the sidebar are automatically opened"
+#~ msgstr ""
+#~ "Nous nous sommes assurés que les fichiers créés depuis la barre latérale "
+#~ "soient automatiquement ouverts"
+
+#~ msgid "Hide project chooser button when hiding sidebar"
+#~ msgstr ""
+#~ "Le bouton de sélection de projet est désormais masqué lorsque la barre "
+#~ "latérale est masquée"
+
+#~ msgid "Ensure all copy is translatable"
+#~ msgstr "Nous nous sommes assurés que tout soit traduisible"
+
+#~ msgid "Show when running a development branch of Code"
+#~ msgstr "Affiche lorsque vous utilisez une version de développement de Code"
+
+#~ msgid "New features:"
+#~ msgstr "Nouvelles fonctionnalités :"
+
+#~ msgid "New Markdown plugin for WYSIWYG-like editing."
+#~ msgstr "Nouveau plugin Markdown pour une édition en mode WYSIWYG."
+
+#~ msgid ""
+#~ "Switch Git branches or create new ones in project folder context menus"
+#~ msgstr ""
+#~ "Changez de branche Git ou créez en de nouvelles dans le menu contextuel "
+#~ "du dossier du projet"
+
+#~ msgid "Show Git diff status in source view gutters"
+#~ msgstr "Affichage du statut diff de Git dans les volets de la vue source"
+
+#~ msgid "Full text search within project folder."
+#~ msgstr "Recherche de texte complète à l'intérieur du dossier d'un projet."
+
+#~ msgid "Save and restore cursor position between sessions"
+#~ msgstr ""
+#~ "Enregistrement et restauration de la position du curseur entre les "
+#~ "sessions"
+
+#~ msgid "Close files from a project when that project is closed"
+#~ msgstr "Fermeture des fichiers d'un projet lorsque ce projet est fermé"
+
+#~ msgid "Show full file path in tab tooltips"
+#~ msgstr "Affichage du chemin complet du fichier dans l'infobulle des onglets"
+
+#~ msgid "Clear lines with Ctrl + K"
+#~ msgstr "Effacer les lignes avec Ctrl + K"
+
+#~ msgid "Allow Spell Checker extension in Markdown files"
+#~ msgstr ""
+#~ "Autorisation de la correction orthographique dans les fichiers Markdown"
+
+#~ msgid "Improve multi-line duplication"
+#~ msgstr "Amélioration de la duplication multi-lignes"
+
+#~ msgid "Remember whether the sidebar is open"
+#~ msgstr "Nous avons fait en sorte de sauvegarder l'état de la barre latérale"
+
+#~ msgid "Set window title to the focused file"
+#~ msgstr "Le titre de la fenêtre reflète le fichier en cours d'édition"
+
+#~ msgid "Add keyboard shortcuts for next and previous documents"
+#~ msgstr ""
+#~ "Ajout des raccourcis claviers pour les documents précédent et suivant"
+
+#~ msgid "Show full document path in tab tooltip"
+#~ msgstr ""
+#~ "Affichage du chemin complet du document dans l'infobulle des onglets"
+
+#~ msgid "Update Pastebin plugin"
+#~ msgstr "Mise à jour du module Pastebin"
+
+#~ msgid "Correctly indent last line when using the preserve whitespace plugin"
+#~ msgstr ""
+#~ "Indentation correcte de la dernière ligne lors de l'utilisation de "
+#~ "l'extension de conservation des espaces blancs"
+
+#~ msgid "Keep syntax highlighting when duplicating a file"
+#~ msgstr ""
+#~ "Garde la coloration syntaxique originale lors de la duplication d'un "
+#~ "fichier"
+
+#~ msgid "Expand a collapsed folder if you attempt to open it twice"
+#~ msgstr ""
+#~ "Développement d'un dossier réduit si vous tentez de l'ouvrir deux fois"
+
+#~ msgid "Fix an issue where searches are lost when Code loses focus"
+#~ msgstr ""
+#~ "Correction d'un problème où les recherches sont perdues lorsque Code "
+#~ "n'était plus au premier plan"
+
+#~ msgid "Start Vim plugin in command mode"
+#~ msgstr "Lancez le plugin Vim en mode commande"
+
+#~ msgid "Fix and add new Vim commands"
+#~ msgstr "Correction et ajout de nouvelles commandes Vim"
+
+#~ msgid "Show project folders with a hidden root folder"
+#~ msgstr "Affichage des dossiers de projets dont le dossier racine est caché"
+
+#~ msgid "Allow launching with pkexec and disallow launching with sudo"
+#~ msgstr ""
+#~ "Autorisation de l'exécution avec pkexec et interdiction de l'exécution "
+#~ "avec sudo"
+
+#~ msgid "Remove split view"
+#~ msgstr "Suppression de la vue scindée"
+
+#~ msgid "Remove browser preview"
+#~ msgstr "Suppression de l'aperçu dans le navigateur"
+
+#~ msgid "io.elementary.code"
+#~ msgstr "io.elementary.code"
+
+#~ msgid "Drag and drop with text containing accented characters"
+#~ msgstr "Glisser-déposer pour le texte comportant des caractères accentués"
+
+#~ msgid "Text duplication issues when dragging text between multiple windows"
+#~ msgstr ""
+#~ "Problèmes de duplication de texte lors du glisser-déposer entre plusieurs "
+#~ "fenêtres"
+
+#~ msgid "Fix empty sidebar layout, ensuring folders can always be added"
+#~ msgstr ""
+#~ "Correction de la disposition de la barre latérale lorsqu'elle est vide, "
+#~ "en s'assurant que les dossiers puissent toujours être ajoutés"
+
+#~ msgid "Scroll past the end of a file"
+#~ msgstr "Faire défiler la fin d'un fichier"
+
+#~ msgid "More efficiently save and restore window position"
+#~ msgstr ""
+#~ "Sauvegarde et restauration plus efficace de la position de la fenêtre"
+
+#~ msgid "Include Git status in file tooltips"
+#~ msgstr "Ajout du statut GIT dans l'infobulle des fichiers"
+
+#~ msgid "Option for explicit case-sensitive Find"
+#~ msgstr "Option pour la recherche sensible à la casse"
+
+#~ msgid "Other updates:"
+#~ msgstr "Autres mises à jour :"
+
+#~ msgid "Correctly show Toggle Comment menu item when no text is selected"
+#~ msgstr ""
+#~ "Correction de l'affichage de l'élément commenter/décommenter du menu "
+#~ "quand aucun texte n'est sélectionné"
+
+#~ msgid "Fixed font switch alignment"
+#~ msgstr "Correction de l'alignement de la police des boutons"
+
+#~ msgid "New \"Close Other Folders\" menu item to help clean up your sidebar"
+#~ msgstr ""
+#~ "Nouvelle option « Fermer les autres dossiers » pour aider à nettoyer la "
+#~ "barre latérale"
+
+#~ msgid "Save and restore cyclic search setting"
+#~ msgstr "Sauvegarde et restauration du paramètre de recherche cyclique"
+
+#~ msgid "Add keyboard shortcuts to menu items"
+#~ msgstr "Ajout des raccourcis claviers aux éléments de menu"
+
+#~ msgid "Make sidebar folder items not selectable"
+#~ msgstr ""
+#~ "Les éléments du dossier de la barre latérale ne sont désormais plus "
+#~ "sélectionnables"
+
+#~ msgid "Center new windows"
+#~ msgstr "Les nouvelles fenêtres sont désormais centrées"
+
+#~ msgid "Visually deprioritize .gitignored files in project sidebar"
+#~ msgstr ""
+#~ "Dé-prioriser visuellement dans la barre latérale les fichiers .gitignorés"
+
+#~ msgid "Smart cut/copy lines with no active selection"
+#~ msgstr "Copier/coller intelligent sans sélection"
+
+#~ msgid "Add a confirmation dialog to the \"Restore\" action"
+#~ msgstr "Ajout d'une boîte de configuration pour l'action de restauration"
+
+#~ msgid "Add \"Open In\" menu to the top-level folder in the folder manager"
+#~ msgstr ""
+#~ "Ajout du menu « Ouvrir dans » au niveau supérieur du dossier dans le "
+#~ "gestionnaire de dossiers"
+
+#~ msgid "Don't show temporary files in the folder manager"
+#~ msgstr ""
+#~ "Ne pas afficher de fichiers temporaires dans le gestionnaire de dossiers"
+
+#~ msgid "Add brackets completion and auto-indent by default"
+#~ msgstr ""
+#~ "Activation par défaut de la complétion des accolades et de l'indentation "
+#~ "automatique"
+
+#~ msgid "Zoom terminal plugin with keyboard"
+#~ msgstr "Plugin de zoom du terminal avec le clavier"
+
+#~ msgid "Honor global privacy setting when saving and restoring"
+#~ msgstr ""
+#~ "Respect des paramètres de confidentialité généraux lors de la sauvegarde "
+#~ "et de la restauration"
+
+#~ msgid "Simplify \"Draw spaces\" preference"
+#~ msgstr "Simplification du paramètre « Afficher les espaces »"
+
+#~ msgid "Fix the keyboard shortcut for going backwards in search results"
+#~ msgstr ""
+#~ "Correction du raccourci clavier pour revenir en arrière dans les "
+#~ "résultats de recherche"
+
+#~ msgid "Fix opening files from relative paths in Terminal"
+#~ msgstr ""
+#~ "Correction de l'ouverture de fichiers à partir de chemins relatifs dans "
+#~ "Terminal"
+
+#~ msgid "Fix null file dialog when opening a new window via the dock"
+#~ msgstr ""
+#~ "Correction de la boîte de dialogue de fichier vide lors de l'ouverture "
+#~ "d'une nouvelle fenêtre via le dock"
+
+#~ msgid "Add \"=\" as a zoom key"
+#~ msgstr "Ajout de « = » comme raccourci de zoom"
+
+#~ msgid "Change search entry icon when results aren't found"
+#~ msgstr ""
+#~ "Modification de l'icône du champ de recherche quand aucun résultat n'est "
+#~ "trouvé"
+
+#~ msgid "Enter name of new file before creating it"
+#~ msgstr "Entrez le nom d'un nouveau fichier avant de le créer"
+
+#~ msgid "Use Granite.MessageDialog throughout"
+#~ msgstr "Utilisation de Granite.MessageDialog"
+
+#~ msgid "Include non-text files in sidebar"
+#~ msgstr "Inclusion des fichiers non textuels dans la barre latérale"
+
+#~ msgid "Fix Remove Current View"
+#~ msgstr "Correction de la suppression de la vue courante"
+
+#~ msgid "Fix New Window desktop action behavior"
+#~ msgstr ""
+#~ "Correction du comportement de l'option « Nouvelle fenêtre » du lanceur"
+
+#~ msgid ""
+#~ "Properly synchronize Ctrl+N key presses with number of new documents "
+#~ "spawned"
+#~ msgstr ""
+#~ "Synchronisation correcte du raccourci Ctrl+N avec le nombre de nouveaux "
+#~ "documents générés"
+
+#~ msgid "Build system fix for editorconfig dependency"
+#~ msgstr ""
+#~ "Correction d'une dépendance d'editorconfig pour le système de compilation"
+
+#~ msgid "Add Change Branch context menu item"
+#~ msgstr "Ajout d'un élément de menu contextuel « Changer de branche »"
+
+#~ msgid "Avoid possible startup crash related to how plugins load"
+#~ msgstr ""
+#~ "Élimination d'un éventuel plantage au démarrage lié à la façon dont les "
+#~ "plugins se chargent"
+
+#~ msgid "Smarter file saving behavior"
+#~ msgstr "Meilleur comportement d'enregistrement des fichiers"
+
+#~ msgid "File saving fixes"
+#~ msgstr "Correction de l'enregistrement des fichiers"
+
+#~ msgid "Don't add temporary files to tab restore"
+#~ msgstr "Pas de fichiers temporaires ajoutés à la restauration des onglets"
+
+#~ msgid "Don't recreate deleted files when restoring session"
+#~ msgstr ""
+#~ "Pas de recréation des fichiers supprimés lors de la restauration d'une "
+#~ "session"
+
+#~ msgid "Restore line wrap preference"
+#~ msgstr "Restauration des préférences d'alignement"
+
+#~ msgid "Add accel tooltips"
+#~ msgstr "Ajout des indicateurs de raccourcis"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Corrections de bugs mineures"
+
+#~ msgid ""
+#~ "Make it yours. Code is written from the ground up to be extensible. Keep "
+#~ "things super lightweight and simple, or install extensions to turn Code "
+#~ "into a full-blown IDE; it's your choice. And with a handful of useful "
+#~ "preferences, you can tweak the behavior and interface to your liking."
+#~ msgstr ""
+#~ "Adaptez-le à vos besoins. Code est écrit pour être extensible. Laissez-le "
+#~ "léger et simple, ou installez des extensions pour transformer Code en un "
+#~ "IDE complet ; c'est vous qui voyez. Et avec des préférences utilisateurs "
+#~ "pratiques, vous pouvez modifier le comportement de l’interface à votre "
+#~ "goût."
+
+#~ msgid ""
+#~ "It's elementary. Code is made to be the perfect editor for elementary, "
+#~ "meaning it closely follows the high standards of design, speed, and "
+#~ "consistency. It's sexy, but not distracting."
+#~ msgstr ""
+#~ "C'est facile. Code est fait pour être l’éditeur parfait pour elementary, "
+#~ "il respecte les normes de conception, de vitesse, et de cohérence. Il est "
+#~ "beau, sans vous faire perdre votre concentration."
+
+#~ msgid ""
+#~ "Other syntax-highlighted languages: Bash, C, C#, C++. Cmake, "
+#~ "CSS, .Desktop, Diff, Fortran, Gettext, ini, Java, JavaScript, LaTex, Lua, "
+#~ "Makefile, Objective C, Pascal, Perl, Python, Ruby, XML."
+#~ msgstr ""
+#~ "Autres langages avec coloration syntaxique : Bash, C, C♯, C++. Cmake, "
+#~ "CSS, .Desktop, Diff, Fortran, Gettext, ini, Java, JavaScript, LaTex, Lua, "
+#~ "Makefile, Objective C, Pascal, Perl, Python, Ruby, XML."
+
+#~ msgid "Additional features include:"
+#~ msgstr "Les dispositifs additionnels incluent :"
+
+#~ msgid "syntax highlighting with gtksourceview-3"
+#~ msgstr "coloration syntaxique avec gtksourceview-3"
+
+#~ msgid "a find bar to search the words in the files"
+#~ msgstr "une barre de recherche pour chercher du contenu dans les fichiers"
+
+#~ msgid "tab and split documents system"
+#~ msgstr "système d’onglets et de scindage de documents"
+
+#~ msgid "lots of others"
+#~ msgstr "plein d’autres"
+
+#~ msgid "New Document"
+#~ msgstr "Nouveau document"
+
+#~ msgid "Notepad;IDE;Plain;"
+#~ msgstr "Bloc note;EDI;Plein;IDE;"
+
+#~ msgid "About Scratch"
+#~ msgstr "À propos de Code"

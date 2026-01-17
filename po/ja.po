@@ -1,0 +1,1708 @@
+# Japanese translation for scratch
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2025-10-25 00:24+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementaryos.org/projects/code/code/ja/"
+">\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:02+0000\n"
+
+#: src/Application.vala:41 src/Widgets/DocumentView.vala:99
+msgid "New Tab"
+msgstr "新しいタブ"
+
+#: src/Application.vala:42 src/FolderManager/FileItem.vala:87
+msgid "New Window"
+msgstr "新しいウィンドウ"
+
+#: src/Application.vala:43
+msgid "Print version info and exit"
+msgstr "バージョン情報を表示して終了する"
+
+#: src/Application.vala:44
+msgid "Open file at specified selection range"
+msgstr "選択範囲を指定してファイルを開く"
+
+#: src/Application.vala:44
+msgid "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+msgstr "<開始行[.開始位置][-終了行[.終了位置]]>"
+
+#: src/Application.vala:45
+msgid "[FILE…]"
+msgstr "[ファイル…]"
+
+#: src/MainWindow.vala:263
+#, c-format
+msgid "Code (%s)"
+msgstr "コード (%s)"
+
+#: src/MainWindow.vala:265
+msgid "Code"
+msgstr "コード"
+
+#: src/MainWindow.vala:399
+msgid "Hide search bar"
+msgstr "検索バーを非表示"
+
+#: src/MainWindow.vala:404 src/Widgets/HeaderBar.vala:122
+msgid "Find on Page…"
+msgstr "ページ内を検索…"
+
+#: src/MainWindow.vala:415
+msgid "Hide Projects Sidebar"
+msgstr "プロジェクトサイドバーを非表示"
+
+#: src/MainWindow.vala:420
+msgid "Show Projects Sidebar"
+msgstr "プロジェクトサイドバーを表示"
+
+#: src/MainWindow.vala:429
+msgid "Hide Symbol Outline"
+msgstr "シンボルアウトラインを非表示"
+
+#: src/MainWindow.vala:434
+msgid "Show Symbol Outline"
+msgstr "シンボルアウトラインを表示"
+
+#: src/MainWindow.vala:443
+msgid "Hide Terminal"
+msgstr "ターミナルを非表示"
+
+#: src/MainWindow.vala:448 src/Widgets/HeaderBar.vala:196
+msgid "Show Terminal"
+msgstr "ターミナルを表示"
+
+#. Update MainWindow title
+#. / TRANSLATORS: First placeholder is document name, second placeholder is app name
+#: src/MainWindow.vala:618
+#, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: src/MainWindow.vala:977 src/Services/Document.vala:668
+msgid "All files"
+msgstr "すべてのファイル"
+
+#: src/MainWindow.vala:981 src/Services/Document.vala:672
+msgid "Text files"
+msgstr "テキストファイル"
+
+#: src/MainWindow.vala:985
+msgid "Open some files"
+msgstr "複数のファイルを開く"
+
+#: src/MainWindow.vala:988
+msgid "Open"
+msgstr "開く"
+
+#: src/MainWindow.vala:989 src/Dialogs/CloneRepositoryDialog.vala:58
+#: src/Dialogs/CloneRepositoryDialog.vala:97
+#: src/Dialogs/GlobalSearchDialog.vala:86 src/Dialogs/NewBranchDialog.vala:42
+#: src/Services/Document.vala:510 src/Services/Document.vala:680
+#: plugins/pastebin/pastebin_dialog.vala:327
+#: plugins/pastebin/pastebin_dialog.vala:378
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/MainWindow.vala:1032
+msgid "_Open"
+msgstr "開く(_O)"
+
+#: src/MainWindow.vala:1033
+msgid "_Cancel"
+msgstr "キャンセル(_C)"
+
+#: src/MainWindow.vala:1088
+msgid "Cloning completed"
+msgstr "クローンが完了しました"
+
+#: src/MainWindow.vala:1089
+#, c-format
+msgid "Clone successfully created in %s"
+msgstr "クローンを次の場所に作成しました: %s"
+
+#: src/MainWindow.vala:1095
+#, c-format
+msgid "Unable to clone %s"
+msgstr "%s をクローンできません"
+
+#: src/MainWindow.vala:1102
+msgid "Retry"
+msgstr "再試行"
+
+#. /TRANSLATORS '%s' represents the quoted basename of a uri to be opened with the default app
+#: src/Utils.vala:212
+#, c-format
+msgid "Show '%s' with default app"
+msgstr "'%s' をデフォルトアプリで表示"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/CloneRepositoryDialog.vala:55
+msgid "Create a local clone of a Git repository"
+msgstr "Git リポジトリをローカルにクローンする"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:56
+msgid ""
+"The source repository and local folder must exist and have the required read "
+"and write permissions"
+msgstr ""
+"クローン元リポジトリとローカルフォルダーが存在し、読み書き権限を持っている必"
+"要があります"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:59
+msgid "Clone Repository"
+msgstr "リポジトリをクローン"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:69
+msgid "https://example.com/username/projectname.git"
+msgstr "https://example.com/username/projectname.git"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:93
+msgid "Select folder where the cloned repository will be created"
+msgstr "リポジトリのクローン先の親フォルダーを選択"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:96
+msgid "Select"
+msgstr "選択"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:118
+msgid "Repository URL"
+msgstr "リポジトリの URL"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:119
+msgid "Location"
+msgstr "場所"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:120
+msgid "Name of Clone"
+msgstr "クローン先フォルダー"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:122
+msgid "Cloning in progress"
+msgstr "クローン中"
+
+#: src/Dialogs/GlobalSearchDialog.vala:62
+msgid "The search term will be treated as a regex expression"
+msgstr "検索語句は正規表現として処理されます"
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case sensitive"
+msgstr "大文字小文字を区別して検索します"
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case insensitive"
+msgstr "大文字小文字を区別せずに検索します"
+
+#: src/Dialogs/GlobalSearchDialog.vala:65
+msgid "Search will match only whole words"
+msgstr "完全一致のみ検索します"
+
+#: src/Dialogs/GlobalSearchDialog.vala:68
+#, c-format
+msgid "Search for text in “%s”"
+msgstr "フォルダー“%s”内のテキストを検索"
+
+#: src/Dialogs/GlobalSearchDialog.vala:69
+msgid "The search term must be at least 3 characters long."
+msgstr "検索語句は 3 文字以上にする必要があります。"
+
+#: src/Dialogs/GlobalSearchDialog.vala:88
+msgid "Search"
+msgstr "検索"
+
+#: src/Dialogs/NewBranchDialog.vala:43
+#, c-format
+msgid "Create a new branch of “%s/%s”"
+msgstr "“%s/%s”の新しいブランチを作成"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/NewBranchDialog.vala:48
+msgid "The branch name must be unique and follow Git naming rules."
+msgstr "ブランチ名は一意かつ Git の命名規則に従う必要があります。"
+
+#: src/Dialogs/NewBranchDialog.vala:56
+msgid "Create Branch"
+msgstr "ブランチを作成"
+
+#: src/Dialogs/PreferencesDialog.vala:15 src/Widgets/HeaderBar.vala:218
+msgid "Preferences"
+msgstr "設定"
+
+#: src/Dialogs/PreferencesDialog.vala:23
+msgid "General"
+msgstr "一般"
+
+#: src/Dialogs/PreferencesDialog.vala:24
+msgid "Save files when changed"
+msgstr "変更時にファイルを保存"
+
+#: src/Dialogs/PreferencesDialog.vala:25
+msgid "Strip trailing whitespace on save"
+msgstr "保存時に行末の空白を削除"
+
+#: src/Dialogs/PreferencesDialog.vala:27
+msgid "Smart cut/copy lines"
+msgstr "便利な行の切り取り/コピー"
+
+#: src/Dialogs/PreferencesDialog.vala:29
+msgid ""
+"Cutting or copying without an active selection will cut or copy the entire "
+"current line"
+msgstr "文字を選択していない場合は、現在の行全体の切り取りやコピーを行います"
+
+#: src/Dialogs/PreferencesDialog.vala:35
+msgid "Indentation width"
+msgstr "インデント幅"
+
+#: src/Dialogs/PreferencesDialog.vala:46
+msgid "Indentation"
+msgstr "インデント"
+
+#: src/Dialogs/PreferencesDialog.vala:47
+msgid "Automatic indentation"
+msgstr "自動インデント"
+
+#: src/Dialogs/PreferencesDialog.vala:48
+msgid "Insert spaces instead of tabs"
+msgstr "タブの代わりにスペースを挿入"
+
+#: src/Dialogs/PreferencesDialog.vala:57
+msgid "Default build directory"
+msgstr "デフォルトのビルドディレクトリ"
+
+#: src/Dialogs/PreferencesDialog.vala:67
+msgid "Projects"
+msgstr "プロジェクト"
+
+#: src/Dialogs/PreferencesDialog.vala:78
+msgid "None"
+msgstr "なし"
+
+#: src/Dialogs/PreferencesDialog.vala:79
+msgid "Current Line"
+msgstr "現在の行"
+
+#: src/Dialogs/PreferencesDialog.vala:80
+msgid "All"
+msgstr "すべて"
+
+#: src/Dialogs/PreferencesDialog.vala:96
+msgid "Whitespace visible when not selected"
+msgstr "非選択時に空白を表示"
+
+#: src/Dialogs/PreferencesDialog.vala:111
+msgid "Editor"
+msgstr "エディター"
+
+#: src/Dialogs/PreferencesDialog.vala:112
+msgid "Highlight matching brackets"
+msgstr "対となるカッコをハイライト"
+
+#: src/Dialogs/PreferencesDialog.vala:114
+msgid "Mini Map"
+msgstr "ミニマップ"
+
+#: src/Dialogs/PreferencesDialog.vala:115
+msgid "Wrap lines"
+msgstr "行の折り返し"
+
+#: src/Dialogs/PreferencesDialog.vala:116
+msgid "Line width guide"
+msgstr "行の幅のガイド"
+
+#: src/Dialogs/PreferencesDialog.vala:124
+msgid "Font"
+msgstr "フォント"
+
+#: src/Dialogs/PreferencesDialog.vala:125
+msgid "Use system font"
+msgstr "システムフォントを使う"
+
+#: src/Dialogs/PreferencesDialog.vala:136
+msgid "Behavior"
+msgstr "挙動"
+
+#: src/Dialogs/PreferencesDialog.vala:137 src/SymbolPane/SymbolOutline.vala:51
+msgid "Interface"
+msgstr "インターフェース"
+
+#: src/Dialogs/PreferencesDialog.vala:153 src/Services/PluginManager.vala:130
+msgid "Extensions"
+msgstr "拡張機能"
+
+#: src/Dialogs/PreferencesDialog.vala:159
+#: plugins/pastebin/pastebin_dialog.vala:434
+msgid "Close"
+msgstr "閉じる"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:31
+msgid "Are You Sure You Want to Restore This File?"
+msgstr "このファイルを編集前の状態に復元してもよろしいですか?"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:32
+msgid "Restoring a file will undo all changes made since opening it"
+msgstr ""
+"ファイルを編集前の状態に復元すると、開いてから行われたすべての変更が元に戻り"
+"ます"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:34
+msgid "Don't Restore"
+msgstr "復元しない"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:36
+msgid "Restore Anyway"
+msgstr "了解して復元"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:40
+msgid "This folder is the parent of an open project"
+msgid_plural "This folder is the parent of open projects"
+msgstr[0] "開いているプロジェクトの親フォルダーです"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:46
+msgid "Opening this folder will close the child project"
+msgid_plural "Opening this folder will close all child projects"
+msgstr[0] "このフォルダーを開くと、サブプロジェクトを閉じます"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:52
+msgid "Close Child Project"
+msgid_plural "Close Child Projects"
+msgstr[0] "サブプロジェクトを閉じる"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:57
+msgid "This folder is a child of an open project"
+msgstr "開いているプロジェクトのサブフォルダーです"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:58
+msgid "Opening this folder will close the parent project"
+msgstr "このフォルダーを開くと、親プロジェクトを閉じます"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:59
+msgid "Close Parent Project"
+msgstr "親プロジェクトを閉じる"
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:62
+msgid "Don't Open"
+msgstr "キャンセル"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:40
+msgid "There are uncommitted changes in the current branch"
+msgstr "コミットしていない変更が現在のブランチにあります"
+
+#. /TRANSLATORS '%s' is a placeholder for the name of the branch to be checked out
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:42
+#, c-format
+msgid ""
+"Uncommitted changes will be permanently lost if <b>'%s'</b> is checked out "
+"now.\n"
+"\n"
+"<i>It is recommended that uncommitted changes are stashed, committed, or "
+"reverted before proceeding.</i>"
+msgstr ""
+"<b>'%s'</b> にチェックアウトすると、コミットしていない変更は破棄されます。\n"
+"\n"
+"<i>続行する前に、コミットしていない変更をスタッシュ、コミット、またはリバート"
+"することをおすすめします。</i>"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:44
+msgid "Do not Checkout"
+msgstr "チェックアウトしない"
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:45
+msgid "Checkout and Overwrite"
+msgstr "チェックアウトして上書き"
+
+#: src/FolderManager/FileItem.vala:49 src/FolderManager/FolderItem.vala:166
+msgid "Other Actions"
+msgstr "他の操作"
+
+#: src/FolderManager/FileItem.vala:55 src/FolderManager/FolderItem.vala:140
+msgid "Rename"
+msgstr "名前を変更"
+
+#: src/FolderManager/FileItem.vala:65 src/FolderManager/FolderItem.vala:148
+msgid "Move to Trash"
+msgstr "ゴミ箱に移動"
+
+#: src/FolderManager/FileItem.vala:100 src/FolderManager/FolderItem.vala:198
+msgid "Other Application…"
+msgstr "他のアプリケーション…"
+
+#: src/FolderManager/FileItem.vala:115 src/FolderManager/FolderItem.vala:218
+msgid "Open In"
+msgstr "指定した方法で開く"
+
+#: src/FolderManager/FileView.vala:74
+msgid "Folders"
+msgstr "フォルダー"
+
+#: src/FolderManager/FolderItem.vala:156
+msgid "Find in Folder…"
+msgstr "フォルダー内を検索…"
+
+#: src/FolderManager/FolderItem.vala:189
+msgid "Terminal Pane"
+msgstr "ターミナルペイン"
+
+#: src/FolderManager/FolderItem.vala:224
+msgid "Folder"
+msgstr "フォルダー"
+
+#: src/FolderManager/FolderItem.vala:232
+msgid "Empty File"
+msgstr "空のファイル"
+
+#. scan all children
+#. No need to show status when children shown
+#: src/FolderManager/FolderItem.vala:243
+#: src/FolderManager/ProjectFolderItem.vala:427
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "New"
+msgstr "新規作成"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "untitled folder"
+msgstr "名称未設定フォルダー"
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "new file"
+msgstr "新しいファイル"
+
+#: src/FolderManager/ProjectFolderItem.vala:147
+msgid "Set as Active Project"
+msgstr "アクティブなプロジェクトに設定"
+
+#: src/FolderManager/ProjectFolderItem.vala:155
+msgid "Open in Terminal Pane"
+msgstr "ターミナルペインで開く"
+
+#: src/FolderManager/ProjectFolderItem.vala:186
+msgid "Close Folder"
+msgstr "フォルダーを閉じる"
+
+#: src/FolderManager/ProjectFolderItem.vala:194
+msgid "Close Other Folders"
+msgstr "他のフォルダーを閉じる"
+
+#: src/FolderManager/ProjectFolderItem.vala:211
+#, c-format
+msgid "Close %u Open Document"
+msgid_plural "Close %u Open Documents"
+msgstr[0] "%u 項目の開いているドキュメントを閉じる"
+
+#: src/FolderManager/ProjectFolderItem.vala:223
+#, c-format
+msgid "Hide %u Open Document"
+msgid_plural "Hide %u Open Documents"
+msgstr[0] "%u 項目の開いているドキュメントを非表示"
+
+#: src/FolderManager/ProjectFolderItem.vala:246
+#, c-format
+msgid "Restore %u Hidden Document"
+msgid_plural "Restore %u Hidden Documents"
+msgstr[0] "%u 項目の非表示にしたドキュメントを復元"
+
+#: src/FolderManager/ProjectFolderItem.vala:279 src/Widgets/HeaderBar.vala:131
+msgid "Find in Project…"
+msgstr "プロジェクト内を検索…"
+
+#: src/FolderManager/ProjectFolderItem.vala:320
+msgid "Local"
+msgstr "ローカル"
+
+#: src/FolderManager/ProjectFolderItem.vala:337
+msgid "Remote"
+msgstr "リモート"
+
+#: src/FolderManager/ProjectFolderItem.vala:352
+msgid "New Branch…"
+msgstr "新しいブランチ…"
+
+#: src/FolderManager/ProjectFolderItem.vala:377
+msgid "Branch"
+msgstr "ブランチ"
+
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "Modified"
+msgstr "変更済み"
+
+#: src/FolderManager/ProjectFolderItem.vala:471
+#, c-format
+msgid "Error while creating new branch: “%s”"
+msgstr "新しいブランチの作成中にエラーが発生しました: “%s”"
+
+#. Empty files are valid text files
+#: src/Services/Document.vala:384
+#, c-format
+msgid "%s Is Not a Text File"
+msgstr "%s はテキストファイルではありません"
+
+#: src/Services/Document.vala:385
+msgid "Code will not load this type of file."
+msgstr "“コード”はこの種類のファイルを読み込むことができません。"
+
+#: src/Services/Document.vala:387
+msgid "Load Anyway"
+msgstr "強制的に読み込む"
+
+#: src/Services/Document.vala:408
+#, c-format
+msgid "Loading File “%s” Is Taking a Long Time"
+msgstr "ファイル“%s”の読み込みに時間がかかっています"
+
+#: src/Services/Document.vala:409
+msgid "Please wait while Code is loading the file."
+msgstr "ファイルが読み込まれるまでお待ちください。"
+
+#: src/Services/Document.vala:411
+msgid "Cancel Loading"
+msgstr "読み込みをキャンセル"
+
+#: src/Services/Document.vala:500
+#, c-format
+msgid "Save changes to “%s” before closing?"
+msgstr "閉じる前に“%s”への変更を保存しますか?"
+
+#: src/Services/Document.vala:501
+msgid "If you don't save, changes will be permanently lost."
+msgstr "保存しない場合、変更は破棄されます。"
+
+#: src/Services/Document.vala:507
+msgid "Close Without Saving"
+msgstr "保存せずに閉じる"
+
+#: src/Services/Document.vala:511 src/Services/Document.vala:679
+msgid "Save"
+msgstr "保存"
+
+#: src/Services/Document.vala:638
+#, c-format
+msgid "Saving to “%s” failed."
+msgstr "“%s”に保存できませんでした。"
+
+#: src/Services/Document.vala:676
+msgid "Save File"
+msgstr "ファイルを保存"
+
+#: src/Services/Document.vala:763 src/Services/Document.vala:781
+msgid "New Document"
+msgstr "新しいドキュメント"
+
+#. No path for a new document
+#: src/Services/Document.vala:783
+#, c-format
+msgid "Cannot save this document to %s"
+msgstr "%s にこのドキュメントを保存できません"
+
+#. Show an error view which says "Hey, I cannot read that file!"
+#: src/Services/Document.vala:870
+#, c-format
+msgid "Cannot read text in file “%s”"
+msgstr "ファイル“%s”内のテキストを読み込めません"
+
+#: src/Services/Document.vala:873
+msgid "You may not have permission to read the file."
+msgstr "ファイルを読み込む権限がない可能性があります。"
+
+#: src/Services/Document.vala:875
+msgid "The file may be corrupt or may not be a text file"
+msgstr "ファイルが破損しているか、テキストファイルではない可能性があります"
+
+#. Lack of read permission results in empty content string. Do not give option to open
+#. in new document in that case.
+#: src/Services/Document.vala:881
+msgid "Show Anyway"
+msgstr "強制的に表示"
+
+#: src/Services/Document.vala:912
+#, c-format
+msgid ""
+"The location containing the file “%s” was unmounted and there are unsaved "
+"changes."
+msgstr ""
+"ファイル“%s”を含む場所はアンマウントされていて、未保存の変更があります。"
+
+#: src/Services/Document.vala:914
+#, c-format
+msgid "File “%s” was deleted, renamed or moved and there are unsaved changes."
+msgstr ""
+"ファイル“%s”は削除、名称変更、または移動されていて、未保存の変更があります。"
+
+#. Check external changes after loading
+#. The file has become unwritable while changes are pending
+#: src/Services/Document.vala:928
+#, c-format
+msgid "File “%s” does not have write permission."
+msgstr "“%s”への書き込み権限がありません。"
+
+#: src/Services/Document.vala:974
+#, c-format
+msgid "File “%s” was modified by an external application"
+msgstr "ファイル“%s”は外部のアプリケーションによって変更されました"
+
+#: src/Services/Document.vala:979
+msgid ""
+"There are also unsaved changes. Reloading the document will overwrite the "
+"unsaved changes."
+msgstr ""
+"未保存の変更も存在します。ドキュメントを最読み込みすると、未保存の変更は上書"
+"きされます。"
+
+#: src/Services/Document.vala:983
+msgid "The document changed externally since you last saved it."
+msgstr "ドキュメントは、最後の保存以降に外部で変更されました。"
+
+#: src/Services/Document.vala:999
+#, c-format
+msgid "“%s” can't be saved here. Save a duplicate somewhere else?"
+msgstr "“%s”はここには保存できません。他の場所に複製して保存しますか?"
+
+#: src/Services/Document.vala:1008
+msgid "Ignore"
+msgstr "無視"
+
+#: src/Services/Document.vala:1010
+msgid "Save Duplicate…"
+msgstr "複製を保存…"
+
+#: src/Services/Document.vala:1059
+msgid "Continue"
+msgstr "編集を続行"
+
+#: src/Services/Document.vala:1061
+msgid "Reload"
+msgstr "再読み込み"
+
+#: src/Services/Document.vala:1064
+msgid "Overwrite"
+msgstr "上書きする"
+
+#: src/Services/Document.vala:1067
+msgid "Save Document elsewhere"
+msgstr "ドキュメントを他の場所に保存"
+
+#: src/Services/MonitoredRepository.vala:246
+#, c-format
+msgid "Remote Branch '%s' not found"
+msgstr "リモートブランチ '%s' が見つかりませんでした"
+
+#: src/Services/MonitoredRepository.vala:247
+msgid ""
+"The requested branch was not found in any remote linked to this repository"
+msgstr ""
+"指定されたブランチは、このリポジトリに関連付けられたいずれのリモートにも見つ"
+"かりませんでした"
+
+#: src/Services/MonitoredRepository.vala:284
+msgid "An error occurred while checking out the requested branch"
+msgstr "指定されたブランチへのチェックアウト中にエラーが発生しました"
+
+#. /TRANSLATORS "%.8s" is a placeholder for the first 8 characters of a commit reference
+#: src/Services/MonitoredRepository.vala:332
+#, c-format
+msgid "%.8s (detached)"
+msgstr "%.8s (detached)"
+
+#: src/Services/TemplateManager.vala:198
+msgid "Templates"
+msgstr "テンプレート"
+
+#. Remove fake fields created by the vala parser.
+#: src/SymbolPane/C/CtagsSymbolOutline.vala:79
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:193
+#: src/SymbolPane/SymbolOutline.vala:127
+msgid "Symbols"
+msgstr "シンボル"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:122
+msgid "Too Many Symbols"
+msgstr "シンボルが多すぎます"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:123
+#, c-format
+msgid ""
+"%s contains too many Vala symbols.\n"
+"Parsing and showing them took too long."
+msgstr ""
+"%s には過剰な Vala シンボルが含まれています。\n"
+"これらを解析・表示するには、相当な時間がかかります。"
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:194
+#, c-format
+msgid "Vala symbols found in %s"
+msgstr "%s 内で見つかった Vala シンボル"
+
+#: src/SymbolPane/SymbolOutline.vala:35
+msgid "Class"
+msgstr "クラス"
+
+#: src/SymbolPane/SymbolOutline.vala:37
+msgid "Property"
+msgstr "プロパティ"
+
+#: src/SymbolPane/SymbolOutline.vala:39
+msgid "Signal"
+msgstr "シグナル"
+
+#: src/SymbolPane/SymbolOutline.vala:41
+msgid "Method"
+msgstr "メソッド"
+
+#: src/SymbolPane/SymbolOutline.vala:43
+msgid "Struct"
+msgstr "構造体"
+
+#: src/SymbolPane/SymbolOutline.vala:45
+msgid "Enum"
+msgstr "列挙型"
+
+#: src/SymbolPane/SymbolOutline.vala:47
+msgid "Constant"
+msgstr "定数"
+
+#: src/SymbolPane/SymbolOutline.vala:49
+msgid "Constructor"
+msgstr "コンストラクタ"
+
+#: src/SymbolPane/SymbolOutline.vala:53
+msgid "Namespace"
+msgstr "名前空間"
+
+#: src/SymbolPane/SymbolOutline.vala:55
+msgid "Other"
+msgstr "その他"
+
+#: src/SymbolPane/SymbolOutline.vala:131
+msgid "Find Symbol"
+msgstr "シンボルを検索"
+
+#: src/SymbolPane/SymbolOutline.vala:140
+msgid "Filter symbol type"
+msgstr "シンボルの種類をフィルター"
+
+#: src/SymbolPane/SymbolOutline.vala:160
+msgid "Select All"
+msgstr "すべて選択"
+
+#: src/SymbolPane/SymbolOutline.vala:166
+msgid "Deselect All"
+msgstr "すべて選択解除"
+
+#: src/Widgets/ChooseProjectButton.vala:22
+msgid "No Project Selected"
+msgstr "プロジェクト未選択"
+
+#: src/Widgets/ChooseProjectButton.vala:23
+#, c-format
+msgid "Active Git Project: %s"
+msgstr "アクティブな Git プロジェクト: %s"
+
+#: src/Widgets/ChooseProjectButton.vala:61
+msgid "Filter projects"
+msgstr "プロジェクトをフィルター"
+
+#: src/Widgets/ChooseProjectButton.vala:84
+msgid "Open Folder…"
+msgstr "フォルダーを開く…"
+
+#: src/Widgets/ChooseProjectButton.vala:89
+msgid "Clone Git Repository…"
+msgstr "Git リポジトリをクローン…"
+
+#: src/Widgets/DocumentView.vala:109
+msgid "Closed Tabs"
+msgstr "閉じたタブ"
+
+#: src/Widgets/DocumentView.vala:449
+#, c-format
+msgid "Text file from %s:%d"
+msgstr "テキストファイル %s:%d"
+
+#: src/Widgets/DocumentView.vala:625
+msgid "Close Tabs to the Right"
+msgstr "右側のタブを閉じる"
+
+#: src/Widgets/DocumentView.vala:626
+msgid "Close Other Tabs"
+msgstr "他のタブを閉じる"
+
+#: src/Widgets/DocumentView.vala:627
+msgid "Close Tab"
+msgstr "タブを閉じる"
+
+#: src/Widgets/DocumentView.vala:630
+msgid "Open in New Window"
+msgstr "新しいウィンドウで開く"
+
+#: src/Widgets/DocumentView.vala:631
+msgid "Duplicate Tab"
+msgstr "タブを複製"
+
+#: src/Widgets/FormatBar.vala:50
+msgid "Syntax Highlighting"
+msgstr "シンタックスハイライト"
+
+#: src/Widgets/FormatBar.vala:60
+msgid "Line number"
+msgstr "行番号"
+
+#: src/Widgets/FormatBar.vala:87
+msgid "Filter languages"
+msgstr "言語をフィルター"
+
+#: src/Widgets/FormatBar.vala:111
+msgid "Plain Text"
+msgstr "プレーンテキスト"
+
+#: src/Widgets/FormatBar.vala:149
+msgid "Some settings set by EditorConfig file"
+msgstr "一部は EditorConfig ファイルによって設定されています"
+
+#: src/Widgets/FormatBar.vala:152
+msgid "Automatic Indentation"
+msgstr "自動インデント"
+
+#: src/Widgets/FormatBar.vala:154
+msgid "Insert Spaces Instead Of Tabs"
+msgstr "タブの代わりにスペースを挿入"
+
+#: src/Widgets/FormatBar.vala:156
+msgid "Tab width"
+msgstr "タブ幅"
+
+#: src/Widgets/FormatBar.vala:236
+msgid "Go To Line:"
+msgstr "行へ移動:"
+
+#: src/Widgets/FormatBar.vala:287
+#, c-format
+msgid "%d Space"
+msgid_plural "%d Spaces"
+msgstr[0] "%d スペース"
+
+#: src/Widgets/FormatBar.vala:289
+#, c-format
+msgid "%d Tab"
+msgid_plural "%d Tabs"
+msgstr[0] "%d タブ"
+
+#: src/Widgets/HeaderBar.vala:38
+msgid "Open a file"
+msgstr "ファイルを開きます"
+
+#: src/Widgets/HeaderBar.vala:44
+msgid "Project templates"
+msgstr "プロジェクトテンプレート"
+
+#: src/Widgets/HeaderBar.vala:51
+msgid "Save this file"
+msgstr "このファイルを保存します"
+
+#: src/Widgets/HeaderBar.vala:59
+msgid "Save this file with a different name"
+msgstr "このファイルを別の名前で保存します"
+
+#: src/Widgets/HeaderBar.vala:67
+msgid "Restore this file"
+msgstr "このファイルを編集前の状態に復元します"
+
+#: src/Widgets/HeaderBar.vala:76
+msgid "Share"
+msgstr "共有"
+
+#: src/Widgets/HeaderBar.vala:84
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: src/Widgets/HeaderBar.vala:92
+msgid "Zoom 1:1"
+msgstr "100% 表示"
+
+#: src/Widgets/HeaderBar.vala:100
+msgid "Zoom In"
+msgstr "拡大"
+
+#: src/Widgets/HeaderBar.vala:145
+msgid "Follow System Style"
+msgstr "システムのスタイルに従う"
+
+#: src/Widgets/HeaderBar.vala:240
+msgid "Menu"
+msgstr "メニュー"
+
+#: src/Widgets/Sidebar.vala:52
+msgid "Cloning complete"
+msgstr "クローン完了"
+
+#: src/Widgets/Sidebar.vala:80
+msgid "Collapse All"
+msgstr "すべて折りたたむ"
+
+#: src/Widgets/Sidebar.vala:83
+msgid "Alphabetize"
+msgstr "アルファベット順に並び替え"
+
+#: src/Widgets/Sidebar.vala:91
+msgid "Manage project folders…"
+msgstr "プロジェクトフォルダーを管理…"
+
+#: src/Widgets/SearchBar.vala:101
+msgid "Find"
+msgstr "検索"
+
+#: src/Widgets/SearchBar.vala:104
+msgid "No Results"
+msgstr "結果なし"
+
+#: src/Widgets/SearchBar.vala:116
+msgid "Search next"
+msgstr "次を検索"
+
+#: src/Widgets/SearchBar.vala:126
+msgid "Search previous"
+msgstr "前を検索"
+
+#: src/Widgets/SearchBar.vala:129
+msgid "Cyclic Search"
+msgstr "循環検索"
+
+#: src/Widgets/SearchBar.vala:132 plugins/pastebin/pastebin_dialog.vala:467
+msgid "Never"
+msgstr "なし"
+
+#: src/Widgets/SearchBar.vala:133
+msgid "Mixed Case"
+msgstr "検索用語に大文字も小文字も含まれる場合"
+
+#: src/Widgets/SearchBar.vala:134
+msgid "Always"
+msgstr "常に"
+
+#: src/Widgets/SearchBar.vala:137
+msgid "Case Sensitive"
+msgstr "大文字と小文字を区別"
+
+#: src/Widgets/SearchBar.vala:144
+msgid "Use Regular Expressions"
+msgstr "正規表現を使う"
+
+#: src/Widgets/SearchBar.vala:145
+msgid "Match Whole Words"
+msgstr "完全一致"
+
+#: src/Widgets/SearchBar.vala:166
+msgid "Search Options"
+msgstr "検索オプション"
+
+#: src/Widgets/SearchBar.vala:203
+msgid "Replace With"
+msgstr "置換後の文字"
+
+#: src/Widgets/SearchBar.vala:206
+msgid "Replace"
+msgstr "置換"
+
+#: src/Widgets/SearchBar.vala:209
+msgid "Replace all"
+msgstr "すべて置換"
+
+#: src/Widgets/SearchBar.vala:614
+#, c-format
+msgid "%d of %d"
+msgstr "%d / %d 件"
+
+#: src/Widgets/SearchBar.vala:619
+msgid "no results"
+msgstr "結果なし"
+
+#: src/Widgets/SourceView.vala:583
+msgid "Sort Selected Lines"
+msgstr "選択された行を並べ替え"
+
+#: src/Widgets/SourceView.vala:594
+msgid "Mark Current Line"
+msgstr "現在の行をブックマークする"
+
+#: src/Widgets/SourceView.vala:605
+msgid "Goto Previous Edit Mark"
+msgstr "前のブックマークに移動"
+
+#: src/Widgets/SourceView.vala:616
+msgid "Goto Next Edit Mark"
+msgstr "次のブックマークに移動"
+
+#: src/Widgets/SourceView.vala:635
+msgid "Toggle Comment"
+msgstr "コメントアウト/コメント解除"
+
+#: src/Widgets/Terminal.vala:140
+msgid "Copy"
+msgstr "コピー"
+
+#: src/Widgets/Terminal.vala:141
+msgid "Paste"
+msgstr "貼り付け"
+
+#: src/Widgets/WelcomeView.vala:26
+msgid "No Files Open"
+msgstr "開いているファイルなし"
+
+#: src/Widgets/WelcomeView.vala:27
+msgid "Open a file to begin editing."
+msgstr "編集を始めるにはファイルを開いてください。"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "New File"
+msgstr "新しいファイル"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "Create a new empty file."
+msgstr "新しい空のファイルを作成します。"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open File"
+msgstr "ファイルを開く"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open a saved file."
+msgstr "保存されているファイルを開きます。"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Open Folder"
+msgstr "フォルダーを開く"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Add a project folder to the sidebar."
+msgstr "サイドバーにプロジェクトフォルダーを追加します。"
+
+#: plugins/pastebin/pastebin_dialog.vala:248
+#: plugins/pastebin/pastebin_dialog.vala:328 plugins/pastebin/pastebin.vala:124
+msgid "Upload to Pastebin"
+msgstr "Pastebin にアップロード"
+
+#: plugins/pastebin/pastebin_dialog.vala:257
+msgid "Name:"
+msgstr "名前:"
+
+#: plugins/pastebin/pastebin_dialog.vala:261
+msgid "Format:"
+msgstr "形式:"
+
+#: plugins/pastebin/pastebin_dialog.vala:268
+msgid "Choose different format"
+msgstr "別の形式を選択します"
+
+#: plugins/pastebin/pastebin_dialog.vala:290
+msgid "Expiration:"
+msgstr "公開期間:"
+
+#: plugins/pastebin/pastebin_dialog.vala:297
+msgid "Keep this paste private"
+msgstr "公開しない"
+
+#: plugins/pastebin/pastebin_dialog.vala:354
+msgid "Available Formats"
+msgstr "利用可能な書式"
+
+#: plugins/pastebin/pastebin_dialog.vala:380
+msgid "Select Format"
+msgstr "書式を選択"
+
+#: plugins/pastebin/pastebin_dialog.vala:468
+msgid "Ten minutes"
+msgstr "10 分間"
+
+#: plugins/pastebin/pastebin_dialog.vala:469
+msgid "One hour"
+msgstr "1 時間"
+
+#: plugins/pastebin/pastebin_dialog.vala:470
+msgid "One day"
+msgstr "1 日"
+
+#: plugins/pastebin/pastebin_dialog.vala:471
+msgid "One month"
+msgstr "1 か月"
+
+#: plugins/spell/spell.vala:73
+msgid "No Suitable Dictionaries Were Found"
+msgstr "適切な辞書が見つかりませんでした"
+
+#: plugins/spell/spell.vala:74
+msgid "Please install at least one [aspell] dictionary."
+msgstr "少なくとも 1 つ以上の [aspell] 辞書をインストールしてください。"
+
+#: plugins/word-completion/plugin.vala:165
+#: plugins/word-completion/completion-provider.vala:55
+#, c-format
+msgid "%s - Word Completion"
+msgstr "%s - 単語補完"
+
+#~ msgid "Case sensitive:"
+#~ msgstr "大文字と小文字を区別:"
+
+#~ msgid "Use regular expressions:"
+#~ msgstr "正規表現を使う:"
+
+#, c-format
+#~ msgid "Repository %s successfully cloned"
+#~ msgstr "リポジトリ %s のクローンに成功しました"
+
+#, c-format
+#~ msgid "Local repository working directory is %s"
+#~ msgstr "ローカルリポジトリの作業ディレクトリは以下です: %s"
+
+#, c-format
+#~ msgid "This folder is the parent of %u open projects"
+#~ msgstr "開いているプロジェクト %u 個の親フォルダーです"
+
+#~ msgid "Opening this folder will close all child projects"
+#~ msgstr "このフォルダーを開くと、すべてのサブプロジェクトを閉じます"
+
+#~ msgid "Close Child Projects"
+#~ msgstr "サブプロジェクトを閉じる"
+
+#~ msgid "Tabs"
+#~ msgstr "タブ"
+
+#~ msgid "Tab width:"
+#~ msgstr "タブ幅:"
+
+#~ msgid "Line wrap:"
+#~ msgstr "行の折り返し:"
+
+#~ msgid "Custom font:"
+#~ msgstr "カスタムフォント:"
+
+#~ msgid "Visible whitespace:"
+#~ msgstr "空白を表示:"
+
+#, c-format
+#~ msgid "File “%s” was deleted."
+#~ msgstr "ファイル “%s” は削除されました。"
+
+#~ msgid "Set of plugins"
+#~ msgstr "プラグインのセット"
+
+#~ msgid "plugin"
+#~ msgstr "プラグイン"
+
+#~ msgid "Save As…"
+#~ msgstr "名前を付けて保存…"
+
+#~ msgid "Load"
+#~ msgstr "再読み込み"
+
+#, c-format
+#~ msgid ""
+#~ "You cannot save the document to “%s”. Do you want to save the file "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "ドキュメントを “%s” に保存できません。ファイルをほかの場所に保存しますか？"
+
+#, c-format
+#~ msgid ""
+#~ "You cannot save changes to the file “%s”. Do you want to save the changes "
+#~ "somewhere else?"
+#~ msgstr ""
+#~ "ファイル “%s” に変更内容を保存できません。変更内容を別の場所に保存します"
+#~ "か？"
+
+#, c-format
+#~ msgid "File \"%s\" Cannot Be Read"
+#~ msgstr "ファイル \"%s\" を読み込めません"
+
+#~ msgid "Case Insensitive"
+#~ msgstr "大文字と小文字を区別しない"
+
+#~ msgid "Save changes elsewhere"
+#~ msgstr "別の場所に変更内容を保存"
+
+#~ msgid "Open Project Folder…"
+#~ msgstr "プロジェクトフォルダーを開く…"
+
+#~ msgid "Terminal"
+#~ msgstr "ターミナル"
+
+#~ msgid "Toggle Sidebar"
+#~ msgstr "サイドバーを表示／非表示"
+
+#~ msgid "Find…"
+#~ msgstr "検索…"
+
+#~ msgid "Draw Spaces:"
+#~ msgstr "空白を表示:"
+
+#~ msgid "For selected text"
+#~ msgstr "選択されたテキストに対して表示"
+
+#~ msgid "High Contrast"
+#~ msgstr "ハイコントラスト"
+
+#~ msgid "Solarized Light"
+#~ msgstr "Solarized Light"
+
+#~ msgid "Solarized Dark"
+#~ msgstr "Solarized Dark"
+
+#~ msgid "You must have an active Git project before creating a new branch."
+#~ msgstr ""
+#~ "新しいブランチを作成するには、プロジェクトで Git を使用している必要があり"
+#~ "ます。"
+
+#~ msgid "Open a Git project folder in the sidebar."
+#~ msgstr ""
+#~ "サイドバーに Git を使用しているプロジェクトフォルダーを開いてください。"
+
+#~ msgid ""
+#~ "Open a document in a Git project folder in the sidebar or use a project "
+#~ "context menu."
+#~ msgstr ""
+#~ "Git を使用しているプロジェクトフォルダーのドキュメントをサイドバーに開く"
+#~ "か、プロジェクトのコンテキストメニューを使用してください。"
+
+#~ msgid ""
+#~ "The branch name must comply with Git rules and must not already exist."
+#~ msgstr ""
+#~ "ブランチ名は Git のルールに従っている必要があります。既存の名前は使えませ"
+#~ "ん。"
+
+#~ msgid ""
+#~ "The branch name must be lower-case, start with a letter, and be at least "
+#~ "3 characters"
+#~ msgstr ""
+#~ "ブランチ名は、アルファベットで始まる3文字以上の小文字にする必要があります"
+
+#~ msgid "Search for:"
+#~ msgstr "検索するテキスト:"
+
+#~ msgid "Zeitgeist Datasource for Code"
+#~ msgstr "Code 向けの Zeitgeist データソース"
+
+#~ msgid "%s, New"
+#~ msgstr "%s、新規"
+
+#~ msgid "File \"%s\" Cannot Be Created"
+#~ msgstr "ファイル \"%s\" を作成できません"
+
+#~ msgid "Maybe you do not have the necessary permissions."
+#~ msgstr "必要な権限がない可能性があります。"
+
+#~ msgid "Maybe the file path provided is not valid."
+#~ msgstr "指定されたファイルのパスが有効ではない可能性があります。"
+
+#~ msgid "The location is read-only."
+#~ msgstr "この場所は読み取り専用です。"
+
+#~ msgid "The parent directory doesn't exist."
+#~ msgstr "親ディレクトリが存在しません。"
+
+#~ msgid "It is a mountable location."
+#~ msgstr "これはマウント可能な場所です。"
+
+#~ msgid ""
+#~ "It is a \"special\" file such as a socket,\n"
+#~ " FIFO, block device, or character device."
+#~ msgstr ""
+#~ "これは、ソケット、FIFO、ブロックデバイス、\n"
+#~ " キャラクタデバイスなどの \"特別な\" ファイルです。"
+
+#~ msgid "It is an \"unknown\" file type."
+#~ msgstr "これは \"未知\" のファイル形式です。"
+
+#~ msgid "File \"%s\" Cannot Be Opened"
+#~ msgstr "ファイル \"%s\" を開けません"
+
+#~ msgid "Web Preview"
+#~ msgstr "Web プレビュー"
+
+#~ msgid "Hide Preview"
+#~ msgstr "プレビューを表示しない"
+
+#~ msgid "Share via Pastebin"
+#~ msgstr "Pastebin で共有"
+
+#~ msgid "Other formats"
+#~ msgstr "ほかの形式"
+
+#~ msgid "Add New View"
+#~ msgstr "新しいビューを追加"
+
+#~ msgid "untitled folder %d"
+#~ msgstr "名称未設定フォルダー %d"
+
+#~ msgid "new file %d"
+#~ msgstr "新しいファイル %d"
+
+#~ msgid "Open a folder"
+#~ msgstr "フォルダーを開きます"
+
+#~ msgid "Could not load icon theme: %s\n"
+#~ msgstr "アイコンテーマを読み込めませんでした: %s\n"
+
+#~ msgid "directory"
+#~ msgstr "ディレクトリ"
+
+#~ msgid ""
+#~ "File \"%s\" cannot be created.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ファイル \"%s\" を作成できません。\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "File \"%s\" cannot be opened.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ファイル \"%s\" を開くことができません。\n"
+#~ "%s"
+
+#~ msgid "Highlight current line:"
+#~ msgstr "現在の行をハイライト:"
+
+#~ msgid "New file"
+#~ msgstr "新しいファイル"
+
+#~ msgid "New file from clipboard"
+#~ msgstr "クリップボードから新しいファイル"
+
+#~ msgid "Create a new file from the contents of your clipboard."
+#~ msgstr "クリップポードの内容から新しいファイルを作成します。"
+
+#~ msgid "Open With…"
+#~ msgstr "他のアプリケーションで開く…"
+
+#~ msgid "Terminal on Right"
+#~ msgstr "ターミナルを右へ"
+
+#~ msgid "Terminal on Bottom"
+#~ msgstr "ターミナルを下へ"
+
+#~ msgid "Font and Color Scheme"
+#~ msgstr "フォントと配色"
+
+#~ msgid "Color scheme:"
+#~ msgstr "配色："
+
+#~ msgid "Edit text files"
+#~ msgstr "テキストファイルを編集します"
+
+#~ msgid "About Scratch"
+#~ msgstr "Scratch について"
+
+#~ msgid "Trash"
+#~ msgstr "ゴミ箱"
+
+#~ msgid "Go to line…"
+#~ msgstr "行へ移動…"
+
+#~ msgid "Quit"
+#~ msgstr "終了"
+
+#~ msgid "Reopen closed document"
+#~ msgstr "閉じた文章をもう一度開く"
+
+#~ msgid "Open last closed document in a new tab"
+#~ msgstr "再度に閉じた文章を新しいタブで開く"
+
+#~ msgid "Add New Tab"
+#~ msgstr "新しいタブを追加"
+
+#~ msgid "Add a new tab"
+#~ msgstr "新しいタブを追加"
+
+#~ msgid "Add a new view"
+#~ msgstr "新しいビューを追加"
+
+#~ msgid "Remove this view"
+#~ msgstr "現在のビューを削除"
+
+#~ msgid "Undo"
+#~ msgstr "元に戻す"
+
+#~ msgid "Undo the last action"
+#~ msgstr "最後の操作を元に戻す"
+
+#~ msgid "Redo"
+#~ msgstr "やり直す"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "最後に元に戻した操作をやり直す"
+
+#~ msgid "Revert"
+#~ msgstr "取り消し"
+
+#~ msgid "Duplicate selected strings"
+#~ msgstr "選択された文字列を複製"
+
+#~ msgid "Clipboard"
+#~ msgstr "クリップボード"
+
+#~ msgid "New file from Clipboard"
+#~ msgstr "クリップボードより新しいファイル"
+
+#~ msgid "Next Tab"
+#~ msgstr "次のタブ"
+
+#~ msgid "Previous Tab"
+#~ msgstr "前のタブ"
+
+#~ msgid "Fullscreen"
+#~ msgstr "全画面表示"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  BALLOON a.k.a. Fu-sen. (Keiichi SHIGA) https://launchpad.net/~balloon\n"
+#~ "  Fabien Cortina https://launchpad.net/~fabien.cortina\n"
+#~ "  Jeff Shee https://launchpad.net/~jeffshee8969\n"
+#~ "  Joji Bronner https://launchpad.net/~jojiinchrist\n"
+#~ "  Jun Takeda https://launchpad.net/~takeda-jun\n"
+#~ "  Kurisu Brooks https://launchpad.net/~kurisubrooks\n"
+#~ "  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+#~ "  Naoki Kephart https://launchpad.net/~naoki-kephart\n"
+#~ "  Ryo Nakano https://launchpad.net/~uq3-him13de-9spzka7\n"
+#~ "  ShintakuNobuhiro https://launchpad.net/~micachi\n"
+#~ "  Shota Shimazu https://launchpad.net/~hornet-live-mf\n"
+#~ "  Yushin Washio https://launchpad.net/~yuwash\n"
+#~ "  masashi tanimura https://launchpad.net/~mtanimura\n"
+#~ "  yasum https://launchpad.net/~nyma5a"
+
+#~ msgid "Wait while restoring last session..."
+#~ msgstr "前回の作業に戻っていますので、少々お待ちください..."
+
+#~ msgid "Normal Text"
+#~ msgstr "標準のテキスト"
+
+#~ msgid "When Scratch starts:"
+#~ msgstr "アプリケーション起動時:"
+
+#~ msgid "Show welcome screen"
+#~ msgstr "ようこそ画面を表示"
+
+#~ msgid "Show last open tabs"
+#~ msgstr "最後に開いていたタブを表示"
+
+#~ msgid "A terminal in your text editor"
+#~ msgstr "テキストエディタのターミナル"
+
+#~ msgid "Highlight Selected Words"
+#~ msgstr "選択した文章をハイライトにする"
+
+#~ msgid "Highlights all occurrences of words that are selected"
+#~ msgstr "選択単語の全存在場所をハイライト表示する"
+
+#~ msgid "Brackets Completion"
+#~ msgstr "ブラケット補完"
+
+#~ msgid "Complete brackets while typing"
+#~ msgstr "入力中ブラケット補完"
+
+#~ msgid "Source Tree"
+#~ msgstr "ソースツリー"
+
+#~ msgid "Loading..."
+#~ msgstr "読み込み中..."
+
+#~ msgid "Bookmark"
+#~ msgstr "ブックマーク"
+
+#~ msgid "Files"
+#~ msgstr "ファイル"
+
+#~ msgid "Bookmarks"
+#~ msgstr "ブックマーク"
+
+#~ msgid "Vim Emulation"
+#~ msgstr "Vim エミュレート"
+
+#~ msgid "Use Vim commands in Scratch"
+#~ msgstr "Scratch で Vim コマンドを使用"
+
+#~ msgid "Clipboard History"
+#~ msgstr "クリップボードの履歴"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#~ msgid "Outline"
+#~ msgstr "アウトライン"
+
+#~ msgid "Outline symbols in your current file in vala"
+#~ msgstr "vala ソースのシンボルをアウトライン表示する"
+
+#~ msgid "Folder Manager"
+#~ msgstr "フォルダーマネージャー"
+
+#~ msgid "Basic folder manager with file browsing"
+#~ msgstr "ファイルを参照する基本フォルダーマネージャー"
+
+#~ msgid "Go to parent"
+#~ msgstr "親ディレクトリへ移動"
+
+#~ msgid "Add file"
+#~ msgstr "ファイルを追加"
+
+#~ msgid "Remove file"
+#~ msgstr "ファイルを削除"
+
+#~ msgid "File Manager"
+#~ msgstr "ファイルマネージャー"
+
+#~ msgid "Spell Checker"
+#~ msgstr "スペルチェック"
+
+#~ msgid "Checks the spelling of your documents"
+#~ msgstr "ドキュメントのスペルチェック"
+
+#~ msgid "Browser Preview"
+#~ msgstr "ブラウザプレビュー"
+
+#~ msgid "Get a preview your work in a web page"
+#~ msgstr "作業を Web ページでプレビュー"
+
+#~ msgid "Words Completion"
+#~ msgstr "単語の補完"
+
+#~ msgid "Show a completion dialog with most used words from your files"
+#~ msgstr "補完ダイアログとしてファイル内の頻出単語を表示する"
+
+#~ msgid "Pastebin"
+#~ msgstr "Pastebin"
+
+#~ msgid "Share files with pastebin service"
+#~ msgstr "Pastebin サービスへファイルを共有する"
+
+#~ msgid "Share your files with Contractor"
+#~ msgstr "Contractor でファイルを共有する"
+
+#~ msgid "Preserve Indent"
+#~ msgstr "インテントを保持"
+
+#~ msgid "Maintains indent level of pasted text when auto-indent is active"
+#~ msgstr ""
+#~ "自動インデント有効時に貼り付けたテキストのインデントレベルを維持する"
+
+#~ msgid "Open With"
+#~ msgstr "他のアプリケーションで開く"
+
+#~ msgid "Open files you are editing with another application"
+#~ msgstr "別のアプリケーションで編集中のファイルを開く"
+
+#~ msgid "Detect Indent"
+#~ msgstr "インデントを検出"
+
+#~ msgid "Heuristically detect tab or space settings"
+#~ msgstr "タブやスペースを自動で検知する"
+
+#~ msgid "Go to line..."
+#~ msgstr "行に移動..."
+
+#~ msgid "Find..."
+#~ msgstr "検索..."
+
+#~ msgid "New document"
+#~ msgstr "新規ドキュメント"
+
+#~ msgid "Previous Search"
+#~ msgstr "前を検索"
+
+#~ msgid "Next Search"
+#~ msgstr "次を検索"
+
+#~ msgid "Save as"
+#~ msgstr "別名で保存"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "テンプレートから新規ドキュメントを作成"
+
+#~ msgid "Normal text"
+#~ msgstr "通常のテキスト"
+
+#~ msgid "Context View"
+#~ msgstr "内容表示"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "ボトムパネル"
+
+#~ msgid "Status Bar"
+#~ msgstr "ステータスバー"
+
+#~ msgid "Choose the new location"
+#~ msgstr "新しい保存先を選択"
+
+#~ msgid "No files are open."
+#~ msgstr "ファイルが開かれていません。"
+
+#~ msgid "Editor:"
+#~ msgstr "エディタ:"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "右側に余白を表示:"
+
+#~ msgid "Draw spaces:"
+#~ msgstr "スペースを描画:"
+
+#~ msgid "Tabs:"
+#~ msgstr "タブ:"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "終了する前に未保存の変更を保存しますか？"
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "ファイルを閉じる前に変更を保存しますか？"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "このファイルへの変更は保存されていません。"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "次のファイルに変更を保存できません:"
+
+#~ msgid ""
+#~ "Do you want to save the changes to this file in a different location?"
+#~ msgstr "このファイルへの変更を別の場所に保存しますか？"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "再読み込みしますか？"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "再び作成しますか？"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "新しいタブでドキュメントを作成"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "現在のファイルを別名で保存"
+
+#~ msgid "General:"
+#~ msgstr "一般:"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "プラグインへの引数"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "保存されていない編集箇所があります!"
+
+#~ msgid "The file %s was modified."
+#~ msgstr "ファイル %s は変更されました。"
+
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "閉じる前にファイル %s への保存されていない変更を保存しますか?"
+
+#~ msgid "Font and Color Scheme:"
+#~ msgstr "フォントと配色"

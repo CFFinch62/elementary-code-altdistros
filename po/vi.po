@@ -1,0 +1,1474 @@
+# Vietnamese translation for scratch
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 18:21+0000\n"
+"PO-Revision-Date: 2018-05-27 00:04+0000\n"
+"Last-Translator: Hugh Hoang <hugh.hoang@gmail.com>\n"
+"Language-Team: Vietnamese <https://weblate.elementary.io/projects/code/code/"
+"vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-05-03 06:03+0000\n"
+
+#: src/Application.vala:41 src/Widgets/DocumentView.vala:99
+msgid "New Tab"
+msgstr "Bảng mới"
+
+#: src/Application.vala:42 src/FolderManager/FileItem.vala:87
+msgid "New Window"
+msgstr "Cửa sổ mới"
+
+#: src/Application.vala:43
+msgid "Print version info and exit"
+msgstr "Hiển thị phiên bản và thoát"
+
+#: src/Application.vala:44
+msgid "Open file at specified selection range"
+msgstr ""
+
+#: src/Application.vala:44
+msgid "<START_LINE[.START_COLUMN][-END_LINE[.END_COLUMN]]>"
+msgstr ""
+
+#: src/Application.vala:45
+msgid "[FILE…]"
+msgstr ""
+
+#: src/MainWindow.vala:263
+#, fuzzy, c-format
+#| msgid "Code"
+msgid "Code (%s)"
+msgstr "Mã nguồn"
+
+#: src/MainWindow.vala:265
+msgid "Code"
+msgstr "Mã nguồn"
+
+#: src/MainWindow.vala:399
+msgid "Hide search bar"
+msgstr "Ẩn thanh tìm kiếm"
+
+#: src/MainWindow.vala:404 src/Widgets/HeaderBar.vala:122
+#, fuzzy
+msgid "Find on Page…"
+msgstr "Mở tập tin"
+
+#: src/MainWindow.vala:415
+#, fuzzy
+#| msgid "Hide search bar"
+msgid "Hide Projects Sidebar"
+msgstr "Ẩn thanh tìm kiếm"
+
+#: src/MainWindow.vala:420
+#, fuzzy
+msgid "Show Projects Sidebar"
+msgstr "Dành cho từ đã chọn"
+
+#: src/MainWindow.vala:429
+msgid "Hide Symbol Outline"
+msgstr ""
+
+#: src/MainWindow.vala:434
+msgid "Show Symbol Outline"
+msgstr ""
+
+#: src/MainWindow.vala:443
+msgid "Hide Terminal"
+msgstr ""
+
+#: src/MainWindow.vala:448 src/Widgets/HeaderBar.vala:196
+msgid "Show Terminal"
+msgstr ""
+
+#. Update MainWindow title
+#. / TRANSLATORS: First placeholder is document name, second placeholder is app name
+#: src/MainWindow.vala:618
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
+#: src/MainWindow.vala:977 src/Services/Document.vala:668
+msgid "All files"
+msgstr "Mọi tập tin"
+
+#: src/MainWindow.vala:981 src/Services/Document.vala:672
+msgid "Text files"
+msgstr "Tập tin văn bản"
+
+#: src/MainWindow.vala:985
+msgid "Open some files"
+msgstr "Mở vài tệp"
+
+#: src/MainWindow.vala:988
+msgid "Open"
+msgstr "Mở"
+
+#: src/MainWindow.vala:989 src/Dialogs/CloneRepositoryDialog.vala:58
+#: src/Dialogs/CloneRepositoryDialog.vala:97
+#: src/Dialogs/GlobalSearchDialog.vala:86 src/Dialogs/NewBranchDialog.vala:42
+#: src/Services/Document.vala:510 src/Services/Document.vala:680
+#: plugins/pastebin/pastebin_dialog.vala:327
+#: plugins/pastebin/pastebin_dialog.vala:378
+msgid "Cancel"
+msgstr "Bỏ qua"
+
+#: src/MainWindow.vala:1032
+msgid "_Open"
+msgstr "_Mở"
+
+#: src/MainWindow.vala:1033
+msgid "_Cancel"
+msgstr "_Bỏ qua"
+
+#: src/MainWindow.vala:1088
+msgid "Cloning completed"
+msgstr ""
+
+#: src/MainWindow.vala:1089
+#, c-format
+msgid "Clone successfully created in %s"
+msgstr ""
+
+#: src/MainWindow.vala:1095
+#, c-format
+msgid "Unable to clone %s"
+msgstr ""
+
+#: src/MainWindow.vala:1102
+msgid "Retry"
+msgstr ""
+
+#. /TRANSLATORS '%s' represents the quoted basename of a uri to be opened with the default app
+#: src/Utils.vala:212
+#, c-format
+msgid "Show '%s' with default app"
+msgstr ""
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/CloneRepositoryDialog.vala:55
+msgid "Create a local clone of a Git repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:56
+msgid ""
+"The source repository and local folder must exist and have the required read "
+"and write permissions"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:59
+msgid "Clone Repository"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:69
+msgid "https://example.com/username/projectname.git"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:93
+msgid "Select folder where the cloned repository will be created"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:96
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select"
+msgstr "Chọn kiểu chữ:"
+
+#: src/Dialogs/CloneRepositoryDialog.vala:118
+msgid "Repository URL"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:119
+msgid "Location"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:120
+msgid "Name of Clone"
+msgstr ""
+
+#: src/Dialogs/CloneRepositoryDialog.vala:122
+msgid "Cloning in progress"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:62
+msgid "The search term will be treated as a regex expression"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case sensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:64
+msgid "Search will be case insensitive"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:65
+msgid "Search will match only whole words"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:68
+#, c-format
+msgid "Search for text in “%s”"
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:69
+msgid "The search term must be at least 3 characters long."
+msgstr ""
+
+#: src/Dialogs/GlobalSearchDialog.vala:88
+#, fuzzy
+#| msgid "Next Search"
+msgid "Search"
+msgstr "Tìm kiếm tiếp"
+
+#: src/Dialogs/NewBranchDialog.vala:43
+#, fuzzy, c-format
+#| msgid "Create a new instance"
+msgid "Create a new branch of “%s/%s”"
+msgstr "Tạo một đối tượng"
+
+#. /TRANSLATORS "Git" is a proper name and must not be translated
+#: src/Dialogs/NewBranchDialog.vala:48
+msgid "The branch name must be unique and follow Git naming rules."
+msgstr ""
+
+#: src/Dialogs/NewBranchDialog.vala:56
+#, fuzzy
+msgid "Create Branch"
+msgstr "Thay đổi tùy chỉnh của Scratch"
+
+#: src/Dialogs/PreferencesDialog.vala:15 src/Widgets/HeaderBar.vala:218
+msgid "Preferences"
+msgstr "Tùy chỉnh"
+
+#: src/Dialogs/PreferencesDialog.vala:23
+msgid "General"
+msgstr "Tổng thể"
+
+#: src/Dialogs/PreferencesDialog.vala:24
+#, fuzzy
+#| msgid "Save files when changed:"
+msgid "Save files when changed"
+msgstr "Lưu tập tin khi thay đổi:"
+
+#: src/Dialogs/PreferencesDialog.vala:25
+msgid "Strip trailing whitespace on save"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:27
+msgid "Smart cut/copy lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:29
+msgid ""
+"Cutting or copying without an active selection will cut or copy the entire "
+"current line"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:35
+#, fuzzy
+#| msgid "Margin width:"
+msgid "Indentation width"
+msgstr "Độ rộng lề:"
+
+#: src/Dialogs/PreferencesDialog.vala:46
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Indentation"
+msgstr "Tự động thụt dòng:"
+
+#: src/Dialogs/PreferencesDialog.vala:47
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic indentation"
+msgstr "Tự động thụt dòng:"
+
+#: src/Dialogs/PreferencesDialog.vala:48
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert spaces instead of tabs"
+msgstr "Chèn khoảng trống thay vì tab"
+
+#: src/Dialogs/PreferencesDialog.vala:57
+msgid "Default build directory"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:67
+msgid "Projects"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:78
+msgid "None"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:79
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Current Line"
+msgstr "Bỏ Khung nhìn hiện tại"
+
+#: src/Dialogs/PreferencesDialog.vala:80
+msgid "All"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:96
+msgid "Whitespace visible when not selected"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:111
+msgid "Editor"
+msgstr "Trình sửa văn bản"
+
+#: src/Dialogs/PreferencesDialog.vala:112
+#, fuzzy
+#| msgid "Highlight matching brackets:"
+msgid "Highlight matching brackets"
+msgstr "Làm nổi bật ngoặc tương ứng:"
+
+#: src/Dialogs/PreferencesDialog.vala:114
+#, fuzzy
+#| msgid "Show Mini Map:"
+msgid "Mini Map"
+msgstr "Hiển thị Bản đồ:"
+
+#: src/Dialogs/PreferencesDialog.vala:115
+msgid "Wrap lines"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:116
+#, fuzzy
+#| msgid "Line width guide:"
+msgid "Line width guide"
+msgstr "Hường dẫn bề rộng:"
+
+#: src/Dialogs/PreferencesDialog.vala:124
+msgid "Font"
+msgstr "Phông chữ"
+
+#: src/Dialogs/PreferencesDialog.vala:125
+msgid "Use system font"
+msgstr ""
+
+#: src/Dialogs/PreferencesDialog.vala:136
+msgid "Behavior"
+msgstr "Chế độ"
+
+#: src/Dialogs/PreferencesDialog.vala:137 src/SymbolPane/SymbolOutline.vala:51
+msgid "Interface"
+msgstr "Giao diện"
+
+#: src/Dialogs/PreferencesDialog.vala:153 src/Services/PluginManager.vala:130
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#: src/Dialogs/PreferencesDialog.vala:159
+#: plugins/pastebin/pastebin_dialog.vala:434
+msgid "Close"
+msgstr "Đóng"
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:31
+msgid "Are You Sure You Want to Restore This File?"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:32
+msgid "Restoring a file will undo all changes made since opening it"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:34
+msgid "Don't Restore"
+msgstr ""
+
+#: src/Dialogs/RestoreConfirmationDialog.vala:36
+msgid "Restore Anyway"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:40
+msgid "This folder is the parent of an open project"
+msgid_plural "This folder is the parent of open projects"
+msgstr[0] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:46
+msgid "Opening this folder will close the child project"
+msgid_plural "Opening this folder will close all child projects"
+msgstr[0] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:52
+msgid "Close Child Project"
+msgid_plural "Close Child Projects"
+msgstr[0] ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:57
+msgid "This folder is a child of an open project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:58
+msgid "Opening this folder will close the parent project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:59
+msgid "Close Parent Project"
+msgstr ""
+
+#: src/Dialogs/CloseProjectsConfirmationDialog.vala:62
+msgid "Don't Open"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:40
+#, fuzzy
+#| msgid "There are unsaved changes in Scratch!"
+msgid "There are uncommitted changes in the current branch"
+msgstr "Có thay đổi chưa được lưu!"
+
+#. /TRANSLATORS '%s' is a placeholder for the name of the branch to be checked out
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:42
+#, c-format
+msgid ""
+"Uncommitted changes will be permanently lost if <b>'%s'</b> is checked out "
+"now.\n"
+"\n"
+"<i>It is recommended that uncommitted changes are stashed, committed, or "
+"reverted before proceeding.</i>"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:44
+msgid "Do not Checkout"
+msgstr ""
+
+#: src/Dialogs/OverwriteUncommittedConfirmationDialog.vala:45
+msgid "Checkout and Overwrite"
+msgstr ""
+
+#: src/FolderManager/FileItem.vala:49 src/FolderManager/FolderItem.vala:166
+#, fuzzy
+msgid "Other Actions"
+msgstr "Nhưng ứng dụng khác…"
+
+#: src/FolderManager/FileItem.vala:55 src/FolderManager/FolderItem.vala:140
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: src/FolderManager/FileItem.vala:65 src/FolderManager/FolderItem.vala:148
+msgid "Move to Trash"
+msgstr "Xóa vào Thùng rác"
+
+#: src/FolderManager/FileItem.vala:100 src/FolderManager/FolderItem.vala:198
+msgid "Other Application…"
+msgstr "Nhưng ứng dụng khác…"
+
+#: src/FolderManager/FileItem.vala:115 src/FolderManager/FolderItem.vala:218
+msgid "Open In"
+msgstr "Mở tại"
+
+#: src/FolderManager/FileView.vala:74
+msgid "Folders"
+msgstr "Các thư mục"
+
+#: src/FolderManager/FolderItem.vala:156
+#, fuzzy
+msgid "Find in Folder…"
+msgstr "Mở tập tin"
+
+#: src/FolderManager/FolderItem.vala:189
+msgid "Terminal Pane"
+msgstr ""
+
+#: src/FolderManager/FolderItem.vala:224
+msgid "Folder"
+msgstr "Thư mục"
+
+#: src/FolderManager/FolderItem.vala:232
+msgid "Empty File"
+msgstr "Tệp rỗng"
+
+#. scan all children
+#. No need to show status when children shown
+#: src/FolderManager/FolderItem.vala:243
+#: src/FolderManager/ProjectFolderItem.vala:427
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "New"
+msgstr ""
+
+#: src/FolderManager/FolderItem.vala:399
+msgid "untitled folder"
+msgstr ""
+
+#: src/FolderManager/FolderItem.vala:399
+#, fuzzy
+msgid "new file"
+msgstr "Tập tin mới"
+
+#: src/FolderManager/ProjectFolderItem.vala:147
+msgid "Set as Active Project"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:155
+msgid "Open in Terminal Pane"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:186
+msgid "Close Folder"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:194
+#, fuzzy
+msgid "Close Other Folders"
+msgstr "Mở tập tin"
+
+#: src/FolderManager/ProjectFolderItem.vala:211
+#, c-format
+msgid "Close %u Open Document"
+msgid_plural "Close %u Open Documents"
+msgstr[0] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:223
+#, fuzzy, c-format
+#| msgid "New Document"
+msgid "Hide %u Open Document"
+msgid_plural "Hide %u Open Documents"
+msgstr[0] "Tạo tài liệu mới"
+
+#: src/FolderManager/ProjectFolderItem.vala:246
+#, c-format
+msgid "Restore %u Hidden Document"
+msgid_plural "Restore %u Hidden Documents"
+msgstr[0] ""
+
+#: src/FolderManager/ProjectFolderItem.vala:279 src/Widgets/HeaderBar.vala:131
+#, fuzzy
+msgid "Find in Project…"
+msgstr "Mở tập tin"
+
+#: src/FolderManager/ProjectFolderItem.vala:320
+msgid "Local"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:337
+msgid "Remote"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:352
+#, fuzzy
+msgid "New Branch…"
+msgstr "Thay đổi tùy chỉnh của Scratch"
+
+#: src/FolderManager/ProjectFolderItem.vala:377
+#, fuzzy
+msgid "Branch"
+msgstr "Thay đổi tùy chỉnh của Scratch"
+
+#: src/FolderManager/ProjectFolderItem.vala:433
+msgid "Modified"
+msgstr ""
+
+#: src/FolderManager/ProjectFolderItem.vala:471
+#, c-format
+msgid "Error while creating new branch: “%s”"
+msgstr ""
+
+#. Empty files are valid text files
+#: src/Services/Document.vala:384
+#, c-format
+msgid "%s Is Not a Text File"
+msgstr ""
+
+#: src/Services/Document.vala:385
+msgid "Code will not load this type of file."
+msgstr ""
+
+#: src/Services/Document.vala:387
+msgid "Load Anyway"
+msgstr ""
+
+#: src/Services/Document.vala:408
+#, c-format
+msgid "Loading File “%s” Is Taking a Long Time"
+msgstr ""
+
+#: src/Services/Document.vala:409
+msgid "Please wait while Code is loading the file."
+msgstr ""
+
+#: src/Services/Document.vala:411
+#, fuzzy
+msgid "Cancel Loading"
+msgstr "Bỏ qua"
+
+#: src/Services/Document.vala:500
+#, fuzzy, c-format
+msgid "Save changes to “%s” before closing?"
+msgstr "Bạn có muốn lưu các thay đổi vào tài liệu %s trước khi đóng không?"
+
+#: src/Services/Document.vala:501
+#, fuzzy
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Nếu bạn không lưu, thay đổi trong 4 giây trước sẽ bị mất mãi mãi"
+
+#: src/Services/Document.vala:507
+#, fuzzy
+msgid "Close Without Saving"
+msgstr "Đóng không lưu"
+
+#: src/Services/Document.vala:511 src/Services/Document.vala:679
+msgid "Save"
+msgstr "Lưu"
+
+#: src/Services/Document.vala:638
+#, fuzzy, c-format
+msgid "Saving to “%s” failed."
+msgstr "Bạn có muốn lưu các thay đổi vào tài liệu %s trước khi đóng không?"
+
+#: src/Services/Document.vala:676
+msgid "Save File"
+msgstr ""
+
+#: src/Services/Document.vala:763 src/Services/Document.vala:781
+msgid "New Document"
+msgstr "Tạo tài liệu mới"
+
+#. No path for a new document
+#: src/Services/Document.vala:783
+#, c-format
+msgid "Cannot save this document to %s"
+msgstr ""
+
+#. Show an error view which says "Hey, I cannot read that file!"
+#: src/Services/Document.vala:870
+#, c-format
+msgid "Cannot read text in file “%s”"
+msgstr ""
+
+#: src/Services/Document.vala:873
+msgid "You may not have permission to read the file."
+msgstr ""
+
+#: src/Services/Document.vala:875
+msgid "The file may be corrupt or may not be a text file"
+msgstr ""
+
+#. Lack of read permission results in empty content string. Do not give option to open
+#. in new document in that case.
+#: src/Services/Document.vala:881
+msgid "Show Anyway"
+msgstr ""
+
+#: src/Services/Document.vala:912
+#, c-format
+msgid ""
+"The location containing the file “%s” was unmounted and there are unsaved "
+"changes."
+msgstr ""
+
+#: src/Services/Document.vala:914
+#, fuzzy, c-format
+#| msgid "The file %s was deleted."
+msgid "File “%s” was deleted, renamed or moved and there are unsaved changes."
+msgstr "Tập tin %s đã bị xóa."
+
+#. Check external changes after loading
+#. The file has become unwritable while changes are pending
+#: src/Services/Document.vala:928
+#, fuzzy, c-format
+#| msgid "Maybe you do not have the necessary permissions."
+msgid "File “%s” does not have write permission."
+msgstr "Có thể bạn không có quyền truy cập cần thiết."
+
+#: src/Services/Document.vala:974
+#, c-format
+msgid "File “%s” was modified by an external application"
+msgstr ""
+
+#: src/Services/Document.vala:979
+msgid ""
+"There are also unsaved changes. Reloading the document will overwrite the "
+"unsaved changes."
+msgstr ""
+
+#: src/Services/Document.vala:983
+msgid "The document changed externally since you last saved it."
+msgstr ""
+
+#: src/Services/Document.vala:999
+#, c-format
+msgid "“%s” can't be saved here. Save a duplicate somewhere else?"
+msgstr ""
+
+#: src/Services/Document.vala:1008
+msgid "Ignore"
+msgstr ""
+
+#: src/Services/Document.vala:1010
+msgid "Save Duplicate…"
+msgstr ""
+
+#: src/Services/Document.vala:1059
+msgid "Continue"
+msgstr ""
+
+#: src/Services/Document.vala:1061
+#, fuzzy
+#| msgid "Upload"
+msgid "Reload"
+msgstr "Tải lên"
+
+#: src/Services/Document.vala:1064
+msgid "Overwrite"
+msgstr ""
+
+#: src/Services/Document.vala:1067
+#, fuzzy
+#| msgid "Save the current file"
+msgid "Save Document elsewhere"
+msgstr "Lưu tập tin hiện tại"
+
+#: src/Services/MonitoredRepository.vala:246
+#, c-format
+msgid "Remote Branch '%s' not found"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:247
+msgid ""
+"The requested branch was not found in any remote linked to this repository"
+msgstr ""
+
+#: src/Services/MonitoredRepository.vala:284
+msgid "An error occurred while checking out the requested branch"
+msgstr ""
+
+#. /TRANSLATORS "%.8s" is a placeholder for the first 8 characters of a commit reference
+#: src/Services/MonitoredRepository.vala:332
+#, c-format
+msgid "%.8s (detached)"
+msgstr ""
+
+#: src/Services/TemplateManager.vala:198
+msgid "Templates"
+msgstr "Các mẫu"
+
+#. Remove fake fields created by the vala parser.
+#: src/SymbolPane/C/CtagsSymbolOutline.vala:79
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:193
+#: src/SymbolPane/SymbolOutline.vala:127
+msgid "Symbols"
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:122
+msgid "Too Many Symbols"
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:123
+#, c-format
+msgid ""
+"%s contains too many Vala symbols.\n"
+"Parsing and showing them took too long."
+msgstr ""
+
+#: src/SymbolPane/Vala/ValaSymbolOutline.vala:194
+#, c-format
+msgid "Vala symbols found in %s"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:35
+msgid "Class"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:37
+msgid "Property"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:39
+msgid "Signal"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:41
+msgid "Method"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:43
+msgid "Struct"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:45
+msgid "Enum"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:47
+msgid "Constant"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:49
+msgid "Constructor"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:53
+msgid "Namespace"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:55
+#, fuzzy
+msgid "Other"
+msgstr "Khác..."
+
+#: src/SymbolPane/SymbolOutline.vala:131
+msgid "Find Symbol"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:140
+msgid "Filter symbol type"
+msgstr ""
+
+#: src/SymbolPane/SymbolOutline.vala:160
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select All"
+msgstr "Chọn kiểu chữ:"
+
+#: src/SymbolPane/SymbolOutline.vala:166
+msgid "Deselect All"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:22
+#, fuzzy
+msgid "No Project Selected"
+msgstr "Dành cho từ đã chọn"
+
+#: src/Widgets/ChooseProjectButton.vala:23
+#, c-format
+msgid "Active Git Project: %s"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:61
+msgid "Filter projects"
+msgstr ""
+
+#: src/Widgets/ChooseProjectButton.vala:84
+#, fuzzy
+msgid "Open Folder…"
+msgstr "Mở tập tin"
+
+#: src/Widgets/ChooseProjectButton.vala:89
+msgid "Clone Git Repository…"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:109
+#, fuzzy
+#| msgid "Close"
+msgid "Closed Tabs"
+msgstr "Đóng"
+
+#: src/Widgets/DocumentView.vala:449
+#, fuzzy, c-format
+msgid "Text file from %s:%d"
+msgstr "Tập tin văn bản"
+
+#: src/Widgets/DocumentView.vala:625
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/Widgets/DocumentView.vala:626
+#, fuzzy
+msgid "Close Other Tabs"
+msgstr "Mở tập tin"
+
+#: src/Widgets/DocumentView.vala:627
+#, fuzzy
+#| msgid "Close"
+msgid "Close Tab"
+msgstr "Đóng"
+
+#: src/Widgets/DocumentView.vala:630
+#, fuzzy
+#| msgid "New Window"
+msgid "Open in New Window"
+msgstr "Cửa sổ mới"
+
+#: src/Widgets/DocumentView.vala:631
+msgid "Duplicate Tab"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:50
+msgid "Syntax Highlighting"
+msgstr "Làm nổi bật cú pháp"
+
+#: src/Widgets/FormatBar.vala:60
+#, fuzzy
+msgid "Line number"
+msgstr "Hiện số thứ tự dòng:"
+
+#: src/Widgets/FormatBar.vala:87
+msgid "Filter languages"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:111
+msgid "Plain Text"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:149
+msgid "Some settings set by EditorConfig file"
+msgstr ""
+
+#: src/Widgets/FormatBar.vala:152
+#, fuzzy
+#| msgid "Automatic indentation:"
+msgid "Automatic Indentation"
+msgstr "Tự động thụt dòng:"
+
+#: src/Widgets/FormatBar.vala:154
+#, fuzzy
+#| msgid "Insert spaces instead of tabs:"
+msgid "Insert Spaces Instead Of Tabs"
+msgstr "Chèn khoảng trống thay vì tab"
+
+#: src/Widgets/FormatBar.vala:156
+#, fuzzy
+#| msgid "Tab width:"
+msgid "Tab width"
+msgstr "Độ rộng Tab:"
+
+#: src/Widgets/FormatBar.vala:236
+msgid "Go To Line:"
+msgstr "Đi tới dòng:"
+
+#: src/Widgets/FormatBar.vala:287
+#, c-format
+msgid "%d Space"
+msgid_plural "%d Spaces"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Widgets/FormatBar.vala:289
+#, c-format
+msgid "%d Tab"
+msgid_plural "%d Tabs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Widgets/HeaderBar.vala:38
+msgid "Open a file"
+msgstr "Mở tập tin"
+
+#: src/Widgets/HeaderBar.vala:44
+msgid "Project templates"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:51
+msgid "Save this file"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:59
+msgid "Save this file with a different name"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:67
+msgid "Restore this file"
+msgstr "Khôi phục tập tin này"
+
+#: src/Widgets/HeaderBar.vala:76
+msgid "Share"
+msgstr "Chia sẻ"
+
+#: src/Widgets/HeaderBar.vala:84
+msgid "Zoom Out"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:92
+msgid "Zoom 1:1"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:100
+msgid "Zoom In"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:145
+msgid "Follow System Style"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:240
+msgid "Menu"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:52
+msgid "Cloning complete"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:80
+msgid "Collapse All"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:83
+msgid "Alphabetize"
+msgstr ""
+
+#: src/Widgets/Sidebar.vala:91
+#, fuzzy
+msgid "Manage project folders…"
+msgstr "Mở tập tin"
+
+#: src/Widgets/SearchBar.vala:101
+msgid "Find"
+msgstr "Tìm kiếm"
+
+#: src/Widgets/SearchBar.vala:104
+msgid "No Results"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:116
+msgid "Search next"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:126
+msgid "Search previous"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:129
+msgid "Cyclic Search"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:132 plugins/pastebin/pastebin_dialog.vala:467
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: src/Widgets/SearchBar.vala:133
+msgid "Mixed Case"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:134
+msgid "Always"
+msgstr "Luôn luôn"
+
+#: src/Widgets/SearchBar.vala:137
+msgid "Case Sensitive"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:144
+msgid "Use Regular Expressions"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:145
+msgid "Match Whole Words"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:166
+#, fuzzy
+#| msgid "Next Search"
+msgid "Search Options"
+msgstr "Tìm kiếm tiếp"
+
+#: src/Widgets/SearchBar.vala:203
+msgid "Replace With"
+msgstr "Thay thế bằng"
+
+#: src/Widgets/SearchBar.vala:206
+msgid "Replace"
+msgstr "Thay thế"
+
+#: src/Widgets/SearchBar.vala:209
+msgid "Replace all"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:614
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+#: src/Widgets/SearchBar.vala:619
+msgid "no results"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:583
+#, fuzzy
+msgid "Sort Selected Lines"
+msgstr "Dành cho từ đã chọn"
+
+#: src/Widgets/SourceView.vala:594
+#, fuzzy
+#| msgid "Remove Current View"
+msgid "Mark Current Line"
+msgstr "Bỏ Khung nhìn hiện tại"
+
+#: src/Widgets/SourceView.vala:605
+msgid "Goto Previous Edit Mark"
+msgstr ""
+
+#: src/Widgets/SourceView.vala:616
+#, fuzzy
+#| msgid "Text Editor"
+msgid "Goto Next Edit Mark"
+msgstr "Bộ soạn thảo văn bản"
+
+#: src/Widgets/SourceView.vala:635
+msgid "Toggle Comment"
+msgstr ""
+
+#: src/Widgets/Terminal.vala:140
+msgid "Copy"
+msgstr ""
+
+#: src/Widgets/Terminal.vala:141
+msgid "Paste"
+msgstr ""
+
+#: src/Widgets/WelcomeView.vala:26
+msgid "No Files Open"
+msgstr ""
+
+#: src/Widgets/WelcomeView.vala:27
+msgid "Open a file to begin editing."
+msgstr "Mở một tập tin để chỉnh sửa"
+
+#: src/Widgets/WelcomeView.vala:32
+#, fuzzy
+msgid "New File"
+msgstr "Tập tin mới"
+
+#: src/Widgets/WelcomeView.vala:32
+msgid "Create a new empty file."
+msgstr "Tạo tập tin rỗng"
+
+#: src/Widgets/WelcomeView.vala:33
+#, fuzzy
+msgid "Open File"
+msgstr "Mở tập tin"
+
+#: src/Widgets/WelcomeView.vala:33
+msgid "Open a saved file."
+msgstr "Mở tập tin đã lưu"
+
+#: src/Widgets/WelcomeView.vala:34
+#, fuzzy
+msgid "Open Folder"
+msgstr "Mở tập tin"
+
+#: src/Widgets/WelcomeView.vala:34
+msgid "Add a project folder to the sidebar."
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:248
+#: plugins/pastebin/pastebin_dialog.vala:328 plugins/pastebin/pastebin.vala:124
+msgid "Upload to Pastebin"
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:257
+msgid "Name:"
+msgstr "Tên"
+
+#: plugins/pastebin/pastebin_dialog.vala:261
+#, fuzzy
+msgid "Format:"
+msgstr "Định dạng: "
+
+#: plugins/pastebin/pastebin_dialog.vala:268
+msgid "Choose different format"
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:290
+#, fuzzy
+#| msgid "Expiry time:"
+msgid "Expiration:"
+msgstr "Thời gian hết hạn:"
+
+#: plugins/pastebin/pastebin_dialog.vala:297
+msgid "Keep this paste private"
+msgstr "Giữ riêng tư đoạn dán này"
+
+#: plugins/pastebin/pastebin_dialog.vala:354
+msgid "Available Formats"
+msgstr ""
+
+#: plugins/pastebin/pastebin_dialog.vala:380
+#, fuzzy
+#| msgid "Select font:"
+msgid "Select Format"
+msgstr "Chọn kiểu chữ:"
+
+#: plugins/pastebin/pastebin_dialog.vala:468
+msgid "Ten minutes"
+msgstr "Mười phút"
+
+#: plugins/pastebin/pastebin_dialog.vala:469
+msgid "One hour"
+msgstr "Một giờ"
+
+#: plugins/pastebin/pastebin_dialog.vala:470
+msgid "One day"
+msgstr "Một ngày"
+
+#: plugins/pastebin/pastebin_dialog.vala:471
+msgid "One month"
+msgstr "Một tháng"
+
+#: plugins/spell/spell.vala:73
+msgid "No Suitable Dictionaries Were Found"
+msgstr ""
+
+#: plugins/spell/spell.vala:74
+msgid "Please install at least one [aspell] dictionary."
+msgstr ""
+
+#: plugins/word-completion/plugin.vala:165
+#: plugins/word-completion/completion-provider.vala:55
+#, c-format
+msgid "%s - Word Completion"
+msgstr ""
+
+#, fuzzy, c-format
+#~| msgid "Current working directory"
+#~ msgid "Local repository working directory is %s"
+#~ msgstr "Thư mục hiện hành"
+
+#~ msgid "Tabs"
+#~ msgstr "Bảng"
+
+#~ msgid "Tab width:"
+#~ msgstr "Độ rộng Tab:"
+
+#~ msgid "Custom font:"
+#~ msgstr "Tùy biến phông:"
+
+#~ msgid "Set of plugins"
+#~ msgstr "Tập hợp plugin"
+
+#, fuzzy
+#~ msgid "plugin"
+#~ msgstr "Tập hợp plugin"
+
+#~ msgid "Save changes elsewhere"
+#~ msgstr "Lưu thay đổi vào nơi khác"
+
+#, fuzzy
+#~ msgid "Toggle Sidebar"
+#~ msgstr "Khung lề"
+
+#~ msgid "Find…"
+#~ msgstr "Tìm kiếm…"
+
+#~ msgid "Draw Spaces:"
+#~ msgstr "Cự ly vẽ:"
+
+#~ msgid "For selected text"
+#~ msgstr "Dành cho từ đã chọn"
+
+#, fuzzy
+#~ msgid "Zeitgeist Datasource for Code"
+#~ msgstr "Nguồn dữ liệu Zeitgeist cho Scratch"
+
+#, fuzzy
+#~ msgid "File \"%s\" Cannot Be Created"
+#~ msgstr ""
+#~ "Tệp \"%s\" không thể khởi tạo.\n"
+#~ "%s"
+
+#~ msgid "Maybe the file path provided is not valid."
+#~ msgstr "Có thể đường dẫn không tồn tại."
+
+#~ msgid "The location is read-only."
+#~ msgstr "Đường dẫn này chỉ được phép đọc."
+
+#~ msgid "The parent directory doesn't exist."
+#~ msgstr "Thư mục chủ không tồn tại."
+
+#~ msgid "It is a mountable location."
+#~ msgstr "Chỗ này có thể gắn kết được."
+
+#, fuzzy
+#~ msgid ""
+#~ "It is a \"special\" file such as a socket,\n"
+#~ " FIFO, block device, or character device."
+#~ msgstr ""
+#~ "Đây là một tệp \"đặc biệt\" kiểu như là socket,\n"
+#~ "fifo, block device, hoặc character device."
+
+#~ msgid "It is an \"unknown\" file type."
+#~ msgstr "Không định dạng được kiểu tệp."
+
+#, fuzzy
+#~ msgid "File \"%s\" Cannot Be Opened"
+#~ msgstr ""
+#~ "Tệp \"%s\" không thể mở được.\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Share via Pastebin"
+#~ msgstr "Chia sẻ qua PasteBin"
+
+#~ msgid "Other formats"
+#~ msgstr "Định dạng khác"
+
+#~ msgid "Add New View"
+#~ msgstr "Thêm Khung nhìn mới"
+
+#, fuzzy
+#~ msgid "new file %d"
+#~ msgstr "Tập tin mới"
+
+#, fuzzy
+#~ msgid "directory"
+#~ msgstr "Đây là một thư mục."
+
+#~ msgid "Highlight current line:"
+#~ msgstr "Làm nổi bật dòng hiện tại:"
+
+#~ msgid "Color scheme:"
+#~ msgstr "Kiểu màu:"
+
+#~ msgid "Edit text files"
+#~ msgstr "Soạn thảo tập tin văn bản"
+
+#~ msgid "Trash"
+#~ msgstr "Thùng rác"
+
+#~ msgid "Quit"
+#~ msgstr "Thoát"
+
+#~ msgid "Add a new view"
+#~ msgstr "Thêm Khung nhìn mới"
+
+#~ msgid "Remove this view"
+#~ msgstr "Bỏ Khung nhìn này"
+
+#~ msgid "Undo"
+#~ msgstr "Hoàn tác"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Hồi lại hành động cuối"
+
+#~ msgid "Redo"
+#~ msgstr "Làm lại"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Làm lại hành động hồi lại cuối cùng"
+
+#~ msgid "Revert"
+#~ msgstr "Trở lại"
+
+#~ msgid "Duplicate selected strings"
+#~ msgstr "Lặp chuỗi đã chọn"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Toàn màn hình"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+#~ "  Nam Pham https://launchpad.net/~pvnam95\n"
+#~ "  Trung Dinh https://launchpad.net/~trungdn\n"
+#~ "  Trung Ngô https://launchpad.net/~ndtrung4419\n"
+#~ "  Van-Duyet Le https://launchpad.net/~lvduit08\n"
+#~ "  Vo Thanh Son https://launchpad.net/~sonbinmummy\n"
+#~ "  bao https://launchpad.net/~baobaobonbon\n"
+#~ "  huyngochoang https://launchpad.net/~hoanghuyngoc"
+
+#~ msgid "When Scratch starts:"
+#~ msgstr "Khi Scratch khởi động:"
+
+#~ msgid "Show welcome screen"
+#~ msgstr "Hiện màn hình chào mừng"
+
+#~ msgid "Show last open tabs"
+#~ msgstr "Mở thẻ cuối cùng"
+
+#~ msgid "Files"
+#~ msgstr "Tập tin"
+
+#~ msgid "Go to line..."
+#~ msgstr "Đi tới dòng..."
+
+#~ msgid "Find..."
+#~ msgstr "Tìm..."
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Tạo tài liệu ở thẻ mới"
+
+#~ msgid "New document"
+#~ msgstr "Tài liệu mới"
+
+#~ msgid "Previous Search"
+#~ msgstr "Tìm kiếm trước"
+
+#~ msgid "Save as"
+#~ msgstr "Lưu là"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Lưu tập tin hiện tại với tên khác"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Tạo tài liệu mới từ mẫu"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Tham số cho tập hợn plugins"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Bảng ở đáy"
+
+#~ msgid "Status Bar"
+#~ msgstr "Thanh trạng thái"
+
+#~ msgid "Context View"
+#~ msgstr "Khung nhìn bối cảnh"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Chọn đường dẫn mới"
+
+#~ msgid "Normal text"
+#~ msgstr "Kiểu chữ bình thường"
+
+#~ msgid "No files are open."
+#~ msgstr "Chưa mở tập tin"
+
+#~ msgid "Editor:"
+#~ msgstr "Soạn thảo"
+
+#~ msgid "General:"
+#~ msgstr "Chung"
+
+#~ msgid "Tabs:"
+#~ msgstr "Thẻ:"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Hiện lề bên phải:"
+
+#~ msgid "Draw spaces:"
+#~ msgstr "Hiện khoảng trống:"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Lưu thay đổi vào tập tin trước khi đóng?"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Bạn không thể lưu thay đổi cho:"
+
+#~ msgid ""
+#~ "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Bạn có muốn lưu thay đổi cho tập tin ở đường dẫn khác?"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "Thay đổi không được lưu"
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Bạn có muốn lưu thay đổi trước khi đóng tập tin?"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Bạn có muốn khởi động lại?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Bạn có muốn tạo lại nó?"
+
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "Bạn có muốn lưu thay đổi vào tập tin %s trước khi thoát không?"
+
+#~ msgid "Font and Color Scheme:"
+#~ msgstr "Phông chữ và màu sắc"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "Có thay đổi chưa được lưu!"
+
+#~ msgid "The file %s was modified."
+#~ msgstr "Tập tin %s đã thay đổi"
