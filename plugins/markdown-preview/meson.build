@@ -7,6 +7,7 @@ module_files = [
 module_deps = [
     codecore_dep,
     dependency('webkit2gtk-4.1'),
+    dependency('gee-0.8'),
 ]
 
 shared_module(

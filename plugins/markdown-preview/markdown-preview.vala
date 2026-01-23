@@ -22,41 +22,70 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
     Scratch.Services.Interface plugins;
     Scratch.Widgets.SourceView? current_source = null;
     Scratch.HeaderBar? toolbar = null;
-    Scratch.MainWindow? main_window = null;
-    WebKit.WebView? web_view = null;
-    Gtk.Paned? paned = null;
-    Gtk.ScrolledWindow? scrolled_window = null;
     Gtk.ToggleButton? preview_button = null;
-    bool preview_visible = false;
-    uint update_timeout_id = 0;
-
+    
+    // Store preview state per document
+    private Gee.HashMap<Scratch.Services.Document, PreviewState> preview_states;
+    
     public Object object { owned get; set construct; }
 
     public void update_state () {}
 
+    private class PreviewState {
+        public WebKit.WebView web_view;
+        public Gtk.ScrolledWindow scrolled_window;
+        public Gtk.Paned? paned = null;
+        public Gtk.ScrolledWindow? original_scroll = null;
+        public bool visible = false;
+        
+        public PreviewState () {
+            web_view = new WebKit.WebView ();
+            web_view.expand = true;
+            
+            scrolled_window = new Gtk.ScrolledWindow (null, null);
+            scrolled_window.add (web_view);
+            scrolled_window.set_policy (Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC);
+            
+            // Handle Ctrl+Scroll for zooming on the WebView directly
+            web_view.scroll_event.connect ((event) => {
+                if ((event.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
+                    double zoom = web_view.zoom_level;
+                    
+                    if (event.direction == Gdk.ScrollDirection.UP) {
+                        zoom += 0.1;
+                    } else if (event.direction == Gdk.ScrollDirection.DOWN) {
+                        zoom -= 0.1;
+                    } else if (event.direction == Gdk.ScrollDirection.SMOOTH) {
+                        double dx, dy;
+                        event.get_scroll_deltas (out dx, out dy);
+                        // In smooth scrolling, dy is negative for scrolling up (zooming in)
+                        // and positive for scrolling down (zooming out)
+                        if (dy < 0) zoom += 0.1;
+                        else if (dy > 0) zoom -= 0.1;
+                    }
+                    
+                    // Clamp zoom level logic if needed, but WebKit handles reasonable limits.
+                    // Just ensure it doesn't go negative or too small.
+                    if (zoom < 0.1) zoom = 0.1;
+                    
+                    web_view.zoom_level = zoom;
+                    return true; // Stop propagation (prevent scrolling)
+                }
+                return false;
+            });
+        }
+    }
+
     public void activate () {
         plugins = (Scratch.Services.Interface) object;
-        
-        // Create the WebView for rendering markdown
-        web_view = new WebKit.WebView ();
-        web_view.expand = true;
-        
-        // Create scrolled window for the web view
-        scrolled_window = new Gtk.ScrolledWindow (null, null);
-        scrolled_window.add (web_view);
-        scrolled_window.set_policy (Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC);
-        scrolled_window.show_all ();
+        preview_states = new Gee.HashMap<Scratch.Services.Document, PreviewState> ();
         
         // Create toggle button for toolbar
         preview_button = new Gtk.ToggleButton ();
         preview_button.image = new Gtk.Image.from_icon_name ("view-paged-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
         preview_button.tooltip_text = "Toggle Markdown Preview (Ctrl+Shift+M)";
         preview_button.toggled.connect (on_preview_toggled);
-        
-        // Hook into window
-        plugins.hook_window.connect ((w) => {
-            main_window = w;
-        });
+        preview_button.no_show_all = true;
         
         // Hook into toolbar
         plugins.hook_toolbar.connect ((t) => {
@@ -66,20 +95,26 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
         // Hook into document changes
         plugins.hook_document.connect ((doc) => {
             if (current_source != null) {
-                current_source.buffer.changed.disconnect (on_text_changed);
                 current_source.notify["language"].disconnect (on_language_changed);
             }
 
             current_source = doc.source_view;
             on_language_changed ();
             
-            current_source.buffer.changed.connect (on_text_changed);
             current_source.notify["language"].connect (on_language_changed);
+            
+            // Update preview button state based on this document's preview state
+            var state = preview_states.get (doc);
+            if (state != null) {
+                preview_button.active = state.visible;
+            } else {
+                preview_button.active = false;
+            }
         });
     }
 
     private void on_language_changed () {
-        if (toolbar == null) {
+        if (toolbar == null || current_source == null) {
             return;
         }
         
@@ -90,93 +125,172 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
         if (is_markdown) {
             if (preview_button.parent == null) {
                 toolbar.pack_end (preview_button);
-                preview_button.show ();
             }
-            
-            // Update preview if visible
-            if (preview_visible) {
-                update_preview ();
-            }
+            preview_button.show ();
         } else {
-            if (preview_button.parent != null) {
-                toolbar.remove (preview_button);
-            }
+            preview_button.hide ();
             
-            // Hide preview if visible
-            if (preview_visible) {
+            // Hide preview if visible for non-markdown files
+            if (preview_button.active) {
                 preview_button.active = false;
             }
         }
     }
 
     private void on_preview_toggled () {
-        preview_visible = preview_button.active;
-        
-        if (preview_visible) {
-            show_preview ();
-        } else {
-            hide_preview ();
-        }
-    }
-
-    private void show_preview () {
-        if (main_window == null) {
+        if (current_source == null) {
             return;
         }
         
-        var child = main_window.get_child ();
-        
-        // Find the main content area (should be a Paned or similar)
-        if (paned == null) {
-            paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
-            
-            // Remove the current child and add it to the paned
-            main_window.remove (child);
-            paned.pack1 (child, true, false);
-            paned.pack2 (scrolled_window, true, false);
-            paned.position = main_window.get_allocated_width () / 2;
-            
-            main_window.add (paned);
-            paned.show_all ();
+        // Get the current document
+        var doc = get_document_for_source (current_source);
+        if (doc == null) {
+            return;
         }
         
-        scrolled_window.show ();
-        update_preview ();
-    }
-
-    private void hide_preview () {
-        if (paned != null && scrolled_window != null) {
-            scrolled_window.hide ();
+        if (preview_button.active) {
+            show_preview (doc);
+        } else {
+            hide_preview (doc);
         }
     }
 
-    private void on_text_changed () {
+    private Scratch.Services.Document? get_document_for_source (Scratch.Widgets.SourceView source) {
+        // The source view's parent chain: SourceView -> ScrolledWindow -> Grid -> Paned -> Grid -> Stack -> Document
+        var widget = source.parent;
+        while (widget != null) {
+            if (widget is Scratch.Services.Document) {
+                return (Scratch.Services.Document) widget;
+            }
+            widget = widget.parent;
+        }
+        return null;
+    }
+
+    private void show_preview (Scratch.Services.Document doc) {
+        var state = preview_states.get (doc);
+        if (state == null) {
+            state = new PreviewState ();
+            preview_states.set (doc, state);
+        }
+        
+        if (state.visible) {
+            return; // Already showing
+        }
+        
+        // Find the scrolled window containing the source view
+        var scroll = doc.source_view.parent as Gtk.ScrolledWindow;
+        if (scroll == null) {
+            warning ("Could not find scroll window for source view");
+            return;
+        }
+        
+        // Get the parent of the scroll window (should be a Grid)
+        var scroll_parent = scroll.parent;
+        if (scroll_parent == null) {
+            warning ("Could not find parent of scroll window");
+            return;
+        }
+        
+        // Store reference to original scroll window
+        state.original_scroll = scroll;
+        
+        // Create a paned widget to hold both the source view and preview
+        state.paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+        
+        // Remove the scroll window from its parent
+        scroll_parent.remove (scroll);
+        
+        // Add both to the paned widget
+        state.paned.pack1 (scroll, true, false);
+        state.paned.pack2 (state.scrolled_window, true, false);
+        
+        // Set initial position to 50/50 split
+        state.paned.position = scroll.get_allocated_width () / 2;
+        
+        // Add the paned widget back to the parent
+        if (scroll_parent is Gtk.Grid) {
+            ((Gtk.Grid) scroll_parent).add (state.paned);
+        } else if (scroll_parent is Gtk.Box) {
+            ((Gtk.Box) scroll_parent).pack_start (state.paned, true, true, 0);
+        }
+        
+        state.paned.show_all ();
+        state.visible = true;
+        
+        // Update the preview content
+        update_preview (doc, state);
+        
+        // Connect to buffer changes for live updates
+        doc.source_view.buffer.changed.connect (() => {
+            on_text_changed (doc);
+        });
+    }
+
+    private void hide_preview (Scratch.Services.Document doc) {
+        var state = preview_states.get (doc);
+        if (state == null || !state.visible) {
+            return;
+        }
+        
+        if (state.paned == null || state.original_scroll == null) {
+            return;
+        }
+        
+        // Get the parent that contains the paned widget
+        var paned_parent = state.paned.parent;
+        if (paned_parent == null) {
+            return;
+        }
+        
+        // Remove the scroll window from the paned
+        state.paned.remove (state.original_scroll);
+        
+        // Remove the paned from its parent
+        paned_parent.remove (state.paned);
+        
+        // Add the scroll window back to its original parent
+        if (paned_parent is Gtk.Grid) {
+            ((Gtk.Grid) paned_parent).add (state.original_scroll);
+        } else if (paned_parent is Gtk.Box) {
+            ((Gtk.Box) paned_parent).pack_start (state.original_scroll, true, true, 0);
+        }
+        
+        state.visible = false;
+        state.paned = null;
+    }
+
+    private uint update_timeout_id = 0;
+    private Scratch.Services.Document? pending_update_doc = null;
+    
+    private void on_text_changed (Scratch.Services.Document doc) {
         // Debounce updates - wait 500ms after typing stops
         if (update_timeout_id > 0) {
             Source.remove (update_timeout_id);
         }
         
+        pending_update_doc = doc;
         update_timeout_id = Timeout.add (500, () => {
-            if (preview_visible) {
-                update_preview ();
+            if (pending_update_doc != null) {
+                var state = preview_states.get (pending_update_doc);
+                if (state != null && state.visible) {
+                    update_preview (pending_update_doc, state);
+                }
             }
             update_timeout_id = 0;
+            pending_update_doc = null;
             return false;
         });
     }
 
-    private void update_preview () {
-        if (current_source == null || web_view == null) {
-            return;
-        }
-        
-        var buffer = current_source.buffer;
+    private void update_preview (Scratch.Services.Document doc, PreviewState state) {
+        var buffer = doc.source_view.buffer;
         Gtk.TextIter start, end;
         buffer.get_bounds (out start, out end);
         var markdown_text = buffer.get_text (start, end, false);
         
         var html = markdown_to_html (markdown_text);
-        web_view.load_html (html, null);
+        state.web_view.load_html (html, null);
     }
 
     private string markdown_to_html (string markdown) {
@@ -191,13 +305,12 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.6;
             color: #24292e;
             background-color: #ffffff;
             padding: 20px;
-            max-width: 980px;
-            margin: 0 auto;
+            margin: 0;
         }
         h1, h2, h3, h4, h5, h6 {
             margin-top: 24px;
@@ -229,6 +342,7 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
             line-height: 1.45;
             overflow: auto;
             padding: 16px;
+            margin: 0 0 16px 0;
         }
         pre code {
             background-color: transparent;
@@ -295,7 +409,7 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
         // Simple markdown parsing
         var lines = markdown.split ("\n");
         bool in_code_block = false;
-        bool in_list = false;
+        string list_type = ""; // "ul" or "ol"
         string code_lang = "";
         
         foreach (var line in lines) {
@@ -308,6 +422,12 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
                     in_code_block = false;
                     code_lang = "";
                 } else {
+                    // Close list if open
+                    if (list_type != "") {
+                        html.append ("</" + list_type + ">\n");
+                        list_type = "";
+                    }
+                    
                     code_lang = trimmed.substring (3).strip ();
                     html.append ("<pre><code>");
                     in_code_block = true;
@@ -322,63 +442,86 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
             }
             
             // Headers
-            if (trimmed.has_prefix ("######")) {
-                html.append ("<h6>").append (process_inline (trimmed.substring (6).strip ())).append ("</h6>\n");
-            } else if (trimmed.has_prefix ("#####")) {
-                html.append ("<h5>").append (process_inline (trimmed.substring (5).strip ())).append ("</h5>\n");
-            } else if (trimmed.has_prefix ("####")) {
-                html.append ("<h4>").append (process_inline (trimmed.substring (4).strip ())).append ("</h4>\n");
-            } else if (trimmed.has_prefix ("###")) {
-                html.append ("<h3>").append (process_inline (trimmed.substring (3).strip ())).append ("</h3>\n");
-            } else if (trimmed.has_prefix ("##")) {
-                html.append ("<h2>").append (process_inline (trimmed.substring (2).strip ())).append ("</h2>\n");
-            } else if (trimmed.has_prefix ("#")) {
-                html.append ("<h1>").append (process_inline (trimmed.substring (1).strip ())).append ("</h1>\n");
+            if (trimmed.has_prefix ("#")) {
+                if (list_type != "") {
+                    html.append ("</" + list_type + ">\n");
+                    list_type = "";
+                }
+                
+                if (trimmed.has_prefix ("######")) {
+                    html.append ("<h6>").append (process_inline (trimmed.substring (6).strip ())).append ("</h6>\n");
+                } else if (trimmed.has_prefix ("#####")) {
+                    html.append ("<h5>").append (process_inline (trimmed.substring (5).strip ())).append ("</h5>\n");
+                } else if (trimmed.has_prefix ("####")) {
+                    html.append ("<h4>").append (process_inline (trimmed.substring (4).strip ())).append ("</h4>\n");
+                } else if (trimmed.has_prefix ("###")) {
+                    html.append ("<h3>").append (process_inline (trimmed.substring (3).strip ())).append ("</h3>\n");
+                } else if (trimmed.has_prefix ("##")) {
+                    html.append ("<h2>").append (process_inline (trimmed.substring (2).strip ())).append ("</h2>\n");
+                } else if (trimmed.has_prefix ("#")) {
+                    html.append ("<h1>").append (process_inline (trimmed.substring (1).strip ())).append ("</h1>\n");
+                }
             }
             // Horizontal rule
             else if (trimmed == "---" || trimmed == "***" || trimmed == "___") {
+                if (list_type != "") {
+                    html.append ("</" + list_type + ">\n");
+                    list_type = "";
+                }
                 html.append ("<hr>\n");
             }
             // Blockquote
             else if (trimmed.has_prefix (">")) {
+                if (list_type != "") {
+                    html.append ("</" + list_type + ">\n");
+                    list_type = "";
+                }
                 html.append ("<blockquote><p>").append (process_inline (trimmed.substring (1).strip ())).append ("</p></blockquote>\n");
             }
             // Unordered list
             else if (trimmed.has_prefix ("* ") || trimmed.has_prefix ("- ") || trimmed.has_prefix ("+ ")) {
-                if (!in_list) {
+                if (list_type == "ol") {
+                    html.append ("</ol>\n");
+                    list_type = "";
+                }
+                if (list_type == "") {
                     html.append ("<ul>\n");
-                    in_list = true;
+                    list_type = "ul";
                 }
                 html.append ("<li>").append (process_inline (trimmed.substring (2))).append ("</li>\n");
             }
             // Ordered list
             else if (trimmed.length > 2 && trimmed[0].isdigit () && trimmed[1] == '.' && trimmed[2] == ' ') {
-                if (!in_list) {
+                if (list_type == "ul") {
+                    html.append ("</ul>\n");
+                    list_type = "";
+                }
+                if (list_type == "") {
                     html.append ("<ol>\n");
-                    in_list = true;
+                    list_type = "ol";
                 }
                 html.append ("<li>").append (process_inline (trimmed.substring (3))).append ("</li>\n");
             }
             // Empty line
             else if (trimmed == "") {
-                if (in_list) {
-                    html.append ("</ul>\n");
-                    in_list = false;
+                if (list_type != "") {
+                    html.append ("</" + list_type + ">\n");
+                    list_type = "";
                 }
                 html.append ("<br>\n");
             }
             // Regular paragraph
             else {
-                if (in_list) {
-                    html.append ("</ul>\n");
-                    in_list = false;
+                if (list_type != "") {
+                    html.append ("</" + list_type + ">\n");
+                    list_type = "";
                 }
                 html.append ("<p>").append (process_inline (line)).append ("</p>\n");
             }
         }
         
-        if (in_list) {
-            html.append ("</ul>\n");
+        if (list_type != "") {
+            html.append ("</" + list_type + ">\n");
         }
         
         html.append ("</body></html>");
@@ -422,10 +565,13 @@ public class Code.Plugins.MarkdownPreview : Peas.ExtensionBase, Scratch.Services
     }
 
     public void deactivate () {
-        if (current_source != null) {
-            current_source.buffer.changed.disconnect (on_text_changed);
-            current_source.notify["language"].disconnect (on_language_changed);
+        // Clean up all preview states
+        foreach (var doc in preview_states.keys) {
+            if (preview_states.get (doc).visible) {
+                hide_preview (doc);
+            }
         }
+        preview_states.clear ();
         
         if (toolbar != null && preview_button != null && preview_button.parent != null) {
             toolbar.remove (preview_button);
